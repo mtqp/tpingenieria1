@@ -113,8 +113,8 @@ de ejecución]<y:LabelModel>
           <y:Geometry height="71.78818652849748" width="209.04051813471506" x="-254.56292485900207" y="321.55421909108526"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" modelName="custom" textColor="#000000" visible="true" width="139.421875" x="34.80932156735753" y="-2.8588364232512617">Lograr [Ofrecer al menos
-un mecanismo para
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" modelName="custom" textColor="#000000" visible="true" width="156.068359375" x="26.48607937985753" y="-2.8588364232512617">Lograr [Ofrecer al menos
+un mecanismo correcto para
 interpretar el lenguaje del
 contenido
   (doblaje y/o subtítulos)]<y:LabelModel>
@@ -150,7 +150,7 @@ sean correctos]<y:LabelModel>
     <node id="n7">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="192.50007400153606" x="18.826136995794457" y="434.3953589874587"/>
+          <y:Geometry height="40.0" width="192.50007400153606" x="18.826136995794457" y="405.28366839378214"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="151.421875" x="20.53909950076803" y="10.6494140625">Revisor de contenido digital<y:LabelModel>
@@ -167,7 +167,7 @@ sean correctos]<y:LabelModel>
     <node id="n8">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="197.59772709317218" x="-481.1726679054081" y="643.5073211458298"/>
+          <y:Geometry height="40.0" width="197.59772709317218" x="-288.3033206830004" y="643.5073211458298"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="156.0859375" x="20.75589479658612" y="10.6494140625">Administrador de contenidos<y:LabelModel>
@@ -628,13 +628,13 @@ cada dispositivo]<y:LabelModel>
     <node id="n34">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="66.3147207373272" width="219.27672626728122" x="-387.0756666245026" y="492.81150268397437"/>
+          <y:Geometry height="66.3147207373272" width="219.27672626728122" x="-194.2063194020949" y="500.46886305263797"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="166.779296875" x="26.24871469614061" y="1.7550166186636034">Lograr [Obtener doblaje y/o 
 subtitulos para cada contenido
 que se ofrezca y agregarlo al 
-contenido]<y:LabelModel>
+contenido si es correcto]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -666,7 +666,7 @@ contenido]<y:LabelModel>
     <node id="n36">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="146.78818652849748" x="-120.29839592225267" y="590.2185243330808"/>
+          <y:Geometry height="40.0" width="146.78818652849748" x="72.65206033951591" y="590.2185243330808"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="49.72026513924874" y="10.6494140625">Sistema<y:LabelModel>
@@ -683,11 +683,12 @@ contenido]<y:LabelModel>
     <node id="n37">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="51.00000000000006" width="219.27672626728122" x="-156.54266579164454" y="500.46886305263797"/>
+          <y:Geometry height="51.00000000000006" width="261.3345786704857" x="18.826136995794457" y="500.46886305263797"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="170.11328125" x="24.58172250864061" y="8.798828125">Lograr [Ofrecer doblaje y/o 
-subtitulos para cada contenido]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="220.796875" x="20.268851835242856" y="1.4482421875">Lograr [Ofrecer doblaje y/o 
+subtitulos para cada contenido
+siempre que estos hayan sido validados]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -755,7 +756,7 @@ validar los contenidos]<y:LabelModel>
     <node id="n41">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="13.0" width="13.0" x="-283.937303490862" y="600.5073211458298"/>
+          <y:Geometry height="13.0" width="13.0" x="-91.06795626845428" y="600.5073211458298"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="4.5" y="4.5">
@@ -773,7 +774,7 @@ validar los contenidos]<y:LabelModel>
     <node id="n42">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="146.78818652849748" x="-271.29966616948803" y="643.5073211458298"/>
+          <y:Geometry height="40.0" width="146.78818652849748" x="-78.43031894708031" y="643.5073211458298"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="49.72026513924874" y="10.6494140625">Sistema<y:LabelModel>
@@ -874,6 +875,41 @@ validar los contenidos]<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
+    <node id="n48">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="51.00000000000006" width="226.9798488479264" x="-412.95043193042625" y="500.46886305263797"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="198.77734375" x="14.101252548963203" y="8.798828125">Lograr [Validar que los subtítulos y/o
+doblajes sean correctos]<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="parallelogram"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n49">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="40.0" width="192.50007400153606" x="-395.7105445072311" y="581.6361673252202"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="151.421875" x="20.53909950076809" y="10.6494140625">Revisor de contenido digital<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="hexagon"/>
+        </y:ShapeNode>
+      </data>
+    </node>
     <edge id="e0" source="n3" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
@@ -918,7 +954,7 @@ validar los contenidos]<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="115.076171875" y="454.3953552246094"/>
+            <y:Point x="115.076171875" y="425.2836608886719"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -940,7 +976,7 @@ validar los contenidos]<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-382.3738098144531" y="663.50732421875"/>
+            <y:Point x="-189.50445556640625" y="663.50732421875"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1246,7 +1282,7 @@ validar los contenidos]<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-46.90430450439453" y="610.218505859375"/>
+            <y:Point x="146.04615783691406" y="610.218505859375"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1338,7 +1374,7 @@ validar los contenidos]<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-197.90557861328125" y="663.50732421875"/>
+            <y:Point x="-5.03622579574585" y="663.50732421875"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1468,6 +1504,40 @@ validar los contenidos]<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e57" source="n49" target="n49">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-299.46051025390625" y="601.6361694335938"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e58" source="n49" target="n48">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e59" source="n48" target="n35">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>

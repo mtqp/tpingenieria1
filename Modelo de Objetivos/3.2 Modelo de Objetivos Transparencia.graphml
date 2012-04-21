@@ -20,7 +20,7 @@
           <y:Geometry height="75.77042444144092" width="223.1225787689118" x="-3586.487819720043" y="-2594.2705744476525"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="140.08984375" x="41.516367509455904" y="13.833454408220405">Lograr [Conocer el tipo
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="159.349609375" x="31.886484696955904" y="14.932087220720405">Lograr [Conocer el tipo
 de dispositivo que quiere 
 acceder al contenido]
 <y:LabelModel>
@@ -76,7 +76,7 @@ acceder al contenido]
           <y:Geometry height="40.0" width="186.13175132849733" x="-3667.5582816640845" y="-2436.485713694663"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="69.39204753924878" y="10.6494140625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="66.89888347674878" y="11.015625">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -93,7 +93,7 @@ acceder al contenido]
           <y:Geometry height="40.0" width="186.13175132849733" x="-3468.426530335587" y="-2436.485713694663"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="62.01953125" x="62.05611003924878" y="10.6494140625">Dispositivo<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="69.853515625" x="58.13911785174878" y="11.015625">Dispositivo<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -107,10 +107,10 @@ acceder al contenido]
     <node id="n5">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="75.77042444144092" width="244.50709353684442" x="-3260.5050171447187" y="-2594.2705744476525"/>
+          <y:Geometry height="75.77042444144092" width="244.50709353684442" x="-3260.5050171447183" y="-2594.2705744476525"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="177.431640625" x="33.53772645592244" y="6.482868470720405">Lograr [Identificar si el contenido
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="custom" textColor="#000000" visible="true" width="203.265625" x="20.620734268421984" y="7.947712220720405">Lograr [Identificar si el contenido
 es compatible con 
 el dispositivo que quiere
 acceder al contenido]<y:LabelModel>
@@ -130,7 +130,7 @@ acceder al contenido]<y:LabelModel>
           <y:Geometry height="40.0" width="186.13175132849733" x="-3231.317346040545" y="-2436.485713694663"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="69.39204753924878" y="10.6494140625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="66.89888347674878" y="11.015625">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -147,8 +147,8 @@ acceder al contenido]<y:LabelModel>
           <y:Geometry height="59.000000000000114" width="239.1225787689118" x="-3424.9210787314305" y="-2751.645393689198"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="162.759765625" x="38.181406571955904" y="-1.90234375">Lograr [Validar si el contenido
-puede ser envíado al 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="custom" textColor="#000000" visible="true" width="194.880859375" x="22.120859696955904" y="-0.4375">Lograr [Validar si un contenido
+solicitado puede ser enviado al 
 dispositivo]
  (3.2)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>

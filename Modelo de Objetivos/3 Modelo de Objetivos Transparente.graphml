@@ -17,12 +17,12 @@
     <node id="n0">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="59.0" width="405.083287023956" x="-3405.5100232107397" y="-5903.02658645827"/>
+          <y:Geometry height="59.0" width="405.083287023956" x="-3411.545689262419" y="-5889.570365260114"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="295.5390625" x="54.77211226197778" y="-1.90234375"> Lograr [3.2 =&gt; Que los contenidos 
-puedan continuarse utilizando en otros dispositivos
-que lo soporten desde el ultimo estado en que se dejó]
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="322.849609375" x="41.11683882447778" y="-1.90234375"> Lograr [Que si el contenido es compatible con
+otros dispositivos y es de reproducción, se pueda continuar 
+utilizando desde el ultimo estado en que se dejó]
 (3.3)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -141,7 +141,6 @@ de forma transparente]
       </data>
     </edge>
     <edge id="e3" source="n3" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

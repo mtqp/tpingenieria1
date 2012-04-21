@@ -491,10 +491,9 @@ de descarga]<y:LabelModel>
           <y:Geometry height="69.04226311425248" width="251.31254143113506" x="1952.1133760497733" y="249.01304234229767"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="custom" textColor="#000000" visible="true" width="210.021484375" x="20.645528528067643" y="4.5836315571262105">Lograr [Implementar un sistema 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="212.740234375" x="19.286153528067643" y="11.56800655712621">Lograr [Implementar un sistema 
 de descarga en tiempo real
- para contenidos de reproducción 
-(audio y video)]<y:LabelModel>
+ para contenidos de audio y video]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -797,7 +796,7 @@ a descargar]<y:LabelModel>
           <y:Geometry height="40.0" width="186.13175132849733" x="1592.401843158348" y="358.317732425411"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="74.88671875" x="55.62251628924878" y="11.015625">Controlador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="74.88671875" x="55.62251628924855" y="11.015625">Controlador<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1062,7 +1061,7 @@ en contenidos populares -<y:LabelModel>
           <y:Geometry height="50.0" width="286.39116969167117" x="2177.7802835885336" y="385.56979547281423"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="208.310546875" x="39.04031140833558" y="16.015625000000014">Mayor establilidad de velocidad +<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="208.310546875" x="39.04031140833558" y="16.015625">Mayor establilidad de velocidad +<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1110,7 +1109,7 @@ en contenidos populares -<y:LabelModel>
           <y:Geometry height="50.0" width="264.53052511881015" x="2107.1220695890374" y="461.9411177188973"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="207.326171875" x="28.602176621905073" y="16.01562499999997">Menor costo de implementación+<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="207.326171875" x="28.602176621905073" y="16.015625">Menor costo de implementación+<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1150,24 +1149,6 @@ en contenidos populares -<y:LabelModel>
             </y:ModelParameter>
           </y:NodeLabel>
         </y:GenericNode>
-      </data>
-    </node>
-    <node id="n66">
-      <data key="d5"/>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="-290.32103626942944" y="-1688.902739819934"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="19.26953125" x="5.365234375" y="6.015625">67<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="parallelogram"/>
-        </y:ShapeNode>
       </data>
     </node>
     <edge id="e0" source="n4" target="n4">
@@ -1911,7 +1892,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e70" source="n31" target="n26">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1922,7 +1902,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e71" source="n47" target="n31">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-125.69259492458332" ty="-95.52823459226543"/>
@@ -1933,7 +1912,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e72" source="n48" target="n26">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="148.9475564892648" ty="114.8884817881644"/>
@@ -1944,7 +1922,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e73" source="n53" target="n29">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="47.744850102763394" ty="77.94035875894956"/>
@@ -1955,7 +1932,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e74" source="n55" target="n29">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="90.76068225003814" ty="146.5356574379789"/>
@@ -1966,7 +1942,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e75" source="n54" target="n29">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-48.9466766580972" ty="76.14860896664338"/>
@@ -1977,7 +1952,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e76" source="n56" target="n29">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-82.9547066647749" ty="131.78462768128352"/>
@@ -1988,7 +1962,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e77" source="n57" target="n28">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="191.86099734847585" ty="79.75355249437268"/>
@@ -1999,7 +1972,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e78" source="n59" target="n28">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="302.84490348298505" ty="125.42769848049716"/>
@@ -2010,7 +1982,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e79" source="n58" target="n28">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-108.53257241028632" ty="77.95380799878342"/>
@@ -2021,7 +1992,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e80" source="n60" target="n28">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-206.44428184686012" ty="148.38248738703243"/>
@@ -2032,7 +2002,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e81" source="n63" target="n35">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="125.76811750071465" ty="-90.44005151500039"/>
@@ -2043,7 +2012,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e82" source="n62" target="n34">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-235.2572664876525" ty="-97.16254340895318"/>
@@ -2054,7 +2022,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e83" source="n65" target="n32">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-64.93334186732181" ty="-103.45832820126842"/>
@@ -2065,7 +2032,6 @@ en contenidos populares -<y:LabelModel>
       </data>
     </edge>
     <edge id="e84" source="n64" target="n33">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="69.22125713091305" ty="-110.12596809067617"/>

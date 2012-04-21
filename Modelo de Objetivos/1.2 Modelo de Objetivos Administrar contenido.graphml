@@ -281,7 +281,7 @@ un grupo, agrupar contenido]<y:LabelModel>
     <node id="n15">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="33.29723502304114" width="683.4342733144382" x="959.2895239929144" y="200.52681911976526"/>
+          <y:Geometry height="33.29723502304114" width="683.4342733144382" x="878.0133613935211" y="270.52681911976526"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="545.62890625" x="68.90268353221904" y="-0.05255436347943032">Categorizar el contenido: Decidir a qué categoría pertenece el contenido. (Ej: El film Titanic pertenece
@@ -301,7 +301,7 @@ a la categoría de: Contenido de reproducción/Película/Drama/Apto mayores de 1
           <y:Geometry height="40.0" width="186.13175132849733" x="949.285589144605" y="736.9945366964861"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="66.701171875" x="59.71528972674878" y="10.6494140625">Controlador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="66.701171875" x="59.71528972674855" y="10.6494140625">Controlador<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -592,7 +592,6 @@ a la categoría de: Contenido de reproducción/Película/Drama/Apto mayores de 1
       </data>
     </edge>
     <edge id="e23" source="n17" target="n7">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

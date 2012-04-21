@@ -115,7 +115,7 @@ de forma transparente]
           <y:Geometry height="33.29723502304114" width="869.7340080346607" x="-880.8221863852341" y="-1724.5533282499275"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="494.88671875" x="187.42364464233037" y="7.29803157402057">Dispositivo: Aparato a través del cual los usuarios del sistema se comunicarán con el mismo<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="498.220703125" x="185.75665245483037" y="7.29803157402057">Dispositivo: Aparato a través del cual los usuarios del sistema se comunicarán con el mismo.<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -131,7 +131,7 @@ de forma transparente]
           <y:Geometry height="33.29723502304114" width="869.7340080346609" x="-880.8221863852342" y="-1680.4807476047663"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="739.15234375" x="65.29083214233049" y="7.29803157402057">Transparente: Los contenidos pueden continuarse viendo en otros dispositivos que lo soporten desde el último estado* en que se dejaron.<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="734.482421875" x="67.62579307983049" y="7.29803157402057">Transparente: Los contenidos pueden continuarse viendo en otros dispositivos que lo soporten desde el último estado en que se dejaron.<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -147,7 +147,7 @@ de forma transparente]
           <y:Geometry height="33.29723502304114" width="869.7340080346609" x="-880.8221863852342" y="-1636.408166959605"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="570.970703125" x="149.3816524548305" y="7.29803157402057">Envio exitoso: Salvo por causas externas los paquetes siempre llegan (siempre que haya internet, luz, etc)<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="574.3046875" x="147.7146602673305" y="7.29803157402057">Envio exitoso: Salvo por causas externas los paquetes siempre llegan (siempre que haya internet, luz, etc).<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -217,7 +217,7 @@ tests de calidad.<y:LabelModel>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="728.423828125" x="70.65508995483037" y="-0.05255436347943032">Personalizado: Que el sistema reconozca a cada usuario y  sugiera contenido al usuario en base a solicitudes previas por parte de este.
-Además, debe permitir un sistema de préstamo.<y:LabelModel>
+Además, debe permitir un sistema de préstamo de contenidos.<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>

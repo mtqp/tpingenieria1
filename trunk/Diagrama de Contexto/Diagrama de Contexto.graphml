@@ -394,26 +394,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n2" target="n3">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="42.80388837028978" sy="0.0" tx="63.34546193840353" ty="47.48479150808339">
-            <y:Point x="386.02904314175095" y="601.4181262114766"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="dotted" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="115.931640625" x="-424.27041841619433" y="170.9585066026567">Muestra contenido<y:LabelModel>
-              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="7.9616948041323905" distanceToCenter="true" position="right" ratio="0.9682885670900171" segment="-1"/>
-            </y:ModelParameter>
-          </y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e11" source="n0" target="n1">
+    <edge id="e10" source="n0" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-23.632686708348025" tx="-10.000000000000014" ty="17.62521588946467">
@@ -432,7 +413,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n4" target="n0">
+    <edge id="e11" source="n4" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="152.74563779947638" ty="-13.344449110490793">
@@ -444,7 +425,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n4" target="n0">
+    <edge id="e12" source="n4" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-31.598640453834037" sy="0.0" tx="152.74563779947638" ty="-45.36679095538025">
@@ -463,7 +444,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e14" source="n2" target="n0">
+    <edge id="e13" source="n2" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="32.668146651279756" tx="-138.26748938017136" ty="66.0062216225606">
@@ -482,7 +463,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n3" target="n2">
+    <edge id="e14" source="n3" target="n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-12.51520849191661" tx="-58.43302981024334" ty="45.099707282265854">
@@ -501,7 +482,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n6" target="n0">
+    <edge id="e15" source="n6" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-9.963019186101356" sy="0.0" tx="-160.68510978647734" ty="36.36731329165197">
@@ -520,7 +501,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n7" target="n0">
+    <edge id="e16" source="n7" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="29.738105395818337" ty="-71.49156577178296">
@@ -543,7 +524,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n8" target="n9">
+    <edge id="e17" source="n8" target="n9">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -560,7 +541,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n9" target="n0">
+    <edge id="e18" source="n9" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-90.99263006463616" sy="13.863570320165024" tx="85.49217244097471" ty="-77.93419469514664">
@@ -581,7 +562,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e20" source="n10" target="n4">
+    <edge id="e19" source="n10" target="n4">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="91.64656982147608" sy="0.0" tx="91.64656982147608" ty="11.191317222797949"/>
@@ -598,7 +579,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n5" target="n0">
+    <edge id="e20" source="n5" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-91.73378217852382" sy="-2.225405109513133" tx="123.79169244097474" ty="-58.87236431820095">
@@ -618,7 +599,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n10" target="n0">
+    <edge id="e21" source="n10" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-42.57664" sy="-1.100981153690725" tx="-1.7405414971068751" ty="19.72376349933056">
@@ -637,7 +618,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e23" source="n6" target="n0">
+    <edge id="e22" source="n6" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="34.036193846399044" sy="5.958683328778193" tx="-4.634448304044497" ty="70.12422632449533">
@@ -656,7 +637,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e24" source="n11" target="n0">
+    <edge id="e23" source="n11" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-29.502454519781367" ty="31.666575843531078"/>

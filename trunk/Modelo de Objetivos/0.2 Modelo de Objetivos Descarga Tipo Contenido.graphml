@@ -58,7 +58,7 @@ de descarga no en tiempo real
           <y:Geometry height="55.26856739548185" width="179.40461358697894" x="1144.077130045334" y="580.0109220788117"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="147.443359375" x="15.980627105989583" y="-3.768060052259102">Lograr [Definir más de 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="147.443359375" x="15.98062710598947" y="-3.768060052259102">Lograr [Definir más de 
 una forma de descarga 
 según el tipo de contenido]
 (0.2)<y:LabelModel>
@@ -150,7 +150,7 @@ descarga directa y P2P (peer to peer)]<y:LabelModel>
           <y:Geometry height="19.279999999999973" width="94.99575132849736" x="1418.1094885982104" y="961.4212640875267"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="76.029296875" x="9.483227226748795" y="0.28941406250010004">Desarrollador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="76.029296875" x="9.483227226748795" y="0.28941406249998636">Desarrollador<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -201,7 +201,7 @@ descarga directa y P2P (peer to peer)]<y:LabelModel>
           <y:Geometry height="50.0" width="151.5080250079618" x="957.2967631426674" y="737.5869112113044"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="116.048828125" x="17.729598441480903" y="0.9482421875">Lograr [Diferenciar el
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="116.048828125" x="17.72959844148079" y="0.9482421875">Lograr [Diferenciar el
 tipo de contenido 
 a descargar]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -217,10 +217,10 @@ a descargar]<y:LabelModel>
     <node id="n11">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="101.65175132849731" x="982.2248999823996" y="822.8779055756471"/>
+          <y:Geometry height="19.279999999999973" width="101.65175132849731" x="982.2248999823995" y="822.877905575647"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="66.701171875" x="17.475289726748656" y="10.6494140625">Controlador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="27.152047539248656" y="0.28941406249998636">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -234,10 +234,10 @@ a descargar]<y:LabelModel>
     <node id="n12">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="115.86107318990798" x="1175.8489002438691" y="822.8779055756471"/>
+          <y:Geometry height="19.279999999999973" width="115.86107318990798" x="1175.8489002438691" y="822.877905575647"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="76.029296875" x="19.915888157453992" y="10.6494140625">Desarrollador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="76.029296875" x="19.915888157453992" y="0.28941406249998636">Desarrollador<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -254,7 +254,7 @@ a descargar]<y:LabelModel>
           <y:Geometry height="19.280000000000086" width="80.0" x="1689.0226510429798" y="851.4864941691144"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="51.701171875" x="14.1494140625" y="0.28941406249998636">Calidad+<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="51.701171875" x="14.1494140625" y="0.28941406250010004">Calidad+<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -270,7 +270,7 @@ a descargar]<y:LabelModel>
           <y:Geometry height="36.64350590188121" width="191.6711696916709" x="1955.7123707905039" y="815.9651352440931"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="145.10546875" x="23.282850470835456" y="1.6205810759405495">Mayor velocidad 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="145.10546875" x="23.282850470835456" y="1.6205810759406631">Mayor velocidad 
 en contenidos populares +<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -287,7 +287,7 @@ en contenidos populares +<y:LabelModel>
           <y:Geometry height="43.34399999999994" width="181.9431696916713" x="1332.308651310897" y="805.3029707771591"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="142.09375" x="19.92470984583565" y="4.970828124999912">Mayor velocidad 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="142.09375" x="19.92470984583565" y="4.9708281250000255">Mayor velocidad 
 en contenidos populares -<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -304,7 +304,7 @@ en contenidos populares -<y:LabelModel>
           <y:Geometry height="22.864000000000146" width="235.1911696916709" x="1955.7123707905039" y="852.6086411459744"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="178.76171875" x="28.214725470835674" y="2.08141406250013">Mayor establilidad de velocidad -<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="178.76171875" x="28.21472547083522" y="2.0814140625000164">Mayor establilidad de velocidad -<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -535,7 +535,7 @@ para contenidos de reproducción --<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1033.05078125" y="842.8779296875"/>
+            <y:Point x="1033.05078125" y="832.5178833007812"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -557,7 +557,7 @@ para contenidos de reproducción --<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1233.7794189453125" y="842.8779296875"/>
+            <y:Point x="1233.7794189453125" y="832.5178833007812"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -656,7 +656,6 @@ para contenidos de reproducción --<y:LabelModel>
       </data>
     </edge>
     <edge id="e25" source="n21" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-0.15925732116193103" ty="-42.114245903114465"/>

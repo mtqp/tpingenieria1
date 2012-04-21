@@ -20,7 +20,7 @@
           <y:Geometry height="48.28516965803112" width="308.5944289492229" x="164.10361111202099" y="-92.59393085099839"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="248.640625" x="29.97690197461145" y="8.173834829015561">Lograr [Soportar TV, PC, tablet y mobile]
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="220.76171875" x="43.91635509961145" y="7.441412954015561">Lograr [Soportar TV, PC, tablet y mobile]
 (3.1)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -56,7 +56,7 @@
           <y:Geometry height="67.31209731647675" width="385.10191364665127" x="-73.4681692113767" y="68.56511385588755"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="315.572265625" x="34.764824010825635" y="10.702923658238376">Lograr [Dado un conjunto de dispositivos
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="276.126953125" x="54.487480260825635" y="9.604290845738376">Lograr [Dado un conjunto de dispositivos
 ya definidos crear una interfaz que funcione 
 como mediador entre cada dispositivo y el sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -75,7 +75,7 @@ como mediador entre cada dispositivo y el sistema]<y:LabelModel>
           <y:Geometry height="48.28516965803112" width="274.28984947929507" x="311.6337444352746" y="68.56511385588755"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="203.734375" x="35.277737239647536" y="8.173834829015561">Mantener [Actualizada la interfaz
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="178.76171875" x="47.764065364647536" y="7.441412954015561">Mantener [Actualizada la interfaz
 mediadora cuando corresponda]
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -94,7 +94,7 @@ mediadora cuando corresponda]
           <y:Geometry height="48.28516965803112" width="317.5944289492229" x="305.6486632761976" y="239.23762239199618"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="259.9375" x="28.82846447461145" y="8.173834829015561">Lograr [Crear la interfaz mediador entre el
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="227.44140625" x="45.07651134961145" y="7.441412954015561">Lograr [Crear la interfaz mediador entre el
 dispositivo y sistema]
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -113,7 +113,7 @@ dispositivo y sistema]
           <y:Geometry height="67.31209731647675" width="308.5944289492229" x="-35.21442686266255" y="229.72415856277337"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="223.08203125" x="42.75619884961145" y="10.702923658238376">Lograr [Dadas las especificaciones
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="194.763671875" x="56.91537853711145" y="9.604290845738376">Lograr [Dadas las especificaciones
 del dispositivo determinar
 la interfaz apropiada para el mismo]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -132,7 +132,7 @@ la interfaz apropiada para el mismo]<y:LabelModel>
           <y:Geometry height="40.0" width="186.13175132849733" x="-88.350738470372" y="452.3037405450693"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="128.341796875" x="28.894977226748665" y="11.015625">Gerente de proyecto<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="113.400390625" x="36.365680351748665" y="10.6494140625">Gerente de proyecto<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -167,7 +167,7 @@ la interfaz apropiada para el mismo]<y:LabelModel>
           <y:Geometry height="48.28516965803101" width="240.5944289492229" x="-115.58207728073478" y="359.09558109989274"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="173.388671875" x="33.60287853711145" y="1.1894598290155045">Lograr [Determinar interfaz 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="150.724609375" x="44.93490978711145" y="0.09082701651550451">Lograr [Determinar interfaz 
 específica del dispositivo 
 (ej TV -&gt; conversor)]
 <y:LabelModel>
@@ -187,7 +187,7 @@ específica del dispositivo
           <y:Geometry height="48.28516965803112" width="240.5944289492229" x="112.5827876119489" y="359.0955810998927"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="192.80078125" x="23.89682384961145" y="8.173834829015561">Lograr [Determinar interfaz 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="170.083984375" x="35.25522228711145" y="7.441412954015561">Lograr [Determinar interfaz 
 común a todos los dispositivos]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -223,7 +223,7 @@ común a todos los dispositivos]<y:LabelModel>
           <y:Geometry height="40.0" width="186.13175132849733" x="256.1469178464248" y="165.8772111723643"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="85.3515625" x="50.390094414248665" y="11.015625">Desarrollador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="76.029296875" x="55.051227226748665" y="10.6494140625">Desarrollador<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -240,7 +240,7 @@ común a todos los dispositivos]<y:LabelModel>
           <y:Geometry height="40.0" width="186.13175132849733" x="139.8141264223117" y="452.3037405450693"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="128.341796875" x="28.894977226748665" y="11.015625">Gerente de proyecto<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="113.400390625" x="36.365680351748665" y="10.6494140625">Gerente de proyecto<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -254,10 +254,10 @@ común a todos los dispositivos]<y:LabelModel>
     <node id="n13">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="186.13175132849733" x="449.0481536244471" y="169.23762239199618"/>
+          <y:Geometry height="40.0" width="186.13175132849733" x="449.0481536244471" y="165.8772111723643"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="128.341796875" x="28.894977226748665" y="11.015625">Gerente de proyecto<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="113.400390625" x="36.365680351748665" y="10.6494140625">Gerente de proyecto<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -292,7 +292,7 @@ común a todos los dispositivos]<y:LabelModel>
           <y:Geometry height="48.28516965803112" width="308.5944289492229" x="-373.80885581188545" y="241.00385831705375"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="237.501953125" x="35.54623791211145" y="8.173834829015561">Lograr [Obtener la información técnica
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="208.10546875" x="50.24448009961145" y="7.441412954015561">Lograr [Obtener la información técnica
 (especificación) del dispositivo]
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -311,7 +311,7 @@ común a todos los dispositivos]<y:LabelModel>
           <y:Geometry height="40.0" width="186.13175132849733" x="-312.57751700152266" y="363.23816592890824"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="128.341796875" x="28.894977226748665" y="11.015625">Gerente de proyecto<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="113.400390625" x="36.365680351748665" y="10.6494140625">Gerente de proyecto<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -328,7 +328,7 @@ común a todos los dispositivos]<y:LabelModel>
           <y:Geometry height="40.0" width="186.13175132849733" x="371.3800020865604" y="344.06697459584296"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="85.3515625" x="50.390094414248665" y="11.015625">Desarrollador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="76.029296875" x="55.051227226748665" y="10.6494140625">Desarrollador<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -345,7 +345,7 @@ común a todos los dispositivos]<y:LabelModel>
           <y:Geometry height="40.0" width="186.13175132849733" x="-509.5729567223106" y="359.09558109989274"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="67.78515625" x="59.173297539248665" y="11.015625">Fabricante<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="60.6953125" x="62.718219414248665" y="10.6494140625">Fabricante<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -512,7 +512,7 @@ común a todos los dispositivos]<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="542.114013671875" y="189.2376251220703"/>
+            <y:Point x="542.114013671875" y="185.87721252441406"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -597,7 +597,6 @@ común a todos los dispositivos]<y:LabelModel>
       </data>
     </edge>
     <edge id="e21" source="n18" target="n19">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -608,7 +607,6 @@ común a todos los dispositivos]<y:LabelModel>
       </data>
     </edge>
     <edge id="e22" source="n19" target="n16">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -619,7 +617,6 @@ común a todos los dispositivos]<y:LabelModel>
       </data>
     </edge>
     <edge id="e23" source="n19" target="n15">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -630,7 +627,6 @@ común a todos los dispositivos]<y:LabelModel>
       </data>
     </edge>
     <edge id="e24" source="n17" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

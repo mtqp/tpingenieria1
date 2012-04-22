@@ -192,10 +192,10 @@ conocer los contenidos que compró]<y:LabelModel>
     <node id="n10">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="33.29723502304114" width="938.1558262164788" x="-417.55860988858683" y="-382.70905102159753"/>
+          <y:Geometry height="33.29723502304114" width="961.6610108727698" x="-417.55860988858683" y="-382.70905102159753"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="933.197265625" x="4.0" y="7.29803157402057">Personalizado: Que el sistema sugiera nuevos contenidos al usuario en base a calificaciones de contenidos que compro y que se permita el prestamo de libros entre usuarios.<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="956.564453125" x="4.0" y="7.29803157402057">Personalizado: Que el sistema sugiera nuevos contenidos al usuario en base a calificaciones de contenidos que compro y que se permita el prestamo de contenido entre usuarios.<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>

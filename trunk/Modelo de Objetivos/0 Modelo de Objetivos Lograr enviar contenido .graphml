@@ -96,9 +96,9 @@ tipo de contenido]<y:LabelModel>
           <y:Geometry height="55.26856739548188" width="218.7221463798162" x="511.3846303014907" y="-351.1487741228179"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="186.794921875" x="15.963612252407984" y="3.5825258852409405">Lograr [Implementar un sistema 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="185.453125" x="16.634510689908097" y="3.5825258852409547">Lograr [Implementar un sistema 
 de descarga en tiempo real
- para contenidos de audio y video]<y:LabelModel>
+ para contenidos de reproducción]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -112,12 +112,13 @@ de descarga en tiempo real
     <node id="n5">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.26856739548185" width="258.65287194088205" x="936.6831803030168" y="-351.1487741228178"/>
+          <y:Geometry height="72.26856739548185" width="258.65287194088205" x="760.1067766813069" y="-351.1487741228178"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="210.7890625" x="23.931904720441025" y="3.5825258852409547">Lograr [Implementar un sistema 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="186.115234375" x="36.268818782941025" y="4.731939947740898">Lograr [Implementar un sistema 
 de descarga no en tiempo real 
-(para cualquier tipo de contenido)](0.2)<y:LabelModel>
+(para cualquier tipo de contenido)]
+(0.2)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -171,7 +172,7 @@ a descargar]<y:LabelModel>
           <y:Geometry height="19.279999999999973" width="101.65175132849731" x="369.19116663497516" y="-265.85777975847526"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="27.152047539248542" y="0.28941406249998636">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="27.152047539248656" y="0.28941406249998636">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -197,23 +198,6 @@ a descargar]<y:LabelModel>
           </y:NodeLabel>
           <y:Shape type="hexagon"/>
         </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n10">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.cloud">
-          <y:Geometry height="39.29658268620619" width="312.92418274979906" x="271.32152074159967" y="-431.68329830447266"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="221.46484375" x="45.7296694998995" y="2.9471194681030966">Latencia entre transpaso de dispositivos 
-para contenidos de reproducción --<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
       </data>
     </node>
     <edge id="e0" source="n1" target="n3">
@@ -326,16 +310,6 @@ para contenidos de reproducción --<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e11" source="n10" target="n4">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="-0.15925732116193103" ty="-42.114245903114465"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>

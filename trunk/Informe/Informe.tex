@@ -106,7 +106,7 @@
 
 \subsection{Introducci\'on}
 
-	La presente propuesta se basa en el documento descripto por el cliente donde describe sus necesitades y requisitos.
+	La presente propuesta se basa en el documento descripto por el cliente donde describe sus necesitades y requisitos.\\
 
 	En base a dicho documento hemos identificado una serie de conceptos que para representarlos más claramente utilizaremos un \emph{Modelo de Objetivos} que permitirá plasmar claramente las ideas.
 
@@ -126,10 +126,8 @@
 
 \subsection{Diagrama de Contexto}
 
-	******Explicar la relaci\'on del sistema con los usuarios hardware y otros sistemas.*****
-
-	A continuaci\'on describimos los principales \emph{agentes} que intervendr\'an en el \emph{Sistema} mediante el Modelo de Jackson.
-	En \'el tambi\'en puede observarse la interfaz del \emph{Sistema} y que \emph{agentes} son los que intervienen directamente.
+	A continuaci\'on describimos los principales \emph{agentes} que intervendr\'an en el \emph{Sistema} mediante un Diagrama de Contexto.
+	En \'el tambi\'en puede observarse la interacci\'on del \emph{Sistema} y cuales de dichos \emph{agentes} son los que intervienen directamente.
 
 	\begin{center}
 		\includegraphics[scale=0.35]{Diagramas/DiagramaContexto.png}
@@ -138,22 +136,30 @@
 	El \emph{Sistema} se relaciona con varios agentes tanto directa como indirectamente. Ellos son:
 
 	- Usuario: es la cuenta desde la cual el cliente se conectar\'a al sistema.
-	El usuario interact\'ua con el sistema pudiendo autenticarse y Administrar su cuenta.
+	El usuario interact\'ua con el sistema pudiendo autenticarse y Administrar su cuenta\\
 
 		El cliente puede mediante la cuenta de usuario autenticarse para ser identificado en el sistema.
 		Administrar el contenido engloba las siguientes acciones:
 
-		- Comprar contenido
-		- Prestar contenido
-    		- Pedir contenido
+		\begin{itemize}
+		\item{Comprar contenido}
+		\item{Prestar contenido}
+		\item{Pedir contenido}
+		\end{itemize}
 
-	- 
 	
 \section{Objetivos del sistema}
 
-\subsection{Modelo de Objetivos del sistema}
+\subsection{Aclaraciones previas}
 
-	A continuaci\'on describimos el Modelo de Objetivos que proponemos para cumplir los objetivos detallados anteriormente.
+	A continuaci\'on describiremos el \emph{Modelo de Objetivos} que proponemos para cumplir los objetivos detallados anteriormente.
+
+	El modelo se conforma por un arbol de objetivos y subobjetivos asociados, cómo dicho arbol es extremadamente grande se encuentra 
+	dividido en varias partes. Por las reglas del modelo cada hoja del diagrama debe estar asociada a un \emph{agente}, en los casos en que
+	una hoja no tenga un agente asociado tendrá un número que corresponde a otro gráfico donde el diagrama continúa.
+	
+\subsection{Modelo de Objetivos}
+
 	\begin{center}
 		\includegraphics[scale=0.35]{Diagramas/ModelodeObjetivosPrincipal.png}
 	\end{center}
@@ -163,13 +169,89 @@
 \section{Asunciones}
 
 	Dentro del sistema una cuenta de usuario no puede reproducir m\'as de un contenido por cuenta.
-	Si otro contenido 
+	Si se intenta reproducir otro contenido desde la misma cuenta el sistema no permitirá que se haga. 
+
+\newpage
 
 \section{Escenarios informales y ejemplos}
 	
-	Caso1
-	Caso2
-	Caso3
+	A continuaci\'on se describen una serie de casos que ejemplifican situaciones de funcionamiento esperado del sistema.
+
+\subsection{Situación 1}
+
+	\textbf{Funcionalidad:} Registro de usuario y baja de un contenido.\\
+
+        Una persona se sienta en frente de la computadora.
+    La persona se registra en el sistema (ingresa en la página del sitio, o descarga 
+    la aplicación dependiendo de la implementación  de la interfaz de usuario).
+    El controlador crea una cuenta y la asocia a esa persona (cliente). Así se crea el usuario.
+    El usuario busca bajo la categoría de deportes los partidos de fútbol locales.
+    Encuentra el partido que buscaba (Chacarita vs Atlanta) y comienza a verlo desde su computadora (en streaming).\\
+
+        En el entretiempo, se da cuenta que tiene que cocinar y no quiere dejar de ver el partido. Decide entonces loguearse al sistema desde su 
+    teléfono inteligente (desde la página web del sitio o descargando la aplicación que corresponda). 
+    Al autenticarse, la cuenta la cual posee el estado de reproducción, le ofrece continuar viendo el partido desde el instante donde lo dejó.
+    El cliente acepta y puede llegar a ver como Chacarita mete el segundo gol desde su cocina.
+
+\subsection{Situación 2}
+
+	\textbf{Funcionalidad:} Publicidad en contenidos.\\
+
+        Un empresario de Powerthrist S.A. (bebida energética) desea publicitarse y se comunica con el administrador de contenidos de CentralMarket 
+    enviándole el contenido a publicitar.
+    El administrador de contenido le pasa el presupuesto junto con la lista de contenidos que pueden tener la publicidad.
+    El empresario acepta y paga con vía online (interactuando con el sistema) quien hace de intermediario con el sistema de facturación externo.
+    El administrador de contenidos aplica entonces la publicidad sobre los contenidos acordados.
+    Luego, los usuarios de CentralMarket que adquieran dichos contenidos se encuentran ahora con la publicidad de Powerthrist.
+
+\subsection{Situación 3}
+
+	\textbf{Funcionalidad:} Compra fallida y exitosa.\\
+
+        Un usuario decide comprar la promoción de verano de películas de acción (suponiendo que el gerente de CentralMarket ha dedicido agrupar el     
+    contenido de esa forma). Efectúa el pago seleccionando de su cuenta una de sus tarjetas registradas. El sistema se comunica con el sistema de 
+    facturación enviándo los datos del pago y recibe como respuesta que la tarjeta del usuario no tiene fondos. El sistema comunica al usuario el 
+    resultado de la operación y se cancela la compra de la promoción. El usuario recibe el mensaje y opta por elegir otra tarjeta y reintentar. Esta 
+    vez la transacción es exitosa y por consiguiente disfruta del contenido de la promoción durante toda la temporada de verano.
+
+\subsection{Situación 4}
+
+	\textbf{Funcionalidad:} Obtenci\'on de contenidos y subt\'itulos y validaci\'on de los mismos.\\
+
+        El administrador de contenidos conoce que ya se filmó la nueva temporada de \emph{The Big Bang Theory}. Por lo tanto se comunica con el 
+   proveedor de contenidos quien se los suministra. El administrador le pide además los subtítulos en español ya que la mayoría de los subcriptores del 
+   sistema son argentinos.
+
+        Como debe cumplir los estándares de calidad de CentralMarket, una vez que el contenido ingresa al sistema este debe ser testeado por el revisor 
+   de contenido digital previo a lanzamiento al público. Es por ello que el revisor ve todos los capítulos de la nueva temporada a publicar y valida 
+   que ninguno de ellos se corte, además, tampoco nota ningún desfasaje entre la imagen y sonido. Nota que existen errores en el subtítulos por lo 
+   tanto, el nuevo contenido todavía no se puede proporcionar al público.
+   
+      El administrador de contenidos vuelve a hablar con el proveedor, quien ahora le suministra unos nuevos subtítulos. Estos son vueltos a testear 
+   con los capítulos por el revisor quien finalmente los aprueba.
+
+      De esta manera, la nueva temporada de la serie pasa a estar en el sistema como contenido a poder visualizarse. El administrador decide si va a    
+   formar parte de un grupo, ser pago o gratuito y finalmente lo agrega al sistema.
+   Los usuarios entonces pueden acceder a la reproducción de la nueva serie aclamada de televisión.
+
+\subsection{Situación 5}
+
+	\textbf{Funcionalidad:} Ejecuci\'on de un mismo contenido de la misma cuenta desde dos dispositivos diferentes.\\
+
+      Un usuario decide escuchar música vía streaming desde su smartphone. El disco que decide escuchar es gratuito. Comienza a reproducirlo y su hija 
+   se loguea al sistema con el mismo usuario desde su computadora de escritorio sin saber que su padre lo estaba utilizando desde su smartphone.
+   La reproducción no se inicia en la computadora y un mensaje aparece preguntando si se desea continuar desde el estado en que se dejó (es decir en la canción del disco que el padre 
+   está escuchando actualmente). El padre no se entera que su hija se logueó.
+
+      La hija decide no hacerlo, cancelando y entrando a la lista de contenidos de CentralMarket. Encuentra una serie para ver y clickea sobre ella. Se 
+   levanta un cartel que dice \quote{Actualmente} hay un contenido en reproducción/descarga. La operación que ud. desea hacer no puede ser realizada.' y se 
+   vuelve al listado de contenidos.
+
+
+\subsection{Situación 6}
+\subsection{Situación 7}
+\subsection{Situación 8}
+\subsection{Situación 9}
 
 	Colocar texto de escenarios y ejemplos.
 

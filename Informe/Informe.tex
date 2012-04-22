@@ -9,7 +9,7 @@
 %\usepackage{infostyle}                                                  % provee un look & feel similar a un documento Word
 \usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}  % m\'argenes
 \usepackage[ansinew]{inputenc}                                           % permite que los acentos del estilo \'a\'e\'i\'o\'u salgan joya
-\usepackage[spanish, activeacute]{babel}                                 % idioma espa�ol, acentos f\'aciles y deletreo de palabras
+\usepackage[spanish, activeacute]{babel}                                 % idioma espa\~{n}ol, acentos f\'aciles y deletreo de palabras
 \usepackage{indentfirst}                                                 % permite indentar un parrafo a mano
 \usepackage{caratula}                                                    % incluye caratula est\'andar
 \usepackage{graphicx}                                                    % permite insertar gr\'aficos
@@ -248,7 +248,7 @@
         Una persona se sienta en frente de la computadora.
     La persona se registra en el sistema (ingresa en la p\'agina del sitio, o descarga 
     la aplicaci\'on dependiendo de la implementaci\'on  de la interfaz de usuario).
-    El controlador crea una cuenta y la asocia a esa persona (cliente). As\'i se crea el usuario.
+    El sistema crea una cuenta y la asocia a esa persona (cliente). As\'i se crea el usuario.
     El usuario busca bajo la categor\'ia de deportes los partidos de f\'utbol locales.
     Encuentra el partido que buscaba (Chacarita vs Atlanta) y comienza a verlo desde su computadora (en streaming).\\
 
@@ -283,7 +283,7 @@
 	\textbf{Funcionalidad:} Obtenci\'on de contenidos y subt\'itulos y validaci\'on de los mismos.\\
 
         El administrador de contenidos conoce que ya se film\'o la nueva temporada de \emph{The Big Bang Theory}. Por lo tanto se comunica con el 
-   proveedor de contenidos quien se los suministra. El administrador le pide adem\'as los subt\'itulos en espa�ol ya que la mayor\'ia de los subcriptores del 
+   proveedor de contenidos quien se los suministra. El administrador le pide adem\'as los subt\'itulos en espa\~{n}ol ya que la mayor\'ia de los subcriptores del 
    sistema son argentinos.
 
         Como debe cumplir los est\'andares de calidad de CentralMarket, una vez que el contenido ingresa al sistema este debe ser testeado por el revisor 
@@ -329,8 +329,8 @@
 
 	\textbf{Funcionalidad:} Pr\'estamo de un libro.\\
 
-	Miguel, un cliente de CentralMarket se entera que su amigo Carlos tambi\'en es cliente de la misma compa�\'ia. Decide buscar mediante el sistema    
-   qu\'e contenido posee Carlos en su cuenta y encuentra que hace m\'as de un a�o compr\'o ``Vuelta al mundo en 80 d\'ias`` de Julio Verne, el libro que siempre quiso leer pero nunca tuvo oportunidad. Decide ped\'irselo prestado por 8 semanas, lapso que el sistema establece para el pr\'estamo de dicho contenido. \\
+	Miguel, un cliente de CentralMarket se entera que su amigo Carlos tambi\'en es cliente de la misma compa\~{n}\'ia. Decide buscar mediante el sistema    
+   qu\'e contenido posee Carlos en su cuenta y encuentra que hace m\'as de un a\~{n}o compr\'o ``Vuelta al mundo en 80 d\'ias`` de Julio Verne, el libro que siempre quiso leer pero nunca tuvo oportunidad. Decide ped\'irselo prestado por 8 semanas, lapso que el sistema establece para el pr\'estamo de dicho contenido. \\
 
         En ese momento, Carlos se encontraba reley\'endolo, pero decide prest\'arselo de todas formas. Unas semanas m\'as tarde, Carlos accede a  CentralMarket con el objeto de continuar leyendo su libro. Una vez que accede, se da cuenta que el libro sigue prestado y debe por lo tanto, esperar a que Carlos se lo devuelva teniendo como l\'imite el plazo fijado por el sistema. 
 
@@ -339,7 +339,7 @@
 	\textbf{Funcionalidad:} Autenticaci\'on err\'onea.\\
 
 	Un cliente de CentralMarket desea loguearse al sistema para descargar juegos. Entra al sitio (o abre la aplicaci\'on, dependiendo de la interfaz 
-   utilizada), ingresa su nombre de usuario y pone su contrase�a. La contrase�a es incorrecta por lo que el sistema le avisa y lo invita a reintentar. 
+   utilizada), ingresa su nombre de usuario y pone su contrase\~{n}a. La contrase\~{n}a es incorrecta por lo que el sistema le avisa y lo invita a reintentar. 
    Nuevamente la ingresa incorrectamente y nuevamente es avisado.
    Este procedimiento puede realizado infinitas veces.
 
@@ -347,7 +347,7 @@
 
 	\textbf{Funcionalidad:} Posicionamiento de contenido.\\
 
-	Uno de los proveedores de contenido de CentralMarket desea publicitar una de sus series , una sitcom llamada ``�� Qui\'en me mand\'o a estudiar    
+	Uno de los proveedores de contenido de CentralMarket desea publicitar una de sus series , una sitcom llamada ``?`Qui\'en me mand\'o a estudiar    
    computaci\'on?!``, que debido a su poco \'exito no est\'a consiguiendo cubrir los costos de su producci\'on, y para esto se comunica con el administrador de 
    contenido quien le informa que si paga la tarifa adecuada, este puede posicionarla en los primeros lugares cuando los usuarios realicen alguna    
    b\'usqueda en la cual esta sitcom est\'e relacionada. Al aceptar, el proveedor de contenido realiza el pago en el sistema, y espera que las cr\'iticas    
@@ -356,26 +356,59 @@
 
 \subsection{Situaci\'on 10}
 
-	\textbf{Funcionalidad: } .\\
+	\textbf{Funcionalidad:} Descarga de contenidos y almacenado de los mismos .\\
 
 	Un usuario decide poder acceder a un contenido. Por lo tanto se loguea al sistema, lo busca entre la lista de contenido y lo selecciona, para 
    accederlo. Desde el sistema, se recibe el pedido y lo procesa.\\
 
-       Si se trata de un contenido gratuito, lo obtiene. Si se trata de un contenido pago, el sistema coteja el producto solicitado con el historial de compras del usuario para determinar si debe cobrarle el acceso o no. En caso de que ya lo haya comprado, obtiene el contenido; sino le ofrece la opci\'on de compra.\\
-       La forma de obtenerlo depender\'a del refinamiento elegido. Puede ser alguna de las siguientes:
+       Si se trata de un contenido gratuito, lo obtiene. Si se trata de un contenido pago, el sistema coteja el producto solicitado con el historial de 
+   compras del usuario para determinar si debe cobrarle el acceso o no. En caso de que ya lo haya comprado, obtiene el contenido; sino le ofrece la opci
+   \'on de compra.\\
+   La forma de obtenerlo depender\'a del refinamiento elegido. Puede ser alguna de las siguientes:
 
 	\begin{itemize}
 	
-	\item{ El sistema se comunica con la interfaz del proveedor que posee ese contenido, requiri\'endoselo. El contenido le llega al sistema que lo re-codifica para ser entendible por el dispositivo del usuario. Dependiendo del tr\'afico de red o carga de procesamiento del proveedor, el sistema, y por consiguiente el usuario, puede llegar a quedarse esperando indefinidamente respuesta.}
+	\item{ El sistema recibe el pedido y se se comunica con la interfaz del proveedor que posee ese contenido, requiri\'endoselo. El contenido le 
+   llega al sistema que lo re-codifica para ser entendible por el dispositivo del usuario. Dependiendo del tr\'afico de red o carga de procesamiento 
+   del proveedor, el sistema, y por consiguiente el usuario, puede llegar a quedarse esperando indefinidamente respuesta.}
 
-	\item{ El sistema recibe el pedido y debe requerirselo al proveedor si el contenido no est\'a en el sistema, almacen\'andolo a medida que realiza el env\'io al usuario para en posteriores pedidos, ya tenerlo disponible y no necesitar pedirlo al proveedor. Si est\'a almacenado, simplemente comienza la transferencia.}
+	\item{ El sistema recibe el pedido y, si el contenido no est\'a en el sistema, se comunica con la interfaz del proveedor que posee ese 
+   contenido almacen\'andolo a medida que realiza el env\'io al usuario para en posteriores pedidos, para ya en un futuro ya tenerlo disponible y no 
+   necesitar pedirlo nuevamente al proveedor. Si est\'a almacenado, simplemente comienza la transferencia.}
 
-	\item{e Para minimizar los costos de mantenimiento de infraestructura, el administrador de contenidos decide que (dada la posibilidad que ofrece el sistema de elegir cu\'ando guardar el contenido en servidores propios) se van a almacenar s\'olo los contenidos que se hayan solicitado m\'as de 100 veces en el lapso de una semana, quiere as\'i minimizar el tr\'afico de red y economizar espacio.}
+	\item{ Para minimizar los costos de mantenimiento de infraestructura, el administrador de contenidos decide que (dada la posibilidad que ofrece 
+   el sistema de elegir cu\'ando guardar el contenido en servidores propios) se van a almacenar s\'olo los contenidos que se hayan solicitado m\'as de 
+   100 veces en el lapso de una semana, quiere as\'i minimizar el tr\'afico de red y economizar espacio.}
 
-	De Lunes a S\'abado recibe 99 pedidos de descarga de un juego de videos para la computadora. En cada uno de estos pedidos, el sistema se comunica con el proveedor pidi\'endole el contenido y d\'andoselo al usuario.
+	De Lunes a S\'abado recibe 99 pedidos de descarga de un juego de videos para la computadora. En cada uno de estos pedidos, el sistema se 
+   comunica con el proveedor pidi\'endole el contenido y d\'andoselo al usuario.
 
-	El d\'ia domingo recibe el pedido n\'umero 100 y por lo tanto debe esta vez pedirlo al proveedor y a su vez almacenarlo. Resulta ser una buena desici\'on ya que en el correr de la semana siguiente, se realizan cientos de pedidos del mismo juego a CentralMarket y se logra evitar el tr\'afico de red con el proveedor.
+	El d\'ia Domingo recibe el pedido n\'umero 100 y por lo tanto debe esta vez pedirlo al proveedor y a su vez almacenarlo. Resulta ser una buena 
+   desici\'on ya que en el correr de la semana siguiente, se realizan cientos de pedidos del mismo juego a CentralMarket y se logra evitar el tr\'afico 
+   de red con el proveedor.
 
 	\end{itemize}
+
+\subsection{Situaci\'on 11}
+
+	\textbf{Funcionalidad:} Agregado de una nueva aplicaci\'on al sistema de CentralMarket .\\
+
+	Una nueva aplicaci\'on causa sensaci\'on en internet. Se ve factible que forme parte del paquete de programas de CentralMarket. Este contenido, 
+   mediante el administrador de contenidos, se incluye en el sistema para el an\'alisis funcional y test. Como el administrador sabe, un contenido de 
+   ejecuci\'on no puede agregarse en el sistema sin que el contenido este excento de errores (no se cuelgue y logre iniciarse) y sin tener una 
+   especificaci\'on; luego este no puede distribuirse si no cumple satisfactoriamente la revisi\'on de los mismos.
+
+	El encargado de validar el correcto funcionamiento de la aplicaci\'on entra en juego: el revisor de especificaci\'on. Realiza un exhaustivo 
+   an\'alisis de la aplicaci\'on, probando que valgan la pre y post condici\'on, testeando casos bordes y casos esperados sin poder encontrar un 
+   comportamiento no esperado.
+
+	Pasa entonces a la segunda etapa, considerada como el test de estr\'es sobre la aplicaci\'on. El revisor de contenido digital es encargado de 
+   validar que el contenido no posea errores, es decir que la aplicaci\'on no se cuelgue por mas de cinco segundos y que logre iniciarse en menos de 
+   treinta. El testeo es exitoso y pasa a la etapa de an\'alisis funcional.
+
+	Terminado esto, se puede concluir que el programa cumple correctamente la especificaci\'on y est\'a excento de errores, por lo tanto puede ser 
+   agregado a la lista de contenidos de ejecuci\'on a distribuir.
+        Efectivamente, el programa causa sensaci\'on entre los usuarios de CentralMarket, lo que ayuda m\'as a\'un para generar satisfacci\'on entre los 
+   usuarios.
 
 \end{document}

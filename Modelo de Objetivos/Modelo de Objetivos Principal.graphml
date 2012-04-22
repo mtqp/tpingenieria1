@@ -17,12 +17,11 @@
     <node id="n0">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="52.241935483870975" width="557.957047669157" x="-724.9337062024822" y="-1496.3164542201466"/>
+          <y:Geometry height="52.241935483870975" width="645.1250476691569" x="-812.1017062024821" y="-1496.3164542201466"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="425.6171875" x="66.16993008457848" y="3.1678427419356012">Mantener [Un sistema de servicio de contenido digital por internet 
-gratuito y pago bajo demanda para generar ingresos,  personalizado, 
-que sea transparente y tenga calidad de contenido]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="515.013671875" x="65.05568789707843" y="9.419795866935601">Mantener [Un sistema de descarga por internet de contenido digital bajo demanda , gratuito 
+y pago para generar ingresos, que se personalizado, transparente y tenga calidad de contenido]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -39,7 +38,7 @@ que sea transparente y tenga calidad de contenido]<y:LabelModel>
           <y:Geometry height="46.67741935483866" width="284.4307979274612" x="-1171.8307701735503" y="-1273.238514513682"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="179.13671875" x="52.64703958873065" y="0.38558467741927416">Lograr [Enviar exitosamente 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="157.41015625" x="63.51032083873065" y="-0.7130481350807258">Lograr [Enviar exitosamente 
 el contenido]
 (0)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -76,7 +75,7 @@ el contenido]
           <y:Geometry height="69.93100787158494" width="262.4503212435234" x="-887.3999722460892" y="-1273.238514513682"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="custom" textColor="#000000" visible="true" width="205.943359375" x="28.253480934261688" y="5.0280039357924124">Lograr [Proveer contenido digital 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="180.771484375" x="40.83941843426169" y="3.5631601857924124">Lograr [Proveer contenido digital 
 gratuitos y pagos bajo 
 demanda para generar ingresos]
 (1)<y:LabelModel>
@@ -96,7 +95,7 @@ demanda para generar ingresos]
           <y:Geometry height="46.67741935483866" width="223.1225787689118" x="-338.5481863899212" y="-1273.238514513682"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="179.365234375" x="21.878672196955904" y="0.38558467741927416">Lograr [Proveer el contenido 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="158.7578125" x="32.182383134455904" y="-0.7130481350807258">Lograr [Proveer el contenido 
 de forma transparente]
 (3)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -115,7 +114,7 @@ de forma transparente]
           <y:Geometry height="33.29723502304114" width="869.7340080346607" x="-880.8221863852341" y="-1724.5533282499275"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="564.0625" x="22.926606131192102" y="7.66424251152057">Dispositivo: Aparato a través del cual los usuarios del sistema se comunicarán con el mismo.<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="498.220703125" x="55.8475045686921" y="7.29803157402057">Dispositivo: Aparato a través del cual los usuarios del sistema se comunicarán con el mismo.<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -131,7 +130,7 @@ de forma transparente]
           <y:Geometry height="33.29723502304114" width="869.7340080346609" x="-880.8221863852342" y="-1680.4807476047663"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="832.09375" x="24.948521546897382" y="7.66424251152057">Transparente: Los contenidos pueden continuarse viendo en otros dispositivos que lo soporten desde el último estado en que se dejaron.<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="734.482421875" x="73.75418560939738" y="7.29803157402057">Transparente: Los contenidos pueden continuarse viendo en otros dispositivos que lo soporten desde el último estado en que se dejaron.<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -147,7 +146,7 @@ de forma transparente]
           <y:Geometry height="33.29723502304114" width="869.7340080346609" x="-880.8221863852342" y="-1636.408166959605"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="651.513671875" x="24.90876846159142" y="7.66424251152057">Envio exitoso: Salvo por causas externas los paquetes siempre llegan (siempre que haya internet, luz, etc).<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="574.3046875" x="63.51326064909142" y="7.29803157402057">Envio exitoso: Salvo por causas externas los paquetes siempre llegan (siempre que haya internet, luz, etc).<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -163,7 +162,7 @@ de forma transparente]
           <y:Geometry height="52.24193548387109" width="234.96045595854923" x="-594.9496510025658" y="-1273.238514513682"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="192.859375" x="21.050540479274673" y="10.152217741935601">Lograr [Que sea personalizado]
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="172.10546875" x="31.42749360427456" y="9.419795866935601">Lograr [Que sea personalizado]
 (2)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -181,7 +180,7 @@ de forma transparente]
           <y:Geometry height="33.29723502304114" width="869.7340080346609" x="-880.8221863852342" y="-1590.8413005160148"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="575.62890625" x="26.196377620078806" y="7.66424251152057">	Calidad de contenidos: Que las aplicaciones hayan pasado satisfactoriamente tests de calidad.<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="509.646484375" x="59.187588557578806" y="7.29803157402057">	Calidad de contenidos: Que las aplicaciones hayan pasado satisfactoriamente tests de calidad.<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -197,7 +196,7 @@ de forma transparente]
           <y:Geometry height="46.67741935483866" width="284.4307979274612" x="-115.42560762100942" y="-1273.238514513682"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="183.19140625" x="50.61969583873059" y="7.369959677419274">Lograr [Calidad de contenido]
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="161.44140625" x="61.49469583873059" y="6.637537802419274">Lograr [Calidad de contenido]
 (4)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -215,7 +214,7 @@ de forma transparente]
           <y:Geometry height="33.29723502304114" width="869.7340080346606" x="-880.8221863852341" y="-1768.6259088950887"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="820.943359375" x="24.395324329830373" y="0.6798675115205697">Personalizado: Que el sistema reconozca a cada usuario y  sugiera contenido al usuario en base a solicitudes previas por parte de este.
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="728.423828125" x="70.65508995483037" y="-0.05255436347943032">Personalizado: Que el sistema reconozca a cada usuario y  sugiera contenido al usuario en base a solicitudes previas por parte de este.
 Además, debe permitir un sistema de préstamo de contenidos.<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -229,7 +228,7 @@ Además, debe permitir un sistema de préstamo de contenidos.<y:LabelModel>
     <edge id="e0" source="n2" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="-31.514240655387507" ty="26.069950226814516"/>
+          <y:Path sx="0.0" sy="0.0" tx="-36.4376184331653" ty="26.06995022681452"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>

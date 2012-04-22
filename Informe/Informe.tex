@@ -171,6 +171,8 @@
 	Dentro del sistema una cuenta de usuario no puede reproducir m\'as de un contenido por cuenta.
 	Si se intenta reproducir otro contenido desde la misma cuenta el sistema no permitirá que se haga. 
 
+	El sistema solo permite que los préstamos de libros solo se otorguen por un máximo de 8 semanas.
+
 \newpage
 
 \section{Escenarios informales y ejemplos}
@@ -236,25 +238,82 @@
 
 \subsection{Situación 5}
 
-	\textbf{Funcionalidad:} Ejecuci\'on de un mismo contenido de la misma cuenta desde dos dispositivos diferentes.\\
+	\textbf{Funcionalidad:} Reproducción de un mismo contenido de la misma cuenta desde dos dispositivos diferentes.\\
 
       Un usuario decide escuchar música vía streaming desde su smartphone. El disco que decide escuchar es gratuito. Comienza a reproducirlo y su hija 
-   se loguea al sistema con el mismo usuario desde su computadora de escritorio sin saber que su padre lo estaba utilizando desde su smartphone.
-   La reproducción no se inicia en la computadora y un mensaje aparece preguntando si se desea continuar desde el estado en que se dejó (es decir en la canción del disco que el padre 
-   está escuchando actualmente). El padre no se entera que su hija se logueó.
+   se loguea al sistema con el mismo usuario desde su computadora de escritorio sin saber que su padre lo estaba utilizando desde su smartphone.\\
+
+      La reproducción no se inicia automáticamente en la computadora y un mensaje aparece preguntando si se desea continuar desde el estado en que se   
+   dejó (es decir en la canción del disco que el padre está escuchando actualmente). El padre no se entera que su hija se logueó.\\
 
       La hija decide no hacerlo, cancelando y entrando a la lista de contenidos de CentralMarket. Encuentra una serie para ver y clickea sobre ella. Se 
-   levanta un cartel que dice \quote{Actualmente} hay un contenido en reproducción/descarga. La operación que ud. desea hacer no puede ser realizada.' y se 
-   vuelve al listado de contenidos.
-
+   levanta un cartel que dice ``Actualmente hay un contenido en reproducción/descarga. La operación que ud. desea hacer no puede ser realizada.`` 	  y se vuelve al listado de contenidos.
 
 \subsection{Situación 6}
+
+	\textbf{Funcionalidad:} Actualización de la interfaz del usuario.\\
+
+	Supongamos que la interfaz de CentralMarket consiste en una aplicación que se instala en los dispositivos.
+
+	Se confirma que se va a sacar un nuevo Service Pack para el sistema operativo Windows 7. Este Service Pack realiza una modificación sobre la   
+   API de Windows lo que provocaría que todos los usuarios utilizando CentralMarket desde una computadora con Windows 7 no puedan utilizar el servicio 
+   de forma correcta.\\
+
+       El gerente de proyecto está al tanto de la situación, se comunica entonces con el fabricante, en este caso la gente de Microsoft y pide el    
+   detalle sobre la nueva interfaz de comunicación con el SO (detalle de la API modificada). Con esta información se encarga de avisarle al 
+   desarrollador para poder sacar una nueva versión del sistema de CentralMarket compatible con el release del Service Pack de Windows.
+
 \subsection{Situación 7}
+
+	\textbf{Funcionalidad:} Préstamo de un libro.\\
+
+	Miguel, un cliente de CentralMarket se entera que su amigo Carlos también es cliente de la misma compañía. Decide buscar mediante el sistema    
+   qué contenido posee Carlos en su cuenta y encuentra que hace más de un año compró ``Vuelta al mundo en 80 días`` de Julio Verne, el libro que siempre quiso leer pero nunca tuvo oportunidad. Decide pedírselo prestado por 8 semanas, lapso que el sistema establece para el préstamo de dicho contenido. \\
+
+        En ese momento, Carlos se encontraba releyéndolo, pero decide prestárselo de todas formas. Unas semanas más tarde, Carlos accede a  CentralMarket con el objeto de continuar leyendo su libro. Una vez que accede, se da cuenta que el libro sigue prestado y debe por lo tanto, esperar a que Carlos se lo devuelva teniendo como límite el plazo fijado por el sistema. 
+
 \subsection{Situación 8}
+
+	\textbf{Funcionalidad:} Autenticación errónea.\\
+
+	Un cliente de CentralMarket desea loguearse al sistema para descargar juegos. Entra al sitio (o abre la aplicación, dependiendo de la interfaz 
+   utilizada), ingresa su nombre de usuario y pone su contraseña. La contraseña es incorrecta por lo que el sistema le avisa y lo invita a reintentar. 
+   Nuevamente la ingresa incorrectamente y nuevamente es avisado.
+   Este procedimiento puede realizado infinitas veces.
+
 \subsection{Situación 9}
 
-	Colocar texto de escenarios y ejemplos.
+	\textbf{Funcionalidad:} Posicionamiento de contenido.\\
+
+	Uno de los proveedores de contenido de CentralMarket desea publicitar una de sus series , una sitcom llamada ``¿¡ Quién me mandó a estudiar    
+   computación?!``, que debido a su poco éxito no está consiguiendo cubrir los costos de su producción, y para esto se comunica con el administrador de 
+   contenido quien le informa que si paga la tarifa adecuada, este puede posicionarla en los primeros lugares cuando los usuarios realicen alguna    
+   búsqueda en la cual esta sitcom esté relacionada. Al aceptar, el proveedor de contenido realiza el pago en el sistema, y espera que las críticas    
+   mejoren para poder vender una nueva temporada de su serie a las cadenas televisivas y otras empresas. 
 
 
+\subsection{Situación 10}
+
+	\textbf{Funcionalidad: } .\\
+
+	Un usuario decide poder acceder a un contenido. Por lo tanto se loguea al sistema, lo busca entre la lista de contenido y lo selecciona, para 
+   accederlo. Desde el sistema, se recibe el pedido y lo procesa.\\
+
+       Si se trata de un contenido gratuito, lo obtiene. Si se trata de un contenido pago, el sistema coteja el producto solicitado con el historial de compras del usuario para determinar si debe cobrarle el acceso o no. En caso de que ya lo haya comprado, obtiene el contenido; sino le ofrece la opción de compra.\\
+       La forma de obtenerlo dependerá del refinamiento elegido. Puede ser alguna de las siguientes:
+
+	\begin{itemize}
+	
+	\item{ El sistema se comunica con la interfaz del proveedor que posee ese contenido, requiriéndoselo. El contenido le llega al sistema que lo re-codifica para ser entendible por el dispositivo del usuario. Dependiendo del tráfico de red o carga de procesamiento del proveedor, el sistema, y por consiguiente el usuario, puede llegar a quedarse esperando indefinidamente respuesta.}
+
+	\item{ El sistema recibe el pedido y debe requerirselo al proveedor si el contenido no está en el sistema, almacenándolo a medida que realiza el envío al usuario para en posteriores pedidos, ya tenerlo disponible y no necesitar pedirlo al proveedor. Si está almacenado, simplemente comienza la transferencia.}
+
+	\item{e Para minimizar los costos de mantenimiento de infraestructura, el administrador de contenidos decide que (dada la posibilidad que ofrece el sistema de elegir cuándo guardar el contenido en servidores propios) se van a almacenar sólo los contenidos que se hayan solicitado más de 100 veces en el lapso de una semana, quiere así minimizar el tráfico de red y economizar espacio.}
+
+	De Lunes a Sábado recibe 99 pedidos de descarga de un juego de videos para la computadora. En cada uno de estos pedidos, el sistema se comunica con el proveedor pidiéndole el contenido y dándoselo al usuario.
+
+	El día domingo recibe el pedido número 100 y por lo tanto debe esta vez pedirlo al proveedor y a su vez almacenarlo. Resulta ser una buena desición ya que en el correr de la semana siguiente, se realizan cientos de pedidos del mismo juego a CentralMarket y se logra evitar el tráfico de red con el proveedor.
+
+	\end{itemize}
 
 \end{document}

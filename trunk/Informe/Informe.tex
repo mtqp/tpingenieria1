@@ -114,10 +114,14 @@
 
 	\emph{Mantener [Un sistema de descarga por internet de contenido digital bajo demanda , gratuito y pago para generar ingresos, que se personalizado, transparente y tenga calidad de contenido]}
 	\\
-	Los principales Objetivos que vemos son importantes para el cliente son:\\
-	transparente
-	calidad
-
+	Aclaraciones sobre el objetivo:\\
+\begin{itemize}
+	
+\item {Personalizado: Que el sistema reconozca a cada usuario y  sugiera contenido al usuario en base a solicitudes previas por parte de este.
+Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
+\item {Transparente: Los contenidos pueden continuarse viendo en otros dispositivos que lo soporten desde el \'ultimo estado en que se dejaron.}
+\item {Calidad de contenidos: Que las aplicaciones hayan pasado satisfactoriamente tests de calidad.} 
+\end{itemize}
 \newpage
 	
 \section{Alcance del sistema}
@@ -354,15 +358,6 @@ La especificaci\'on la obtiene del fabricante.
 \newpage
 
 
-\section{Asunciones}
-
-	Dentro del sistema una cuenta de usuario no puede reproducir m\'as de un contenido por cuenta.
-	Si se intenta reproducir otro contenido desde la misma cuenta el sistema no permitir\'a que se haga. 
-
-	El sistema solo permite que los pr\'estamos de libros solo se otorguen por un m\'aximo de 8 semanas.
-
-\newpage
-
 \section{Escenarios informales y ejemplos}
 	
 	A continuaci\'on se describen una serie de casos que ejemplifican situaciones de funcionamiento esperado del sistema.
@@ -456,7 +451,7 @@ La especificaci\'on la obtiene del fabricante.
 	\textbf{Funcionalidad:} Pr\'estamo de un libro.\\
 
 	Miguel, un cliente de CentralMarket se entera que su amigo Carlos tambi\'en es cliente de la misma compa\~{n}\'ia. Decide buscar mediante el sistema    
-   qu\'e contenido posee Carlos en su cuenta y encuentra que hace m\'as de un a\~{n}o compr\'o ``Vuelta al mundo en 80 d\'ias`` de Julio Verne, el libro que siempre quiso leer pero nunca tuvo oportunidad. Decide ped\'irselo prestado por 8 semanas, lapso que el sistema establece para el pr\'estamo de dicho contenido. \\
+   qu\'e contenido posee Carlos en su cuenta y encuentra que hace m\'as de un a\~{n}o compr\'o ``Vuelta al mundo en 80 d\'ias`` de Julio Verne, el libro que siempre quiso leer pero nunca tuvo oportunidad. Decide ped\'irselo prestado por 8 semanas, lapso que el sistema establece para el pr\'estamo de dicho contenido (suponiendo que esa fue el lapso de tiempo arbitrariamente decidido por el administrador de contenidos para ese contenido en particular). \\
 
         En ese momento, Carlos se encontraba reley\'endolo, pero decide prest\'arselo de todas formas. Unas semanas m\'as tarde, Carlos accede a  CentralMarket con el objeto de continuar leyendo su libro. Una vez que accede, se da cuenta que el libro sigue prestado y debe por lo tanto, esperar a que Carlos se lo devuelva teniendo como l\'imite el plazo fijado por el sistema. 
 

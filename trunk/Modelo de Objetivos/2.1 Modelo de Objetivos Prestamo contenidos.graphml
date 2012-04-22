@@ -39,7 +39,7 @@ de contenido]
           <y:Geometry height="48.28516965803101" width="255.64807761054124" x="702.2616181903804" y="674.9399934742148"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="194.142578125" x="30.75274974277056" y="0.09082701651550451">Lograr [Decidir qué contenido se
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="194.142578125" x="30.752749742770675" y="0.09082701651550451">Lograr [Decidir qué contenido se
 puede prestar durante qué cantidad
 de tiempo]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -165,7 +165,7 @@ pueda pedir contenido
           <y:Geometry height="54.38477801268505" width="177.35272073093427" x="1057.5498379533815" y="834.9217694963992"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="146.775390625" x="15.288665052967076" y="3.1406311938425233">Lograr [Dado un pedido de
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="146.775390625" x="15.28866505296719" y="3.1406311938425233">Lograr [Dado un pedido de
  prestamo, poder prestar
  contenido]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -184,7 +184,7 @@ pueda pedir contenido
           <y:Geometry height="59.17970401691343" width="174.2404531188032" x="602.7728923324752" y="962.3065475090843"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="146.08984375" x="14.075304684401601" y="12.888680133456774">Lograr [Conocer contenido
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="146.08984375" x="14.075304684401658" y="12.888680133456774">Lograr [Conocer contenido
  de otros usuarios]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -202,7 +202,7 @@ pueda pedir contenido
           <y:Geometry height="48.28516965803101" width="142.59394149089633" x="785.4229592091222" y="962.3065475090843"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="118.73828125" x="11.92783012044822" y="7.4414129540155045">Lograr [Enviar pedido
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="118.73828125" x="11.927830120448107" y="7.4414129540155045">Lograr [Enviar pedido
  de prestamo]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -217,12 +217,14 @@ pueda pedir contenido
     <node id="n11">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="59.17970401691343" width="223.07919829975117" x="950.1448673716358" y="962.3065475090843"/>
+          <y:Geometry height="80.11457559586063" width="229.44898803441333" x="928.0169007000185" y="962.3065475090843"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="187.451171875" x="17.8140132123757" y="5.5380941959567735">Lograr [El contenido deja de estar 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" modelName="custom" textColor="#000000" visible="true" width="187.451171875" x="20.998908079706666" y="1.3043581104302575">Lograr [El contenido deja de estar 
 disponible para descarga en la 
-cuenta del usuario prestamista]<y:LabelModel>
+cuenta del usuario prestamista, 
+y si estaba siendo ejecutado
+ borrar del estado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -331,7 +333,7 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
           <y:Geometry height="26.59373445807455" width="83.2047561683263" x="812.9207802305766" y="1092.0887885238837"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="17.928549959163092" y="3.9462812915371615">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="17.928549959163092" y="3.946281291537389">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -348,7 +350,7 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
           <y:Geometry height="26.59373445807455" width="83.2047561683263" x="891.0231583147398" y="1059.37694795116"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="45.349609375" x="18.927573396663092" y="3.9462812915371615">Usuario<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="45.349609375" x="18.927573396663206" y="3.946281291537389">Usuario<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -365,7 +367,7 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
           <y:Geometry height="26.59373445807455" width="114.91310407689025" x="1004.2279144830661" y="1059.3769479511602"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="33.782723913445125" y="3.946281291537389">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="33.782723913445125" y="3.9462812915371615">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -382,7 +384,7 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
           <y:Geometry height="26.59373445807455" width="114.91310407689025" x="1211.5489358458622" y="1059.3769479511602"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="33.782723913445125" y="3.946281291537389">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="33.782723913445125" y="3.9462812915371615">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -469,7 +471,7 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
           <y:Geometry height="26.59373445807455" width="83.2047561683263" x="565.0859846393873" y="1064.9891208870697"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="17.928549959163092" y="3.9462812915371615">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="17.928549959163092" y="3.946281291537389">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -486,7 +488,7 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
           <y:Geometry height="26.59373445807455" width="83.2047561683263" x="648.2907408077136" y="1092.0887885238837"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="45.349609375" x="18.927573396663206" y="3.9462812915371615">Usuario<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="45.349609375" x="18.927573396663206" y="3.946281291537389">Usuario<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>

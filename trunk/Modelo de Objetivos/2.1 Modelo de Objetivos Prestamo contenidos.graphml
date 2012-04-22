@@ -17,12 +17,13 @@
     <node id="n0">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.28516965803101" width="284.50601952329737" x="687.8326472340025" y="561.7227864255265"/>
+          <y:Geometry height="64.28516965803101" width="257.6661138385389" x="701.2526000763817" y="545.7227864255265"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="214.8203125" x="34.84285351164863" y="0.09082701651550451">Lograr [Crear sistema de préstamo
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" modelName="custom" textColor="#000000" visible="true" width="214.8203125" x="21.42290066926944" y="0.7402410790155045">Lograr [Crear sistema de préstamo
 de contenido de reproducción que esté 
-disponible en streaming]  (2.1)<y:LabelModel>
+disponible en streaming]  
+(2.1)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -184,7 +185,7 @@ pueda pedir contenido
           <y:Geometry height="59.17970401691343" width="248.27262396978574" x="528.7407214814925" y="962.3065475090843"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="198.794921875" x="24.738851047392814" y="5.5380941959567735">Lograr [Conocer contenido que esté 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="198.794921875" x="24.738851047392927" y="5.5380941959567735">Lograr [Conocer contenido que esté 
 disponible en streaming
  de otros usuarios]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -218,10 +219,10 @@ disponible en streaming
     <node id="n11">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="80.11457559586063" width="229.44898803441333" x="928.0169007000185" y="962.3065475090843"/>
+          <y:Geometry height="80.11457559586063" width="255.64807761054124" x="911.8178111238906" y="962.3065475090843"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" modelName="custom" textColor="#000000" visible="true" width="187.451171875" x="20.998908079706666" y="1.3043581104302575">Lograr [El contenido deja de estar 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" modelName="custom" textColor="#000000" visible="true" width="212.13671875" x="21.755679430270675" y="1.3043581104302575">Lograr [Que el contenido deje de estar 
 disponible para descarga en la 
 cuenta del usuario prestamista, 
 y si estaba siendo ejecutado
@@ -334,7 +335,7 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
           <y:Geometry height="26.59373445807455" width="83.2047561683263" x="764.8184021464135" y="1065.4950540658092"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="17.928549959163092" y="3.946281291537389">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="17.928549959163092" y="3.9462812915371615">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -348,7 +349,7 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
     <node id="n18">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="26.59373445807455" width="83.2047561683263" x="884.5231583147398" y="1065.495054065809"/>
+          <y:Geometry height="26.59373445807455" width="83.2047561683263" x="861.0231583147398" y="1065.495054065809"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="45.349609375" x="18.927573396663206" y="3.946281291537389">Usuario<y:LabelModel>
@@ -469,10 +470,10 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
     <node id="n25">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="26.59373445807455" width="83.2047561683263" x="551.4565109551768" y="1065.4950540658092"/>
+          <y:Geometry height="26.59373445807455" width="83.2047561683263" x="557.7630794690137" y="1065.4950540658092"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="17.928549959163092" y="3.946281291537389">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="17.928549959163092" y="3.9462812915371615">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -486,10 +487,10 @@ poder aceptarlo o rechazarlo]<y:LabelModel>
     <node id="n26">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="26.59373445807455" width="83.2047561683263" x="664.6612671235031" y="1065.4950540658092"/>
+          <y:Geometry height="26.59373445807455" width="83.2047561683263" x="661.2907408077136" y="1065.4950540658092"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="45.349609375" x="18.927573396663206" y="3.946281291537389">Usuario<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="45.349609375" x="18.927573396663206" y="3.9462812915371615">Usuario<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -554,24 +555,37 @@ disponible en streaming]<y:LabelModel>
       </data>
     </node>
     <node id="n30">
-      <data key="d5"/>
       <data key="d6">
-        <y:GenericNode configuration="ShinyPlateNode3">
-          <y:Geometry height="346.34910898941" width="718.5231578947371" x="1037.8837236842114" y="294.8930576204632"/>
-          <y:Fill color="#FF9900" transparent="false"/>
-          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="40" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="249.01953125" modelName="custom" textColor="#000000" visible="true" width="677.6328125" x="20.445172697368434" y="48.664788869705035">NO SE HASTA DONDE BAJAR
- CON LO DE QUE TIENE QUE SER 
-STREAMING, son las 2 de la mañana
-, dormi 4 horas y estoy despierto 
-desde las 9, asdjfasdjfkasd<y:LabelModel>
+        <y:ShapeNode>
+          <y:Geometry height="26.59373445807455" width="83.2047561683263" x="613.1883627235505" y="1098.9901081316184"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="45.349609375" x="18.927573396663092" y="3.9462812915371615">Usuario<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-        </y:GenericNode>
+          <y:Shape type="hexagon"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n31">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="26.59373445807455" width="83.2047561683263" x="812.9207802305767" y="1098.9901081316184"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="45.349609375" x="18.927573396663092" y="3.9462812915371615">Usuario<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="hexagon"/>
+        </y:ShapeNode>
       </data>
     </node>
     <edge id="e0" source="n3" target="n3">
@@ -774,7 +788,7 @@ desde las 9, asdjfasdjfkasd<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="926.1255493164062" y="1078.7918701171875"/>
+            <y:Point x="902.6255493164062" y="1078.7918701171875"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -904,7 +918,7 @@ desde las 9, asdjfasdjfkasd<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="593.0588989257812" y="1078.7918701171875"/>
+            <y:Point x="599.365478515625" y="1078.7918701171875"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -916,7 +930,7 @@ desde las 9, asdjfasdjfkasd<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="706.263671875" y="1078.7918701171875"/>
+            <y:Point x="702.8931274414062" y="1078.7918701171875"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -965,7 +979,6 @@ desde las 9, asdjfasdjfkasd<y:LabelModel>
       </data>
     </edge>
     <edge id="e37" source="n28" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -988,12 +1001,57 @@ desde las 9, asdjfasdjfkasd<y:LabelModel>
       </data>
     </edge>
     <edge id="e39" source="n29" target="n28">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e40" source="n30" target="n30">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="654.7907104492188" y="1112.2869873046875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e41" source="n30" target="n27">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e42" source="n31" target="n31">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="854.5231323242188" y="1112.2869873046875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e43" source="n31" target="n24">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>

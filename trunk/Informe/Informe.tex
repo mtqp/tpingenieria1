@@ -126,59 +126,77 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 	
 \section{Alcance del sistema}
 
-\subsection{Diagrama de Contexto}
-
 	A continuaci\'on describimos los principales \emph{agentes} que intervendr\'an en el \emph{Sistema} mediante un Diagrama de Contexto.
 	En \'el tambi\'en puede observarse la interacci\'on del \emph{Sistema} y cu\'ales de dichos \emph{agentes} son los que intervienen directamente.
+
+\subsection{Diagrama de Contexto}
 
 	\begin{center}
 		\includegraphics[scale=0.35]{Diagramas/DiagramaContexto.png}
 	\end{center}
-\subsubsection{Explicaci\'on de agentes e inteacciones no triviales}
+
+\newpage
+
+\subsection{Explicaci\'on de agentes e inteacciones no triviales}
 
 \begin{itemize}
 
-\item  {El agente ``sistema`` Es el conjunto de componentes de software y hardware que pertenecen a CentralMarket, una empresa que comercializa contenidos digitales.}
+	\item  {El agente \textbf{``Sistema``} Es el conjunto de componentes de software y hardware que pertenecen a CentralMarket, una empresa que 
+	comercializa contenidos digitales.}
 
-El Sistema se relaciona con varios agentes tanto directa como indirectamente. Ellos son:
+	El \textbf{Sistema} se relaciona con varios agentes tanto directa como indirectamente. Ellos son:
 
-\item El agente ``Cliente`` es la persona f\'isica, que registra una cuenta en el sistema. Luego, todas las operaciones que el cliente quiera realizar en el sistema ser\'an referidas como operaciones realizadas por el usuario (la cuenta del cliente).
+	\item El agente \textbf{``Cliente``} es la persona f\'isica, que registra una cuenta en el sistema. Luego, todas las operaciones que el cliente 
+	quiera realizar en el sistema ser\'an referidas como operaciones realizadas por el usuario (la cuenta del cliente).
 
-\item El agente ``Usuario``: es la cuenta desde la cual el cliente se conecta al sistema. El usuario interact\'ua con el sistema pudiendo autenticarse y Administrar su cuenta
+	\item El agente \textbf{``Usuario``} es la cuenta desde la cual el cliente se conecta al sistema. El usuario interact\'ua con el sistema 
+	pudiendo autenticarse y Administrar su cuenta
 
-\item El agente ``Cliente`` es la persona f\'isica, que registra una cuenta en el sistema. Luego, todas las operaciones que el cliente quiera realizar en el sistema ser\'an referidas como operaciones realizadas por el usuario (la cuenta del cliente).
+	\item El agente \textbf{``Dispositivo``} es una denominaci\'on gen\'erica para referirse al Smart TV, conversor para el televisor anal\'ogico, 
+	la computadora, la tablet o al mobile. 
 
-\item El agente ``Dispositivo``: es una denominaci\'on gen\'erica para referirse al Smart TV, conversor para el televisor anal\'ogico, la computadora, la tablet o al mobile. 
+	\item La interacci\'on \textbf{``Administrar cuenta``} entre el dispositivo y el sistema engloba las siguientes acciones: Comprar contenido, 
+	prestar contenido y pedir contenido
 
-\item La interacci\'on ``Administrar cuenta`` entre el dispositivo y el sistema engloba las siguientes acciones: Comprar contenido, prestar contenido y pedir contenido
+	\item La interacci\'on \textbf{``Responde a las solicitudes del usuario``} entre el dispositivo y el usuario es cuando el dispositivo 
+	interpreta los datos que el sistema le env\'ia en respuesta a los pedidos del usuario y los muestra en pantalla.	 
+	   
+	\item El agente \textbf{``Administrador de contenidos``} es el encargado de conseguir, categorizar, agrupar y posicionar el contenido. Se 
+	encarga de asignar publicidad a los contenidos. Tambi\'en es qui\'en decide qu\'ie contenidos pueden prestarse y durante cu\'anto tiempo.
 
+	\item El agente \textbf{``Auspiciante``} es la empresa que paga para tener un espacio publicitario en los contenidos que ofrece el sistema.
 
-\item La interacci\'on ``Responde a las solicitudes del usuario`` entre el dispositivo y el usuario es cuando el dispositivo interpreta los datos que el sistema le env\'ia en respuesta a los pedidos del usuario y los muestra en pantalla.	 
-   
-\item El agente ``Administrador de contenidos``: es el encargado de conseguir, categorizar, agrupar y posicionar el contenido. Se encarga de asignar publicidad a los contenidos. Tambi\'en es qui\'en decide qu\'ie contenidos pueden prestarse y durante cu\'anto tiempo.
+	\item La interacci\'on \textbf{``Pide publicidad``} entre los agentes \textbf{``Auspiciante y ``Administador de Contenidos``} es cuando el 
+	Auspiciante acuerda con el Administrador de contenidos para comprar un espacio publicitario.
+	  
+	\item El agente \textbf{``Proveedor de Contenidos``} es la representaci\'on de quienes producen (y en la mayor\'ia de los casos venden) 
+	contenido digital. Por ejemplo, Cadenas de Cine, Cadenas televisivas, Productoras musicales, F\'abricas de Software, Editoriales, etc. 
 
-\item El agente ``Auspiciante``: Es la empresa que paga para tener un espacio publicitario en los contenidos que ofrece el sistema.
-\item La interacci\'on ``Pide publicidad`` entre los agentes ``Auspiciante y ``Administador de Contenidos`` es cuando el Auspiciante acuerda con el Administrador de contenidos para comprar un espacio publicitario.
-  
-\item El agente ``Proveedor de Contenidos`` Es la representaci\'on de quienes producen (y en la mayor\'ia de los casos venden) contenido digital. Por ejemplo, Cadenas de Cine, Cadenas televisivas, Productoras musicales, F\'abricas de Software, Editoriales, etc. 
+	\item La interacci\'on \textbf{``Negociar contenido``} entre los agentes \textbf{``Administrador de Contenido``} y \textbf{``Proveedor de 
+	Contenido``} se da cuando el Administrador de Contenidos quiere adquirir cierto contenido de la propiedad del Proovedor de Contenidos. Es el 
+	proceso donde se fijan precios y forma de acceso al contenido.
+	   
+	\item La interacci\'on \textbf{``Negociar posicionamiento``} entre los agente \textbf{``Proveedor de Contenido``} sucede cuando el proveedor de 
+	contenidos desea que su producto sea desctacado en las b\'usquedas del sistema. Es el proceso donde se fijan los precios y detalles del 
+	posicionamiento.
 
-\item La interacci\'on ``Negociar contenido`` entre los agentes ``Administrador de Contenido`` y ``Proveedor de Contenido`` se da cuando el Administrador de Contenidos quiere adquirir cierto contenido de la propiedad del Proovedor de Contenidos. Es el proceso donde se fijan precios y forma de acceso al contenido.
-   
-\item La interacci\'on ``Negociar posicionamiento`` entre los agente ``Proveedor de Contenido`` sucede cuando el proveedor de contenidos desea que su producto sea desctacado en las b\'usquedas del sistema. Es el proceso donde se fijan los precios y detalles del posicionamiento.
+	\item El agente \textbf{``Revisor de Contenido``} es el agente que se encarga de revisar y testear los contenidos.
 
-\item El agente ``Revisor de Contenido``: Es el agente que se encarga de revisar y testear los contenidos.
+	\item El agente \textbf{``Revisor de Especificaci\'on``} es quien debe revisar que los contenidos de ejecuci\'on cumplan la pre y post condici
+	\'on de la especificaci\'on de dichos contenidos.
+	La especificaci\'on la obtiene del fabricante.
 
-\item El agente ``Revisor de Especificaci\'on``: Es quien debe revisar que los contenidos de ejecuci\'on cumplan la pre y post condici\'on de la especificaci\'on de dichos contenidos.
-La especificaci\'on la obtiene del fabricante.
+	\item El agente \textbf{``Fabricante``} es la representaci\'on de quienes producen software o hardware que se tiene relaci\'on con el sistema. 
+	En caso del hardware son los fabricantes de los dispositivos a los que se brinda soporte para utilizar el sistema. En caso de software son los 
+	fabricantes de las aplicaciones que se comercializan a trav\'es CentralMarket.
 
-\item El agente ``Fabricante``: Es la representaci\'on de quienes producen software o hardware que se tiene relaci\'on con el sistema. En caso del hardware son los fabricantes de los dispositivos a los que se brinda soporte para utilizar el sistema. En caso de software son los fabricantes de las aplicaciones que se comercializan a trav\'es CentralMarket.
+	\item El agente \textbf{``Gerente de Proyecto``} es quien se encarga de tomar las decisiones implementativas. Es qui\'en decide cuando hay que 
+	actualizar la interfaz de usuario del sistema.
 
-\item El agente ``Gerente de Proyecto``: Es quien se encarga de tomar las decisiones implementativas. Es qui\'en decide cuando hay que actualizar la interfaz de usuario del sistema.
+	\item El agente \textbf{``Desarrollador``} es qui\'en efectivamente desarrolla y actualiza la interfaz de usuario del sistema.
 
-\item El agente ``Desarrollador``: Es qui\'en efectivamente desarrolla y actualiza la interfaz de usuario del sistema.
-
-\item El agente ``Sistema de Facturaci\'on``: es el encargado de registrar los pagos hechos por los clientes, los auspiciantes y los proveedores de contenidos
-
+	\item El agente \textbf{``Sistema de Facturaci\'on``} es el encargado de registrar los pagos hechos por los clientes, los auspiciantes y los 
+	proveedores de contenidos
 
 
 \end{itemize}

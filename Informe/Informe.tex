@@ -233,6 +233,14 @@ La especificaci\'on la obtiene del fabricante.
 		\small{Figura 0: Env\'io de contenido}
 	\end{center}
 
+
+	Para el env\'io de contenido, se plantea como m\'etodo principal para transmisi'on de contenidos de reproducci\'on utilizar streaming. Adem\'as se agrega un sistema de descarga para todo tipo de contenido, sin necesidad que pueda reproducirse en tiempo real. Para esto se plantean tres opciones distintas, o-refinamientos. Cada uno de ellos posee puntos a favor y en contra que pasan a detallarse a continuaci\'on:
+		\begin{itemize}
+		\item {Tener un sistema de descarga directa: S\'olo un componente del sistema se encargar\'a del env\'io del contenido, adem\'as el contenido se encuentra en un s\'olo lugar. Como ventajas podemos nombrar que esta forma de implementar la descarga es la m\'as simples de todas y provee una buena estabilidad de velocidad, es decir, como el contenido se encuentra en un lugar s\'olamente, la velocidad de descarga depende \'unicamente de la velocidad del canal de comunicaci\'on entre el sistema y el dispositivo del usuario. La estabilidad en la velocidad aporta negativamente a que los contenidos populares se puedan descargar de manera mas r\'apida. Ayuda adem\'as a la accesibilidad de contenido, ya que los contenidos de reproducci\'on se pueden ver tanto en streaming como de manera posterior a una descarga.}
+		\item {Tener un sistema de descarga peer to peer: Utilizar un sistema de descarga peer to peer  posee como ventajas que a mayor cantidad de nodos en una red que contengan el archivo, o partes de \'el, la velocidad de transferencia aumenta. Adem\'as ayuda a la accesibilidad de contenido al igual que el sistema de descarga directa. Como contrapartida una implementaci\'on de un sistema de esta forma es mas complejo, por lo cual su costo aumenta. No se puede asegurar fuertemente la estabilidad de velocidad, ya que esta depende de la velocidad de conexi\'on de todos los dispositivos que est\'en formando parte de la transferencia del archivo.}
+		\item {Tener un sistema de descarga directa y peer to peer: Es el sistema m\'as completo de los tres, posee la funcionalidad de elegir descarga directa o descargarlo por peer to peer. Tiene como aporte positivo que supera en accesibilidad a las otras opciones, ya que permite varias formas de descarga para todo los tipos de contenido. Esta funcionalidad extendida provoca como contraparte que aumenta en gran medida el costo de implementaci\'on, siendo el m\'as costoso de las tres opciones en materia de tiempo y dinero invertido.}
+		\end{itemize}
+
 \newpage
 	\begin{center}
 		\includegraphics[scale=0.60, angle=90]{Diagramas/0-1ModelodeObjetivosEnvioexitoso.png}
@@ -240,6 +248,8 @@ La especificaci\'on la obtiene del fabricante.
 	\begin{center}
 		\small{Figura 1: Env\'io existoso}
 	\end{center}
+	Se plantean dos opciones para el env\'io de datos de manera exitosa ante la red, el primero de ellos es el m\'as econ\'omico, fallando en su robustez: realizar el env\'io y no hacer nada ante los errores. La segunda opci\'on en cambio si bien es mas costosa plantea un mecanismo de detecci\'on y recuperaci\'on de errores. La robustez del sistema es un sin\'onimo de calidad. Deber\'ia validarse cual es la relaci\'on entre costo implementativo y ganancia en el tiempo por tener un sistema m\'as estable.
+
 \newpage
 	\begin{center}
 		\includegraphics[scale=0.45, angle=90]{Diagramas/1ModelodeObjetivosGenerarIngresos.png}
@@ -254,6 +264,15 @@ La especificaci\'on la obtiene del fabricante.
 	\begin{center}
 		\small{Figura 3: Obtenci\'on de contenido}
 	\end{center}
+
+	Se plantean tres formas de obtener contenido: utilizando al sistema de CentralMarket como un nexo entre el proveedor de contenido y el usuario; almacenando todos los contenidos en el sistema de CentralMarket o creando un h\'ibrido entre las dos opciones.
+
+	La primera opci\'on posee a favor que minimiza los costos de infraestructura ya que no se necesita tener grandes vol\'umenes de informaci\'on almacenados en estructuras internas a CentralMarket. Tercerizar el almacenamiento de informaci\'on trae como contrapartida que el canal de comunicaci\'on entre el/los proveedor/es se vuelve cr\'itico, una falla del lado del proveedor/es dejar\'ia a CentralMarket sin sistema y adem\'as la velocidad de respuesta a los usuarios depende en gran medida de la carga que tenga el proveedor y la velocidad de su sistema. 
+
+	El sistema donde toda la informaci\'on se almacena dentro de \'el posee las caracter\'isticas inversas al anterior mencionado. Se encuentran m\'as controlados los posible errores y la velocidad de respuesta teniendo como contrapartida que la inversi\'on y mantenimiento de esta estructura son mayores. 
+
+	El sistema h\'ibrido propone obtener el equilibro entre los dos sistemas antes mencionados, intentar minimizar el costo de mantenimiento en infraestructura manteniendo en la mayor\'ia de contenidos cr\'iticos o importantes una respuesta r\'apida y estable ante los pedidos del usuario.
+
 \newpage
 	\begin{center}
 		\includegraphics[scale=0.64, angle=90]{Diagramas/1-2ModelodeObjetivosAdministrarcontenido.png}

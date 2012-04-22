@@ -251,10 +251,10 @@ a descargar]<y:LabelModel>
     <node id="n13">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.cloud">
-          <y:Geometry height="19.280000000000086" width="80.0" x="1689.0226510429798" y="851.4864941691144"/>
+          <y:Geometry height="19.280000000000086" width="205.0" x="1675.0226510429798" y="851.4864941691144"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="51.701171875" x="14.1494140625" y="0.28941406250010004">Calidad+<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="152.4296875" x="26.28515625" y="0.28941406250010004">Accesibilidad al contenido +<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -349,10 +349,10 @@ en contenidos populares -<y:LabelModel>
     <node id="n19">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.cloud">
-          <y:Geometry height="22.864000000000033" width="221.01052511881016" x="1955.7123707905039" y="875.4726411459744"/>
+          <y:Geometry height="22.864000000000033" width="235.1911696916709" x="1955.7123707905037" y="875.4726411459744"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="178.08203125" x="21.46424693440531" y="2.0814140625000164">Menor costo de implementación-<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="178.08203125" x="28.55456922083522" y="2.0814140625000164">Menor costo de implementación-<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>

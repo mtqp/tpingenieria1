@@ -24,6 +24,8 @@
 			colorlinks,                   % links con bellos colores
 			linkcolor=magenta]            % permite cambiar el color de los links
 			{hyperref}                    % Permite jugar con algunas cosas que aparecer\'an en el PDF final
+\usepackage{hyperref}
+
 
 %\selectlanguage{spanish}
 
@@ -108,16 +110,16 @@
 
 	La presente propuesta se basa en el documento descripto por el cliente donde describe sus necesitades y requisitos.\\
 
-	En base a dicho documento hemos identificado una serie de conceptos que para representarlos m\'as claramente utilizaremos un \emph{Modelo de Objetivos} que permitir\'a plasmar claramente las ideas.
+	En base a dicho documento hemos identificado una serie de conceptos que, para representarlos m\'as claramente, utilizaremos un \emph{Modelo de Objetivos} que permitir\'a plasmar claramente las ideas.
 
 	Luego de una elicitaci\'on con el cliente hemos logrado resumir lo que quiere en: \\
 
-	\emph{Mantener [Un sistema de descarga por internet de contenido digital bajo demanda , gratuito y pago para generar ingresos, que se personalizado, transparente y tenga calidad de contenido]}
+	\emph{Mantener [Un sistema de descarga por internet de contenido digital bajo demanda, gratuito y pago para generar ingresos, que sea personalizado, transparente y tenga calidad de contenido]}\\
 	\\
-	Aclaraciones sobre el objetivo:\\
+	Aclaraciones sobre el objetivo:
 \begin{itemize}
 	
-\item {Personalizado: Que el sistema reconozca a cada usuario y  sugiera contenido al usuario en base a solicitudes previas por parte de este.
+\item {Personalizado: Que el sistema reconozca a cada usuario y sugiera contenido al usuario en base a solicitudes previas por parte de este.
 Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 \item {Transparente: Los contenidos pueden continuarse viendo en otros dispositivos que lo soporten desde el \'ultimo estado en que se dejaron.}
 \item {Calidad de contenidos: Que las aplicaciones hayan pasado satisfactoriamente tests de calidad.} 
@@ -137,80 +139,78 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 
 \newpage
 
-\subsection{Explicaci\'on de agentes e inteacciones no triviales}
+\subsection{Explicaci\'on de agentes e interacciones no triviales}
 
 \begin{itemize}
 
-	\item  {El agente \textbf{``Sistema``} Es el conjunto de componentes de software y hardware que pertenecen a CentralMarket, una empresa que 
+	\item  {El agente \textbf{``Sistema``} es el conjunto de componentes de software y hardware que pertenecen a CentralMarket, una empresa que 
 	comercializa contenidos digitales.}
 
-	El \textbf{Sistema} se relaciona con varios agentes tanto directa como indirectamente. Ellos son:
-
 	\item El agente \textbf{``Cliente``} es la persona f\'isica, que registra una cuenta en el sistema. Luego, todas las operaciones que el cliente 
-	quiera realizar en el sistema ser\'an referidas como operaciones realizadas por el usuario (la cuenta del cliente).
+	quiera realizar en el sistema (a trav\'es de un dispositivo) ser\'an referidas como operaciones realizadas por el usuario (la cuenta del cliente).
 
-	\item El agente \textbf{``Usuario``} es la cuenta desde la cual el cliente se conecta al sistema. El usuario interact\'ua con el sistema 
-	pudiendo autenticarse y Administrar su cuenta
+	\item El agente \textbf{``Usuario``} es la representaci\'on abstracta de un cliente el cual est\'a asociado un\'ivocamente a una 	
+	cuenta. El usuario interact\'ua con el sistema (a trav\'es de un dispositivo) pudiendo autenticarse y administrar su cuenta.
 
 	\item El agente \textbf{``Dispositivo``} es una denominaci\'on gen\'erica para referirse al Smart TV, conversor para el televisor anal\'ogico, 
 	la computadora, la tablet o al mobile. 
 
-	\item La interacci\'on \textbf{``Administrar cuenta``} entre el dispositivo y el sistema engloba las siguientes acciones: Comprar contenido, 
-	prestar contenido y pedir contenido
+	\item La interacci\'on \textbf{``Administrar cuenta``} entre el dispositivo y el sistema engloba las siguientes acciones: comprar contenido, 
+	prestar contenido y pedir contenido.
 
 	\item La interacci\'on \textbf{``Responde a las solicitudes del usuario``} entre el dispositivo y el usuario es cuando el dispositivo 
-	interpreta los datos que el sistema le env\'ia en respuesta a los pedidos del usuario y los muestra en pantalla.	 
+	interpreta los datos que el sistema le env\'ia en respuesta a los pedidos del usuario y los reproduce o ejecuta.	 
 	   
 	\item El agente \textbf{``Administrador de contenidos``} es el encargado de conseguir, categorizar, agrupar y posicionar el contenido. Se 
-	encarga de asignar publicidad a los contenidos. Tambi\'en es qui\'en decide qu\'ie contenidos pueden prestarse y durante cu\'anto tiempo.
+	encarga de asignar publicidad a los contenidos. Tambi\'en es qui\'en decide qu\'e contenidos pueden prestarse y durante cu\'anto tiempo.
 
 	\item El agente \textbf{``Auspiciante``} es la empresa que paga para tener un espacio publicitario en los contenidos que ofrece el sistema.
 
 	\item La interacci\'on \textbf{``Pide publicidad``} entre los agentes \textbf{``Auspiciante y ``Administador de Contenidos``} es cuando el 
-	Auspiciante acuerda con el Administrador de contenidos para comprar un espacio publicitario.
+	Auspiciante negocia con el Administrador de contenidos la compra de un espacio publicitario.
 	  
 	\item El agente \textbf{``Proveedor de Contenidos``} es la representaci\'on de quienes producen (y en la mayor\'ia de los casos venden) 
-	contenido digital. Por ejemplo, Cadenas de Cine, Cadenas televisivas, Productoras musicales, F\'abricas de Software, Editoriales, etc. 
+	contenido digital. Por ejemplo, cadenas de cine, cadenas televisivas, productoras musicales, f\'abricas de software, editoriales, etc. 
 
 	\item La interacci\'on \textbf{``Negociar contenido``} entre los agentes \textbf{``Administrador de Contenido``} y \textbf{``Proveedor de 
 	Contenido``} se da cuando el Administrador de Contenidos quiere adquirir cierto contenido de la propiedad del Proovedor de Contenidos. Es el 
 	proceso donde se fijan precios y forma de acceso al contenido.
 	   
-	\item La interacci\'on \textbf{``Negociar posicionamiento``} entre los agente \textbf{``Proveedor de Contenido``} sucede cuando el proveedor de 
+	\item La interacci\'on \textbf{``Negociar posicionamiento``} entre los agentes \textbf{``Proveedor de Contenido``} sucede cuando el proveedor de 
 	contenidos desea que su producto sea desctacado en las b\'usquedas del sistema. Es el proceso donde se fijan los precios y detalles del 
 	posicionamiento.
 
 	\item El agente \textbf{``Revisor de Contenido``} es el agente que se encarga de revisar y testear los contenidos.
 
-	\item El agente \textbf{``Revisor de Especificaci\'on``} es quien debe revisar que los contenidos de ejecuci\'on cumplan la pre y post condici
-	\'on de la especificaci\'on de dichos contenidos.
+	\item El agente \textbf{``Revisor de Especificaci\'on``} es quien debe revisar que los contenidos de ejecuci\'on cumplan la pre y post condici\'on de la especificaci\'on de los contenidos.
 	La especificaci\'on la obtiene del fabricante.
 
-	\item El agente \textbf{``Fabricante``} es la representaci\'on de quienes producen software o hardware que se tiene relaci\'on con el sistema. 
+	\item El agente \textbf{``Fabricante``} es la representaci\'on de quienes producen software o hardware que tiene relaci\'on con el sistema. 
 	En caso del hardware son los fabricantes de los dispositivos a los que se brinda soporte para utilizar el sistema. En caso de software son los 
 	fabricantes de las aplicaciones que se comercializan a trav\'es CentralMarket.
 
-	\item El agente \textbf{``Gerente de Proyecto``} es quien se encarga de tomar las decisiones implementativas. Es qui\'en decide cuando hay que 
+	\item El agente \textbf{``Gerente de Proyecto``} es quien se encarga de tomar las decisiones implementativas. Es qui\'en decide cu\'ando hay que 
 	actualizar la interfaz de usuario del sistema.
 
 	\item El agente \textbf{``Desarrollador``} es qui\'en efectivamente desarrolla y actualiza la interfaz de usuario del sistema.
 
 	\item El agente \textbf{``Sistema de Facturaci\'on``} es el encargado de registrar los pagos hechos por los clientes, los auspiciantes y los 
-	proveedores de contenidos
+	proveedores de contenidos.
 
 
 \end{itemize}
 
+\newpage
 	
 \section{Objetivos del sistema}
 
 \subsection{Aclaraciones previas}
 
-	A continuaci\'on describiremos el \emph{Modelo de Objetivos} que proponemos para cumplir los objetivos detallados anteriormente.
+	A continuaci\'on describiremos el \emph{Modelo de Objetivos} que proponemos para cumplir los objetivos detallados anteriormente.\\
 
-	El modelo se conforma por un \'arbol de objetivos y subobjetivos asociados, c\'omo dicho \'arbol es extremadamente grande se encuentra 
-	dividido en varias partes. Por las reglas del modelo cada hoja del diagrama debe estar asociada a un \emph{agente}, en los casos en que
-	una hoja no tenga un agente asociado tendr\'a un n\'umero que corresponde a otro gr\'afico donde el diagrama contin\'ua.
+	El modelo se conforma por un \'arbol de objetivos y subobjetivos asociados, como dicho \'arbol es extremadamente grande se encuentra 
+	dividido en varias partes. Por las reglas del modelo, cada hoja del diagrama debe estar asociada a un \emph{agente}. En los casos en que
+	una hoja no tenga un agente asociado, tendr\'a un n\'umero que corresponde a otro gr\'afico donde el diagrama contin\'ua.
 	
 \subsection{Objetivos blandos}
 
@@ -219,27 +219,29 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 
 	\begin{itemize}
 
-	\item{ Mayor velocidad en contenidos populares: Existen m\'etodos de transferencia de informaci\'on m\'as veloces si los datos a transmitir se 	
+	\item{ \textbf{ Mayor velocidad en contenidos populares:} Existen m\'etodos de transferencia de informaci\'on m\'as veloces si los datos a transmitir se 	
 	encuentran en una mayor cantidad de m\'aquinas al mismo tiempo. La cantidad de personas que posee un contenido es directamente proporcional a su 
 	popularidad.}
 
-	\item{ Mayor estabilidad de velocidad: Sopesa la continuidad en la cantidad de bytes descargados en el tiempo versus r\'afagas quiz\'as m\'as 
+	\item{ \textbf{ Mayor estabilidad de velocidad:} Sopesa la continuidad en la cantidad de bytes descargados en el tiempo versus r\'afagas quiz\'as m\'as 
 	r\'apidas pero no continuas.}
 
-	\item{ Menor costo de implementaci\'on: Este objetivo blando sirve para ver que ramas minimizan el gasto en dinero y tiempo de desarrollo 	
+	\item{ \textbf{ Menor costo de implementaci\'on:} Este objetivo blando sirve para ver que ramas minimizan el gasto en dinero y tiempo de desarrollo 	
 	para poner el sistema en funcionamiento. }
 
-	\item{ Robustez: Intenta responder qu\'e sistema posee los mejores mecanismos para la recuperaci\'on ante fallas.}
+	\item{ \textbf{ Robustez:} Intenta responder qu\'e sistema posee los mejores mecanismos para la recuperaci\'on ante fallas.}
     
-	\item{ Accesibilidad al contenido: Sirve como eje para el an\'alisis de qu\'e sistema posee m\'as o mejores opciones para acceder al contenido.}
+	\item{ \textbf{ Accesibilidad al contenido:} Sirve como eje para el an\'alisis de qu\'e sistema posee m\'as o mejores opciones para acceder al contenido.}
 
-	\item{ Minimizar costos de infraestructura: Sirve para saber cu\'al es el sistema que cumple que minimiza (entre las opciones disponibles) el 
+	\item{ \textbf{ Minimizar costos de infraestructura:} Sirve para saber cu\'al es el sistema que cumple que minimiza (entre las opciones disponibles) el 
 	costo de mantenimiento a lo largo del tiempo.}
 
-	\item{ Proveer contenido de forma m\'as eficiente posible: Es un objetivo blando menos espec\'ifico que los dem\'as, se refiere al equilibrio entre 
+	\item{ \textbf{ Proveer contenido de forma m\'as eficiente posible:} Es un objetivo blando menos espec\'ifico que los dem\'as, se refiere al equilibrio entre 
 	costo computacional, velocidad de respuesta ante pedido, robustez del sistema ante fallas en los canales de comunicaci\'on externos.}
 
 	\end{itemize}
+
+\newpage
 
 \subsection{Modelo de Objetivos}
 
@@ -256,9 +258,12 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 		\small{Figura 0: Env\'io de contenido}
 	\end{center}
 
+fenix
+		Para el env\'io de contenido, se plantea como m\'etodo principal para transmisi'on de contenidos de reproducci\'on utilizar streaming. 
+	Adem\'as se agrega un sistema de descarga para todo tipo de contenido, sin necesidad que pueda reproducirse en tiempo real. Para esto se 	
+	plantean tres opciones distintas, o-refinamientos. Cada uno de ellos posee puntos a favor y en contra que pasan a detallarse a continuaci\'on:
 
-	Para el env\'io de contenido, se plantea como m\'etodo principal para transmisi'on de contenidos de reproducci\'on utilizar streaming. Adem\'as se agrega un sistema de descarga para todo tipo de contenido, sin necesidad que pueda reproducirse en tiempo real. Para esto se plantean tres opciones distintas, o-refinamientos. Cada uno de ellos posee puntos a favor y en contra que pasan a detallarse a continuaci\'on:
-		\begin{itemize}
+	\begin{itemize}
 		\item {Tener un sistema de descarga directa: S\'olo un componente del sistema se encargar\'a del env\'io del contenido, adem\'as el contenido se encuentra en un s\'olo lugar. Como ventajas podemos nombrar que esta forma de implementar la descarga es la m\'as simples de todas y provee una buena estabilidad de velocidad, es decir, como el contenido se encuentra en un lugar s\'olamente, la velocidad de descarga depende \'unicamente de la velocidad del canal de comunicaci\'on entre el sistema y el dispositivo del usuario. La estabilidad en la velocidad aporta negativamente a que los contenidos populares se puedan descargar de manera mas r\'apida. Ayuda adem\'as a la accesibilidad de contenido, ya que los contenidos de reproducci\'on se pueden ver tanto en streaming como de manera posterior a una descarga.}
 		\item {Tener un sistema de descarga peer to peer: Utilizar un sistema de descarga peer to peer  posee como ventajas que a mayor cantidad de nodos en una red que contengan el archivo, o partes de \'el, la velocidad de transferencia aumenta. Adem\'as ayuda a la accesibilidad de contenido al igual que el sistema de descarga directa. Como contrapartida una implementaci\'on de un sistema de esta forma es mas complejo, por lo cual su costo aumenta. No se puede asegurar fuertemente la estabilidad de velocidad, ya que esta depende de la velocidad de conexi\'on de todos los dispositivos que est\'en formando parte de la transferencia del archivo.}
 		\item {Tener un sistema de descarga directa y peer to peer: Es el sistema m\'as completo de los tres, posee la funcionalidad de elegir descarga directa o descargarlo por peer to peer. Tiene como aporte positivo que supera en accesibilidad a las otras opciones, ya que permite varias formas de descarga para todo los tipos de contenido. Esta funcionalidad extendida provoca como contraparte que aumenta en gran medida el costo de implementaci\'on, siendo el m\'as costoso de las tres opciones en materia de tiempo y dinero invertido.}
@@ -382,7 +387,7 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 
 \subsection{Situaci\'on 1}
 
-	\textbf{Funcionalidad:} Registro de usuario y baja de un contenido.\\
+	\textbf{Funcionalidad:} Registro de usuario y descarga de un contenido.\\
 
         Una persona se sienta en frente de la computadora.
     La persona se registra en el sistema (ingresa en la p\'agina del sitio, o descarga 
@@ -400,20 +405,24 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 
 	\textbf{Funcionalidad:} Publicidad en contenidos.\\
 
-        Un empresario de Powerthrist S.A. (bebida energ\'etica) desea publicitarse y se comunica con el administrador de contenidos de CentralMarket 
-    envi\'andole el contenido a publicitar.
-    El administrador de contenido le pasa el presupuesto junto con la lista de contenidos que pueden tener la publicidad.
+        Un empresario de Powerthrist S.A. (bebida energ\'etica) desea publicitar su producto y se comunica con el administrador de contenidos de 
+    CentralMarket envi\'andole el contenido a publicitar.
+    El administrador de contenido le pasa el presupuesto junto con la lista de contenidos que pueden tener la publicidad.\\
+
     El empresario acepta y paga con v\'ia online (interactuando con el sistema) quien hace de intermediario con el sistema de facturaci\'on externo.
     El administrador de contenidos aplica entonces la publicidad sobre los contenidos acordados.
     Luego, los usuarios de CentralMarket que adquieran dichos contenidos se encuentran ahora con la publicidad de Powerthrist.
+
+\newpage
 
 \subsection{Situaci\'on 3}
 
 	\textbf{Funcionalidad:} Compra fallida y exitosa.\\
 
-        Un usuario decide comprar la promoci\'on de verano de pel\'iculas de acci\'on (suponiendo que el gerente de CentralMarket ha dedicido agrupar el     
+        Un usuario decide comprar la promoci\'on de verano de pel\'iculas de acci\'on (suponiendo que el gerente de CentralMarket ha dedicido agrupar el
     contenido de esa forma). Efect\'ua el pago seleccionando de su cuenta una de sus tarjetas registradas. El sistema se comunica con el sistema de 
-    facturaci\'on envi\'ando los datos del pago y recibe como respuesta que la tarjeta del usuario no tiene fondos. El sistema comunica al usuario el 
+    facturaci\'on envi\'ando los datos del pago y recibe como respuesta que la tarjeta del usuario no tiene fondos. \\
+	El sistema comunica al usuario el 
     resultado de la operaci\'on y se cancela la compra de la promoci\'on. El usuario recibe el mensaje y opta por elegir otra tarjeta y reintentar. Esta 
     vez la transacci\'on es exitosa y por consiguiente disfruta del contenido de la promoci\'on durante toda la temporada de verano.
 
@@ -423,19 +432,21 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 
         El administrador de contenidos conoce que ya se film\'o la nueva temporada de \emph{The Big Bang Theory}. Por lo tanto se comunica con el 
    proveedor de contenidos quien se los suministra. El administrador le pide adem\'as los subt\'itulos en espa\~{n}ol ya que la mayor\'ia de los subcriptores del 
-   sistema son argentinos.
+   sistema son argentinos.\\
 
         Como debe cumplir los est\'andares de calidad de CentralMarket, una vez que el contenido ingresa al sistema este debe ser testeado por el revisor 
    de contenido digital previo a lanzamiento al p\'ublico. Es por ello que el revisor ve todos los cap\'itulos de la nueva temporada a publicar y valida 
-   que ninguno de ellos se corte, adem\'as, tampoco nota ning\'un desfasaje entre la imagen y sonido. Nota que existen errores en el subt\'itulos por lo 
-   tanto, el nuevo contenido todav\'ia no se puede proporcionar al p\'ublico.
+   que ninguno de ellos se corte. Adem\'as tampoco nota ning\'un desfasaje entre la imagen y sonido. Nota que existen errores en el subt\'itulos por lo 
+   tanto, el nuevo contenido todav\'ia no se puede proporcionar al p\'ublico.\\
    
       El administrador de contenidos vuelve a hablar con el proveedor, quien ahora le suministra unos nuevos subt\'itulos. Estos son vueltos a testear 
-   con los cap\'itulos por el revisor quien finalmente los aprueba.
+   con los cap\'itulos por el revisor quien finalmente los aprueba.\\
 
       De esta manera, la nueva temporada de la serie pasa a estar en el sistema como contenido a poder visualizarse. El administrador decide si va a    
    formar parte de un grupo, ser pago o gratuito y finalmente lo agrega al sistema.
    Los usuarios entonces pueden acceder a la reproducci\'on de la nueva serie aclamada de televisi\'on.
+
+\newpage
 
 \subsection{Situaci\'on 5}
 
@@ -464,6 +475,8 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
    detalle sobre la nueva interfaz de comunicaci\'on con el SO (detalle de la API modificada). Con esta informaci\'on se encarga de avisarle al 
    desarrollador para poder sacar una nueva versi\'on del sistema de CentralMarket compatible con el release del Service Pack de Windows.
 
+\newpage
+
 \subsection{Situaci\'on 7}
 
 	\textbf{Funcionalidad:} Pr\'estamo de un libro.\\
@@ -480,14 +493,14 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 	Un cliente de CentralMarket desea loguearse al sistema para descargar juegos. Entra al sitio (o abre la aplicaci\'on, dependiendo de la interfaz 
    utilizada), ingresa su nombre de usuario y pone su contrase\~{n}a. La contrase\~{n}a es incorrecta por lo que el sistema le avisa y lo invita a reintentar. 
    Nuevamente la ingresa incorrectamente y nuevamente es avisado.
-   Este procedimiento puede realizado infinitas veces.
+   Este procedimiento puede ser realizado infinitas veces.
 
 \subsection{Situaci\'on 9}
 
 	\textbf{Funcionalidad:} Posicionamiento de contenido.\\
 
 	Uno de los proveedores de contenido de CentralMarket desea publicitar una de sus series , una sitcom llamada ``?`Qui\'en me mand\'o a estudiar    
-   computaci\'on?!``, que debido a su poco \'exito no est\'a consiguiendo cubrir los costos de su producci\'on, y para esto se comunica con el administrador de 
+   computaci\'on?``, que debido a su poco \'exito no est\'a consiguiendo cubrir los costos de su producci\'on, y para esto se comunica con el administrador de 
    contenido quien le informa que si paga la tarifa adecuada, este puede posicionarla en los primeros lugares cuando los usuarios realicen alguna    
    b\'usqueda en la cual esta sitcom est\'e relacionada. Al aceptar, el proveedor de contenido realiza el pago en el sistema, y espera que las cr\'iticas    
    mejoren para poder vender una nueva temporada de su serie a las cadenas televisivas y otras empresas. 
@@ -495,7 +508,7 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 
 \subsection{Situaci\'on 10}
 
-	\textbf{Funcionalidad:} Descarga de contenidos y almacenado de los mismos .\\
+	\textbf{Funcionalidad:} Descarga ya almacenado de contenidos.\\
 
 	Un usuario decide poder acceder a un contenido. Por lo tanto se loguea al sistema, lo busca entre la lista de contenido y lo selecciona, para 
    accederlo. Desde el sistema, se recibe el pedido y lo procesa.\\
@@ -507,7 +520,7 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 
 	\begin{itemize}
 	
-	\item{ El sistema recibe el pedido y se se comunica con la interfaz del proveedor que posee ese contenido, requiri\'endoselo. El contenido le 
+	\item{ El sistema recibe el pedido y se comunica con la interfaz del proveedor que posee ese contenido, requiri\'endoselo. El contenido le 
    llega al sistema que lo re-codifica para ser entendible por el dispositivo del usuario. Dependiendo del tr\'afico de red o carga de procesamiento 
    del proveedor, el sistema, y por consiguiente el usuario, puede llegar a quedarse esperando indefinidamente respuesta.}
 
@@ -517,16 +530,18 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 
 	\item{ Para minimizar los costos de mantenimiento de infraestructura, el administrador de contenidos decide que (dada la posibilidad que ofrece 
    el sistema de elegir cu\'ando guardar el contenido en servidores propios) se van a almacenar s\'olo los contenidos que se hayan solicitado m\'as de 
-   100 veces en el lapso de una semana, quiere as\'i minimizar el tr\'afico de red y economizar espacio.}
+   100 veces en el lapso de una semana, quiere as\'i minimizar el tr\'afico de red y economizar espacio.}\\
 
 	De Lunes a S\'abado recibe 99 pedidos de descarga de un juego de videos para la computadora. En cada uno de estos pedidos, el sistema se 
-   comunica con el proveedor pidi\'endole el contenido y d\'andoselo al usuario.
+   comunica con el proveedor pidi\'endole el contenido y d\'andoselo al usuario.\\
 
 	El d\'ia Domingo recibe el pedido n\'umero 100 y por lo tanto debe esta vez pedirlo al proveedor y a su vez almacenarlo. Resulta ser una buena 
    desici\'on ya que en el correr de la semana siguiente, se realizan cientos de pedidos del mismo juego a CentralMarket y se logra evitar el tr\'afico 
    de red con el proveedor.
 
 	\end{itemize}
+
+\newpage
 
 \subsection{Situaci\'on 11}
 
@@ -535,15 +550,15 @@ Adem\'as, debe permitir un sistema de pr\'estamo de contenidos.}
 	Una nueva aplicaci\'on causa sensaci\'on en internet. Se ve factible que forme parte del paquete de programas de CentralMarket. Este contenido, 
    mediante el administrador de contenidos, se incluye en el sistema para el an\'alisis funcional y test. Como el administrador sabe, un contenido de 
    ejecuci\'on no puede agregarse en el sistema sin que el contenido este excento de errores (no se cuelgue y logre iniciarse) y sin tener una 
-   especificaci\'on; luego este no puede distribuirse si no cumple satisfactoriamente la revisi\'on de los mismos.
+   especificaci\'on; luego este no puede distribuirse si no cumple satisfactoriamente la revisi\'on de los mismos.\\
 
 	El encargado de validar el correcto funcionamiento de la aplicaci\'on entra en juego: el revisor de especificaci\'on. Realiza un exhaustivo 
    an\'alisis de la aplicaci\'on, probando que valgan la pre y post condici\'on, testeando casos bordes y casos esperados sin poder encontrar un 
-   comportamiento no esperado.
+   comportamiento no esperado.\\
 
 	Pasa entonces a la segunda etapa, considerada como el test de estr\'es sobre la aplicaci\'on. El revisor de contenido digital es encargado de 
    validar que el contenido no posea errores, es decir que la aplicaci\'on no se cuelgue por mas de cinco segundos y que logre iniciarse en menos de 
-   treinta. El testeo es exitoso y pasa a la etapa de an\'alisis funcional.
+   treinta. El testeo es exitoso y pasa a la etapa de an\'alisis funcional.\\
 
 	Terminado esto, se puede concluir que el programa cumple correctamente la especificaci\'on y est\'a excento de errores, por lo tanto puede ser 
    agregado a la lista de contenidos de ejecuci\'on a distribuir.

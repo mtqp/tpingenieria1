@@ -17,141 +17,6 @@
     <node id="n0" yfiles.foldertype="group">
       <data key="d6">
         <y:TableNode configuration="com.yworks.bpmn.Pool">
-          <y:Geometry height="1055.3590494791665" width="344.6175781249991" x="-1202.546040401261" y="-1218.26669921875"/>
-          <y:Fill color="#FFF2BC" color2="#D4D4D4CC" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="4.0" x="170.3087890624995" y="4.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="55.357421875" x="25.0" y="33.0">Column 1<y:LabelModel>
-              <y:ColumnNodeLabelModel offset="3.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:ColumnNodeLabelModelParameter id="column_0" inside="true" verticalPosition="0.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="130.05859375" x="148.4582031249995" y="33.0">Sistema de Facturación<y:LabelModel>
-              <y:ColumnNodeLabelModel offset="3.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:ColumnNodeLabelModelParameter id="column_1" inside="true" verticalPosition="0.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:StyleProperties>
-            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="POOL_TYPE_COLUMN"/>
-            <y:Property name="y.view.tabular.TableNodePainter.ALTERNATE_COLUMN_SELECTION_STYLE">
-              <y:SimpleStyle fillColor="#474A4380" lineColor="#000000" lineType="line" lineWidth="3.0"/>
-            </y:Property>
-            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
-            <y:Property name="y.view.tabular.TableNodePainter.ALTERNATE_ROW_STYLE">
-              <y:SimpleStyle fillColor="#474A4340" lineColor="#000000" lineType="line" lineWidth="1.0"/>
-            </y:Property>
-            <y:Property class="java.awt.Color" name="POOL_LANE_COLOR_ALTERNATING" value="#ffffff"/>
-            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffff"/>
-            <y:Property name="y.view.tabular.TableNodePainter.ALTERNATE_ROW_SELECTION_STYLE">
-              <y:SimpleStyle fillColor="#474A4380" lineColor="#000000" lineType="line" lineWidth="3.0"/>
-            </y:Property>
-            <y:Property class="java.lang.String" name="POOL_LANE_STYLE" value="LANE_STYLE_COLUMNS"/>
-            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4"/>
-            <y:Property class="java.awt.Color" name="POOL_LANE_COLOR_MAIN" value="#ffffff"/>
-            <y:Property name="y.view.tabular.TableNodePainter.ALTERNATE_COLUMN_STYLE">
-              <y:SimpleStyle fillColor="#474A4340" lineColor="#000000" lineType="line" lineWidth="1.0"/>
-            </y:Property>
-          </y:StyleProperties>
-          <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
-          <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-          <y:BorderInsets bottom="460" bottomF="459.9535208541654" left="99" leftF="99.27726562500038" right="25" rightF="25.0" top="277" topF="276.74005902083377"/>
-          <y:Table autoResizeTable="true" defaultColumnWidth="202.0" defaultMinimumColumnWidth="30.0" defaultMinimumRowHeight="30.0" defaultRowHeight="280.0">
-            <y:DefaultColumnInsets bottom="3.0" left="3.0" right="3.0" top="20.0"/>
-            <y:DefaultRowInsets bottom="3.0" left="20.0" right="3.0" top="3.0"/>
-            <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
-            <y:Columns>
-              <y:Column id="column_0" minimumWidth="65.357421875" width="65.357421875">
-                <y:Insets bottom="3.0" left="3.0" right="3.0" top="20.0"/>
-              </y:Column>
-              <y:Column id="column_1" minimumWidth="65.357421875" width="256.2601562499991">
-                <y:Insets bottom="3.0" left="3.0" right="3.0" top="20.0"/>
-              </y:Column>
-            </y:Columns>
-            <y:Rows>
-              <y:Row height="1002.3590494791666" id="row_0" minimumHeight="30.0">
-                <y:Insets bottom="3.0" left="20.0" right="3.0" top="3.0"/>
-              </y:Row>
-            </y:Rows>
-          </y:Table>
-        </y:TableNode>
-      </data>
-      <graph edgedefault="directed" id="n0:">
-        <node id="n0::n0">
-          <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="39.218749999999886" width="192.5" x="-1078.428462276262" y="-891.5266401979163"/>
-              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="123.408203125" x="34.5458984375" y="10.2587890625">Recibir datos del pago<y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n0::n1">
-          <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="39.218749999999886" width="192.5" x="-1078.428462276262" y="-809.8032803958326"/>
-              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="148.076171875" x="22.2119140625" y="10.2587890625">Debitar crédito de la tarjeta<y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n0::n2">
-          <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="55.218749999999886" width="81.5" x="-967.4284622762619" y="-681.079920593749"/>
-              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="72.033203125" x="4.7333984375" y="3.5576171875">Enviar
- transacción 
-exitosa<y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n0::n3">
-          <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="55.218749999999886" width="81.5" x="-1083.2687747762607" y="-681.0799205937489"/>
-              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="48.677734375" x="16.4111328125" y="10.908203124999886">Informar
-Error<y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-            </y:GenericNode>
-          </data>
-        </node>
-      </graph>
-    </node>
-    <node id="n1" yfiles.foldertype="group">
-      <data key="d6">
-        <y:TableNode configuration="com.yworks.bpmn.Pool">
           <y:Geometry height="1056.3795568645828" width="556.6156661184239" x="-1653.5983841512616" y="-1218.26669921875"/>
           <y:Fill color="#FFF2BC" color2="#D4D4D4CC" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
@@ -214,8 +79,8 @@ Error<y:LabelModel>
           </y:Table>
         </y:TableNode>
       </data>
-      <graph edgedefault="directed" id="n1:">
-        <node id="n1::n0">
+      <graph edgedefault="directed" id="n0:">
+        <node id="n0::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
               <y:Geometry height="38.4375" width="192.5" x="-1617.233540401261" y="-482.985108657959"/>
@@ -232,7 +97,7 @@ al contenido<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n1::n1">
+        <node id="n0::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
               <y:Geometry height="38.4375" width="192.5" x="-1343.0983841512616" y="-1028.5977169999987"/>
@@ -249,7 +114,7 @@ efectuar el pago<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n1::n2">
+        <node id="n0::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
               <y:Geometry height="38.4375" width="192.5" x="-1343.796040401261" y="-482.985108657959"/>
@@ -266,7 +131,7 @@ transacción finaliada<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n1::n3">
+        <node id="n0::n3">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
               <y:Geometry height="38.4375" width="192.5" x="-1343.796040401261" y="-327.648139235681"/>
@@ -283,7 +148,7 @@ Posicionamiento aplicado<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n1::n4">
+        <node id="n0::n4">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
               <y:Geometry height="30.0" width="30.0" x="-1262.546040401261" y="-245.5443421822971"/>
@@ -291,6 +156,141 @@ Posicionamiento aplicado<y:LabelModel>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="13.0" y="13.0">
                 <y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n1" yfiles.foldertype="group">
+      <data key="d6">
+        <y:TableNode configuration="com.yworks.bpmn.Pool">
+          <y:Geometry height="1055.3590494791665" width="344.6175781249991" x="-1202.546040401261" y="-1218.26669921875"/>
+          <y:Fill color="#FFF2BC" color2="#D4D4D4CC" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="4.0" x="170.3087890624995" y="4.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="55.357421875" x="25.0" y="33.0">Column 1<y:LabelModel>
+              <y:ColumnNodeLabelModel offset="3.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ColumnNodeLabelModelParameter id="column_0" inside="true" verticalPosition="0.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="130.05859375" x="148.4582031249995" y="33.0">Sistema de Facturación<y:LabelModel>
+              <y:ColumnNodeLabelModel offset="3.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ColumnNodeLabelModelParameter id="column_1" inside="true" verticalPosition="0.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="POOL_TYPE_COLUMN"/>
+            <y:Property name="y.view.tabular.TableNodePainter.ALTERNATE_COLUMN_SELECTION_STYLE">
+              <y:SimpleStyle fillColor="#474A4380" lineColor="#000000" lineType="line" lineWidth="3.0"/>
+            </y:Property>
+            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
+            <y:Property name="y.view.tabular.TableNodePainter.ALTERNATE_ROW_STYLE">
+              <y:SimpleStyle fillColor="#474A4340" lineColor="#000000" lineType="line" lineWidth="1.0"/>
+            </y:Property>
+            <y:Property class="java.awt.Color" name="POOL_LANE_COLOR_ALTERNATING" value="#ffffff"/>
+            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffff"/>
+            <y:Property name="y.view.tabular.TableNodePainter.ALTERNATE_ROW_SELECTION_STYLE">
+              <y:SimpleStyle fillColor="#474A4380" lineColor="#000000" lineType="line" lineWidth="3.0"/>
+            </y:Property>
+            <y:Property class="java.lang.String" name="POOL_LANE_STYLE" value="LANE_STYLE_COLUMNS"/>
+            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4"/>
+            <y:Property class="java.awt.Color" name="POOL_LANE_COLOR_MAIN" value="#ffffff"/>
+            <y:Property name="y.view.tabular.TableNodePainter.ALTERNATE_COLUMN_STYLE">
+              <y:SimpleStyle fillColor="#474A4340" lineColor="#000000" lineType="line" lineWidth="1.0"/>
+            </y:Property>
+          </y:StyleProperties>
+          <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+          <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+          <y:BorderInsets bottom="460" bottomF="459.9535208541654" left="99" leftF="99.27726562500038" right="25" rightF="25.0" top="277" topF="276.74005902083377"/>
+          <y:Table autoResizeTable="true" defaultColumnWidth="202.0" defaultMinimumColumnWidth="30.0" defaultMinimumRowHeight="30.0" defaultRowHeight="280.0">
+            <y:DefaultColumnInsets bottom="3.0" left="3.0" right="3.0" top="20.0"/>
+            <y:DefaultRowInsets bottom="3.0" left="20.0" right="3.0" top="3.0"/>
+            <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
+            <y:Columns>
+              <y:Column id="column_0" minimumWidth="65.357421875" width="65.357421875">
+                <y:Insets bottom="3.0" left="3.0" right="3.0" top="20.0"/>
+              </y:Column>
+              <y:Column id="column_1" minimumWidth="65.357421875" width="256.2601562499991">
+                <y:Insets bottom="3.0" left="3.0" right="3.0" top="20.0"/>
+              </y:Column>
+            </y:Columns>
+            <y:Rows>
+              <y:Row height="1002.3590494791666" id="row_0" minimumHeight="30.0">
+                <y:Insets bottom="3.0" left="20.0" right="3.0" top="3.0"/>
+              </y:Row>
+            </y:Rows>
+          </y:Table>
+        </y:TableNode>
+      </data>
+      <graph edgedefault="directed" id="n1:">
+        <node id="n1::n0">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.terminator">
+              <y:Geometry height="39.218749999999886" width="192.5" x="-1078.428462276262" y="-891.5266401979163"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="123.408203125" x="34.5458984375" y="10.2587890625">Recibir datos del pago<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n1::n1">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.terminator">
+              <y:Geometry height="39.218749999999886" width="192.5" x="-1078.428462276262" y="-809.8032803958326"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="148.076171875" x="22.2119140625" y="10.2587890625">Debitar crédito de la tarjeta<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n1::n2">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.terminator">
+              <y:Geometry height="55.218749999999886" width="81.5" x="-967.4284622762619" y="-681.079920593749"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="72.033203125" x="4.7333984375" y="3.5576171875">Enviar
+ transacción 
+exitosa<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n1::n3">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.terminator">
+              <y:Geometry height="55.218749999999886" width="81.5" x="-1083.2687747762607" y="-681.0799205937489"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="48.677734375" x="16.4111328125" y="10.908203124999886">Informar
+Error<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -851,7 +851,7 @@ de Contenidos<y:LabelModel>
           <y:Geometry height="75.00000000000023" width="164.71824842105298" x="2312.314575157894" y="-1168.057380210526"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="134.1015625" x="15.308342960526716" y="27.536865234375114">Obteniendo Contenido<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="134.1015625" x="15.308342960526716" y="27.536865234375">Obteniendo Contenido<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -887,7 +887,7 @@ de Contenidos<y:LabelModel>
           <y:Geometry height="75.00000000000023" width="164.71824842105298" x="2188.855098947369" y="-1091.3865953684199"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="139.87158203125" x="12.42333319490126" y="19.573730468750227">Colocando etiquetas al 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="139.87158203125" x="12.423333194901716" y="19.57373046875">Colocando etiquetas al 
 contenido obtenido<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -906,7 +906,7 @@ contenido obtenido<y:LabelModel>
           <y:Geometry height="75.00000000000023" width="164.71824842105298" x="1909.727710315789" y="-1192.7085532631577"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="124.6943359375" x="20.011956241776716" y="19.573730468750227">Aplicando Publicidad
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="124.6943359375" x="20.01195624177649" y="19.57373046875">Aplicando Publicidad
 a Contenidos<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -925,7 +925,7 @@ a Contenidos<y:LabelModel>
           <y:Geometry height="75.00000000000023" width="164.71824842105298" x="2104.445958736842" y="-1185.4513035789473"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="160.09521484375" x="2.3115167886517156" y="19.573730468750227">Aplicando Posicionamiento
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="160.09521484375" x="2.3115167886517156" y="19.57373046875">Aplicando Posicionamiento
 a Contenidos<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1043,7 +1043,7 @@ el pago de publicidad<y:LabelModel>
           <y:Geometry height="75.00000000000023" width="164.71824842105298" x="2321.1653052631573" y="-997.3218871578924"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="114.56982421875" x="25.07421210115126" y="19.573730468750114">Asignando valor al 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="114.56982421875" x="25.074212101151716" y="19.573730468750114">Asignando valor al 
 contenido obtenido<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1062,7 +1062,7 @@ contenido obtenido<y:LabelModel>
           <y:Geometry height="75.00000000000023" width="164.71824842105298" x="1922.0930593684209" y="-997.3218871578924"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="132.63525390625" x="16.04149725740126" y="19.573730468750114">Asignando tiempo de
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="132.63525390625" x="16.04149725740149" y="19.573730468750114">Asignando tiempo de
  prestamo a contenido<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1081,7 +1081,7 @@ contenido obtenido<y:LabelModel>
           <y:Geometry height="75.00000000000023" width="164.71824842105298" x="2121.629182315789" y="-976.5127486315783"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="131.21337890625" x="16.75243475740126" y="19.573730468750114">Agrupando contenido 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="131.21337890625" x="16.752434757401716" y="19.573730468750114">Agrupando contenido 
 en paquetes<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1219,7 +1219,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n0::n3" target="n1::n1">
+    <edge id="e12" source="n1::n3" target="n0::n1">
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1231,7 +1231,7 @@ en paquetes<y:LabelModel>
         </y:QuadCurveEdge>
       </data>
     </edge>
-    <edge id="e13" source="n23" target="n0::n3">
+    <edge id="e13" source="n23" target="n1::n3">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1242,7 +1242,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e14" source="n0::n1" target="n23">
+    <edge id="e14" source="n1::n1" target="n23">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1252,7 +1252,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n23" target="n0::n2">
+    <edge id="e15" source="n23" target="n1::n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1263,7 +1263,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e0" source="n0::n0" target="n0::n1">
+    <edge id="n1::e0" source="n1::n0" target="n1::n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1273,7 +1273,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n1::n1" target="n0::n0">
+    <edge id="e16" source="n0::n1" target="n1::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1293,7 +1293,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n0::n2" target="n25">
+    <edge id="e18" source="n1::n2" target="n25">
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1305,7 +1305,7 @@ en paquetes<y:LabelModel>
         </y:BezierEdge>
       </data>
     </edge>
-    <edge id="e19" source="n25" target="n1::n0">
+    <edge id="e19" source="n25" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1315,7 +1315,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e20" source="n25" target="n1::n2">
+    <edge id="e20" source="n25" target="n0::n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1325,7 +1325,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n1::n0" target="n24">
+    <edge id="e21" source="n0::n0" target="n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1335,7 +1335,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n1::n2" target="n24">
+    <edge id="e22" source="n0::n2" target="n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1345,7 +1345,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e23" source="n24" target="n1::n3">
+    <edge id="e23" source="n24" target="n0::n3">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1355,7 +1355,7 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e0" source="n1::n3" target="n1::n4">
+    <edge id="n0::e0" source="n0::n3" target="n0::n4">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1467,14 +1467,14 @@ en paquetes<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n39" target="n36">
+    <edge id="e33" source="n36" target="n39">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="9.55292631578925" tx="0.0" ty="0.0"/>
+          <y:Path sx="-8.85073010526321" sy="-0.12069473684550758" tx="0.0" ty="-13.358892631582421"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="77.400390625" x="5.411398556889708" y="59.98183437294483">&lt;&lt;extiende&gt;&gt;</y:EdgeLabel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="77.400390625" x="2.0001153840457846" y="-78.92716220908642">&lt;&lt;extiende&gt;&gt;</y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1492,7 +1492,6 @@ en paquetes<y:LabelModel>
       </data>
     </edge>
     <edge id="e35" source="n29" target="n40">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1503,7 +1502,6 @@ en paquetes<y:LabelModel>
       </data>
     </edge>
     <edge id="e36" source="n29" target="n41">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1514,7 +1512,6 @@ en paquetes<y:LabelModel>
       </data>
     </edge>
     <edge id="e37" source="n29" target="n42">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="17.517517373983537" sy="11.189602283787735" tx="0.0" ty="0.0">

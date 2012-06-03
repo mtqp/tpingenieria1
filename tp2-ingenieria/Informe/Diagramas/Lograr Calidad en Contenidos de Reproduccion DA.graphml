@@ -93,7 +93,7 @@
         <node id="n0::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="529.653120556819" y="1956.7944351205706"/>
+              <y:Geometry height="40.0" width="80.0" x="1305.5857661422865" y="1956.7944351205706"/>
               <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="4.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
@@ -110,7 +110,7 @@
         <node id="n0::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="25.664595564597676" width="51.32919112919535" x="543.9885249922218" y="1963.962137338272"/>
+              <y:Geometry height="25.664595564597676" width="51.32919112919535" x="1319.9211705776893" y="1963.962137338272"/>
               <y:Fill color="#000000" color2="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.664595564597676" y="10.832297782298838">
@@ -443,11 +443,10 @@ al proveeedor de contenidos<y:LabelModel>
         <node id="n0::n21">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.00000000000001" width="251.32594581377816" x="443.99014764993035" y="1430.3656514784414"/>
+              <y:Geometry height="40.00000000000001" width="251.32594581377816" x="1219.9227932353974" y="1804.7176824846463"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="182.248046875" x="34.53894946938908" y="4.03125">Ingresar contenido al sistema
-para descarga<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="118.333984375" x="66.49598071938908" y="11.015625">Habilitar contenido<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -458,22 +457,6 @@ para descarga<y:LabelModel>
           </data>
         </node>
         <node id="n0::n22">
-          <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.00000000000001" width="251.32594581377816" x="443.99014764993035" y="1552.9435773462408"/>
-              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="79.6328125" x="85.84656665688908" y="11.015625">Categorizar*<y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n0::n23">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
               <y:Geometry height="40.0" width="208.10283038701618" x="1556.5444089085408" y="1407.9320871317352"/>
@@ -489,7 +472,7 @@ para descarga<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n24">
+        <node id="n0::n23">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
               <y:Geometry height="40.0" width="80.0" x="1620.595824102049" y="1509.4834560624208"/>
@@ -506,7 +489,7 @@ para descarga<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n25">
+        <node id="n0::n24">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
               <y:Geometry height="40.0" width="80.0" x="1305.585766142287" y="1509.4834560624208"/>
@@ -540,7 +523,6 @@ para descarga<y:LabelModel>
           </y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
@@ -560,7 +542,6 @@ para descarga<y:LabelModel>
           </y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
@@ -769,20 +750,7 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e16" source="n0::n15" target="n0::n16">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="416.6543462303823" y="1163.8483081847278"/>
-            <y:Point x="416.6543462303823" y="770.1468813703119"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e17" source="n0::n17" target="n0::n18">
+    <edge id="n0::e16" source="n0::n17" target="n0::n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -795,7 +763,7 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e18" source="n0::n18" target="n0::n16">
+    <edge id="n0::e17" source="n0::n18" target="n0::n16">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -809,17 +777,7 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e19" source="n0::n21" target="n0::n22">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e20" source="n0::n11" target="n0::n23">
+    <edge id="n0::e18" source="n0::n11" target="n0::n22">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -836,7 +794,7 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e21" source="n0::n24" target="n0::n8">
+    <edge id="n0::e19" source="n0::n23" target="n0::n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="4.547473508864641E-13" ty="-15.928170184044347"/>
@@ -853,7 +811,7 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e22" source="n0::n23" target="n0::n24">
+    <edge id="n0::e20" source="n0::n22" target="n0::n23">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -863,7 +821,7 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e23" source="n0::n24" target="n0::n25">
+    <edge id="n0::e21" source="n0::n23" target="n0::n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -880,7 +838,7 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e24" source="n0::n11" target="n0::n25">
+    <edge id="n0::e22" source="n0::n11" target="n0::n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-3.3426821506902797">
@@ -899,7 +857,7 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e25" source="n0::n25" target="n0::n20">
+    <edge id="n0::e23" source="n0::n24" target="n0::n20">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -909,13 +867,12 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e26" source="n0::n20" target="n0::n21">
+    <edge id="n0::e24" source="n0::n20" target="n0::n21">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="743.7232200814833" y="1709.0510590108026"/>
-            <y:Point x="743.7232200814833" y="1400.2198347954559"/>
-            <y:Point x="569.6531205568194" y="1400.2198347954559"/>
+            <y:Point x="1345.585766142287" y="1751.8087043720416"/>
+            <y:Point x="1345.5857661422865" y="1751.8087043720416"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -923,12 +880,23 @@ para descarga<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e27" source="n0::n22" target="n0::n0">
+    <edge id="n0::e25" source="n0::n21" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="569.6531205568194" y="1742.599688249802"/>
-            <y:Point x="569.653120556819" y="1742.599688249802"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e26" source="n0::n15" target="n0::n16">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.19761143234893552">
+            <y:Point x="413.58556369287555" y="1163.8483081847278"/>
+            <y:Point x="413.58556369287555" y="770.3444928026609"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>

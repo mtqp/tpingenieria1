@@ -407,15 +407,14 @@ Validando contenido de reproduccion solo está tratando con videos, en el DA<y:L
           <y:Geometry height="409.9491381978362" width="523.3517201596628" x="43.11106750392446" y="1557.1102335164828"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="311.3125" modelName="custom" textColor="#000000" visible="true" width="524.4296875" x="-0.5389836701685908" y="49.31831909891798">Caso de uso: Validando contenido de reproducción
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="297.34375" modelName="custom" textColor="#000000" visible="true" width="524.4296875" x="-0.5389836701685908" y="56.30269409891798">Caso de uso: Validando contenido de reproducción
 
 Actores: Revisor de contenido digital
-Precondición: Hay contenidos para revisar, y los contenidos debe ser de reproducción
+Precondición: El contenido a validar debe ser de reproducción
 Postcondicion: El Revisor de contenido digital acepta o rechaza el contenido
 
 Caso Normal:
 
-1) El revisor de contenido digital selecciona un contenido no revisado.
 2) Si es un video, reproduce el contenido hasta que encuentra un error de subtitulado
 o un corte
 3) Si encontró un corte, informa al administrador de contenidos para que obtenga una
@@ -424,7 +423,7 @@ nueva versión
 que obtenga una versión corregida de los subtítulos
 5) Repite desde el paso 2, con el contenido corregido
 6) Si aprobó todos los episodios de una misma temporada, o un video completo,
-habilita el contenido. Usa CU Habilitando contenido
+acepta el contenido. 
 7) Si formaba parte de una temporada, repite desde el paso 1, hasta haber 
 revisado todos los episodios.
 

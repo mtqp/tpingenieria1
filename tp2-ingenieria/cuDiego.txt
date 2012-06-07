@@ -1,0 +1,32 @@
+Casos de Uso del administrador de contenido
+
+Aplicando Publicidad a Contenidos
+CN
+1- El admin de contenido ingresa al sistema
+2- Verifica que se haya efectuado el pago por la publicidad
+3a- De estar pago, Seecciona el/los contenidos acordados con el auspiciante  aplica la publicidad
+		3b)De no ser así, repite el paso uno al día siguiente.
+4- fin CU  (asi de corto??)
+
+Aplicando Posicionamiento a contenidos
+1-El admin ingresa al sistema
+2- El admin verifica que este pago el posicionamiento
+3a-De ser así, el admin selecciona los contenidos previament acordados con el proveedor de contenido y le aplica el posicionamiento
+		3b) De no estar pago, repite el paso uno al día siguiente.
+4) fin CU
+
+
+
+Categorizando Contenido
+1)El admin ingresa al sistema
+2)señlecciona un contenido y le asigna las categorías a las que pertenecerá
+3)fin de CU
+
+Aplicando Precio al contenidi
+1)
+2)Seleciona un contenido y le asigna un valor monetario, que puede ser 0 o un valor mayor que cero
+3)Fin CU
+
+ 
+Agrupando contenido en grupos
+1)

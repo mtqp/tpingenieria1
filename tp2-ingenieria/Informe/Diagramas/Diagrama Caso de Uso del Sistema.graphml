@@ -114,7 +114,7 @@ contenidos<y:LabelModel>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="53.599999999999966" width="153.63520998050683" x="326.2495774370156" y="731.3521477719931"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="79.8291015625" x="36.903054209003415" y="9.667187499999955">Solicitando 
 contenido<y:LabelModel>
@@ -170,7 +170,7 @@ contenido<y:LabelModel>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="53.60000000000002" width="164.75" x="-20.069693025778747" y="735.2882869970346"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="136.2724609375" x="14.23876953125" y="9.667187500000068">Recibiendo petición 
 de contenido<y:LabelModel>
@@ -189,7 +189,7 @@ de contenido<y:LabelModel>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="43.60000000000002" width="146.0" x="72.68168379736409" y="841.0033784461284"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="68.4921875" x="38.75390625" y="4.6671874999999545">Enviando
 contenido<y:LabelModel>
@@ -204,139 +204,6 @@ contenido<y:LabelModel>
       </data>
     </node>
     <node id="n10">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="348.52213541666674" width="677.875" x="-1821.8245811358247" y="-56.83919270833337"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="265.9140625" modelName="custom" textColor="#000000" visible="true" width="664.8056640625" x="4.0" y="4.0">Caso de uso: Decidiendo que contenidos se almacenan y que contenidos se solicitan 
-siempre al servidor.
-
-Actores: Administrador de contenidos.
-Precondición: --
-Postcondicion: Los contenidos seleccionados se almacenan tras solicitarse.
-
-Caso Normal:
-
-1) El administrador de contenidos selecciona los contenidos que quiere se almacenen
-tras ser solicitados al servidor.
-2) El administrador de contenidos decide si configurará datos adicionales.
-    2.1) Si lo hace extiende caso de uso "Configurando período y cantidad de descargas"
-
-Fin Caso de uso<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="4.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n11">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="328.2041666666669" width="677.875" x="-1821.8245811358247" y="321.68294270833314"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="318.296875" modelName="custom" textColor="#000000" visible="true" width="615.6748046875" x="4.0" y="4.0">Caso de uso: Configurando período y candidad de descargas.
-
-Actores: Administrador de contenidos.
-Precondición: --
-Postcondicion: Se configuraron el período y la cantidad de descargas.
-
-Caso Normal:
-
-1) El administrador de contenidos selecciona un período en el que se evalúen la 
-cantidad de descargas que puede ser de 1 hora hasta 30 días.
-     Si elije 0, el almacenamiento será instantáneo si alcanza la cantidad mínima
-de descargas.
-
-2) El administrador de contenidos selecciona una cantidad mínima de descargas 
-necesaria para que ese contenido se almacene.
-     Si elije 0, el contenido se almacenará la 1ra vez que se solicite.
-
-Fin Caso de uso<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="4.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n12">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="328.2041666666669" width="718.890625" x="-2586.9027061358247" y="321.68294270833314"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="300.8359375" modelName="custom" textColor="#000000" visible="true" width="716.08984375" x="4.0" y="4.0">Caso de uso: Enviando contenido
-
-Actores: Proveedor de contenidos.
-Precondición: El proveedor de contenidos recibió una petición de contenido.
-Postcondicion: Se recibió el contenido y se almacenó si fue seleccionado para almacenarse y 
-se cumplió la mínima cantidad de descargas por el período de tiempo elegido.
-
-Caso Normal:
-
-1) El Proveedor de contenidos envía el contenido exitosamente.
-2) El sistema aumenta en uno la cantidad de descargas del contenido.
-3) El sistema verifica si el contenido fue seleccionado para almacenarse.
-    3.1) Si se verifica el sistema chequea si es cumplieron la cantidad de descargas por período
-        a) Si se chequea almacena el contenido. 
-4) El sistema envía el contenido al usuario incluye caso de uso "Recibiendo contenido"
-
-Fin Caso de uso<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="4.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n13">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="348.52213541666674" width="718.890625" x="-2586.9027061358247" y="-56.83919270833337"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="335.7578125" modelName="custom" textColor="#000000" visible="true" width="677.67431640625" x="4.0" y="4.0">Caso de uso: Recibiendo petición de contenido.
-
-Actores: Proveedor de contenidos.
-Precondición: El sistema envió una petición de contenido.
-Postcondicion: Se envió el contenido solicitado.
-
-Caso Normal:
-
-1) El proveedor de contenidos recibe una petición.
-2) El proveedor de contenidos encuentra y envía el contenido extiende caso de uso
-"Enviando contenido"
-
-Caso Alternativo:
-
-1) El proveedor de contenidos recibe una petición.
-2) El proveedor de contenidos no encuentra el contenido extiende caso de uso "Enviando
-notificación de fallo"
-
-Fin Caso de uso<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="4.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n14">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNode">
           <y:Geometry height="100.34375" width="200.17499999999995" x="-349.375" y="67.25"/>
@@ -353,70 +220,12 @@ en todos los casos de uso?<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n15">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="282.60416666666674" width="718.890625" x="-2586.9027061358247" y="684.632942708333"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="230.9921875" modelName="custom" textColor="#000000" visible="true" width="666.9736328125" x="4.0" y="4.0">Caso de uso: Enviando notificación de fallo.
-
-Actores: Proveedor de contenidos.
-Precondición: El proveedor de contenidos recibió una petición de contenido.
-Postcondicion: Se recibió la notificación de fallo y se informó al usuario.
-
-Caso Normal:
-
-1) El sistema recibe la notificación de fallo.
-2) El sistema informa al cliente que el contenido no está disponible incluye caso de uso 
-"Recibiendo notificación de fallo".
-
-Fin Caso de uso<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="4.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n16">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="328.2041666666669" width="677.875" x="-1821.8245811358247" y="684.632942708333"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="230.9921875" modelName="custom" textColor="#000000" visible="true" width="551.69775390625" x="4.0" y="4.0">Caso de uso: Solicitando contenido.
-
-Actores: Usuario, Proveedor de contenido.
-Precondición: --
-Postcondicion: Se envía la petición al Proveedor de contenido.
-
-Caso Normal:
-
-1) El usuario envía un pedido.
-2) El sistema recibe el pedido de contenido y se lo envía al Proveedor de
-contenidos inclyue caso de uso "Recibiendo petición de contenido"
-
-Fin Caso de uso<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="4.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n17">
+    <node id="n11">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="39.0" width="154.0" x="561.8993569955713" y="749.8882869970346"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="custom" textColor="#000000" visible="true" width="132.36865234375" x="10.815673828125" y="9.93359375">Eligiendo contenido<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -429,7 +238,7 @@ Fin Caso de uso<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n18">
+    <node id="n12">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -447,7 +256,7 @@ Fin Caso de uso<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n19">
+    <node id="n13">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -466,7 +275,7 @@ online<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n20">
+    <node id="n14">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="113.0" width="287.0" x="1056.9483032303128" y="-92.58836022893962"/>
@@ -490,7 +299,7 @@ de fallas)<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n21">
+    <node id="n15">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="113.0" width="287.0" x="1056.9483032303128" y="68.75"/>
@@ -511,7 +320,7 @@ de fallas)<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n22">
+    <node id="n16">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -529,7 +338,7 @@ de fallas)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n23">
+    <node id="n17">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -548,7 +357,7 @@ compras<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n24">
+    <node id="n18">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -567,7 +376,7 @@ recomendado<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n25">
+    <node id="n19">
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
@@ -589,7 +398,7 @@ registrado<y:LabelModel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n26">
+    <node id="n20">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="113.0" width="287.0" x="1056.9483032303128" y="231.06744207748534"/>
@@ -609,7 +418,7 @@ registrado<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n27">
+    <node id="n21">
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
@@ -631,7 +440,7 @@ de Contenidos<y:LabelModel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n28">
+    <node id="n22">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -650,14 +459,14 @@ contenido<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n29">
+    <node id="n23">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="43.600000000000136" width="164.71824842105298" x="63.3225595868376" y="1001.956815907743"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="118.41015625" x="23.15404608552649" y="4.667187500000182">Categorizando el 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="98.53564453125" x="33.09130194490149" y="4.667187500000182">Categorizando
 contenido<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -669,14 +478,14 @@ contenido<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n30">
+    <node id="n24">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="75.00000000000023" width="164.71824842105298" x="-278.5626852956126" y="919.1333262832766"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="55.827683428165756" width="164.71824842105298" x="-278.5626852956126" y="919.1333262832766"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="138.84326171875" x="12.937493351151488" y="20.367187500000114">Aplicando Publicidad
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="138.84326171875" x="12.937493351151488" y="10.781029214082878">Aplicando Publicidad
 a Contenidos<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -688,14 +497,14 @@ a Contenidos<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n31">
+    <node id="n25">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="75.56623994025597" width="181.00000000000006" x="-100.1261884535067" y="926.3905759674869"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="55.827683428165756" width="202.35334931408457" x="-100.1261884535067" y="926.3905759674869"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="178.71923828125" x="1.1403808593750284" y="20.650307470127927">Aplicando Posicionamiento
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="178.71923828125" x="11.817055516417284" y="10.781029214082878">Aplicando Posicionamiento
 a Contenidos<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -707,7 +516,7 @@ a Contenidos<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n32">
+    <node id="n26">
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
@@ -729,12 +538,12 @@ Facturación<y:LabelModel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n33">
+    <node id="n27">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="75.00000000000023" width="164.71824842105298" x="320.70805821674253" y="527.8313752299277"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="custom" textColor="#000000" visible="true" width="109.36474609375" x="27.67675116365149" y="27.933593750000114">Cobrando Venta<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -747,7 +556,7 @@ Facturación<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n34">
+    <node id="n28">
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
@@ -768,12 +577,12 @@ Facturación<y:LabelModel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n35">
+    <node id="n29">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="75.00000000000023" width="164.71824842105298" x="-5.889383628397468" y="515.3313752299279"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="150.68798828125" x="7.015130069901488" y="20.367187500000114">Ingresando datos para
 el pago de publicidad<y:LabelModel>
@@ -787,12 +596,12 @@ el pago de publicidad<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n36">
+    <node id="n30">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="55.82768342816564" width="211.98352420359015" x="-43.68645512757382" y="627.345512119775"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="175.7548828125" x="18.114320695545075" y="10.781029214082878">Ingresando datos para el
  pago del posicionamiento<y:LabelModel>
@@ -806,7 +615,7 @@ el pago de publicidad<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n37">
+    <node id="n31">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -825,7 +634,7 @@ contenido<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n38">
+    <node id="n32">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -844,7 +653,7 @@ contenido<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n39">
+    <node id="n33">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -863,7 +672,7 @@ en grupos<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n40">
+    <node id="n34">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -883,7 +692,7 @@ del contenido<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n41">
+    <node id="n35">
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
@@ -905,12 +714,12 @@ digital<y:LabelModel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n42">
+    <node id="n36">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="55.827683428165756" width="195.0" x="-232.47799205846684" y="1553.5732662660453"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="148.27587890625" x="23.362060546875" y="10.781029214082992">Validando contenidos 
 de ejecución<y:LabelModel>
@@ -924,12 +733,12 @@ de ejecución<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n43">
+    <node id="n37">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="55.827683428165756" width="195.0" x="-238.2952567701637" y="1467.7455828378795"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="148.27587890625" x="23.362060546875" y="10.781029214082764">Validando contenidos 
 de reproducción<y:LabelModel>
@@ -943,7 +752,7 @@ de reproducción<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n44">
+    <node id="n38">
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
@@ -964,12 +773,12 @@ de reproducción<y:LabelModel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n45">
+    <node id="n39">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="55.827683428165756" width="195.0" x="-232.47799205846684" y="1662.838968831141"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="175.3359375" x="9.83203125" y="10.781029214082764">Validar especificación
 de contenido de ejecución<y:LabelModel>
@@ -983,10 +792,10 @@ de contenido de ejecución<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n46">
+    <node id="n40">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNode">
-          <y:Geometry height="30.0" width="705.0" x="-22.860426490939062" y="213.25"/>
+          <y:Geometry height="30.0" width="705.0" x="-27.75" y="206.9028414827018"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="612.6484375" x="26.6787109375" y="6.015625">El contenido se ingresa al sistema y hasta que no se valide por el revisor de contenido no se publica.<y:LabelModel>
@@ -999,10 +808,10 @@ de contenido de ejecución<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n47">
+    <node id="n41">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNode">
-          <y:Geometry height="30.0" width="705.0" x="-16.142191235584903" y="260.5556829654036"/>
+          <y:Geometry height="30.0" width="705.0" x="-22.86042649093912" y="260.5556829654036"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="388.45703125" x="26.6787109375" y="6.015625">El parámetro para almacenar el contenido debe ser al menos 1.<y:LabelModel>
@@ -1015,12 +824,12 @@ de contenido de ejecución<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n48">
+    <node id="n42">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="55.827683428165756" width="195.0" x="77.52922330752676" y="1499.3277263500304"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="custom" textColor="#000000" visible="true" width="146.9619140625" x="24.01904296875" y="18.34743546408299">Habilitando contenido<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -1033,7 +842,7 @@ de contenido de ejecución<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n49">
+    <node id="n43">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -1070,7 +879,7 @@ Fin Caso de uso<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n50">
+    <node id="n44">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -1088,7 +897,7 @@ Fin Caso de uso<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n51">
+    <node id="n45">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -1106,7 +915,7 @@ Fin Caso de uso<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n52">
+    <node id="n46">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -1124,7 +933,7 @@ Fin Caso de uso<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n53">
+    <node id="n47">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -1142,7 +951,7 @@ Fin Caso de uso<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n54">
+    <node id="n48">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -1161,7 +970,7 @@ préstamo de contenido<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n55">
+    <node id="n49">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -1180,7 +989,7 @@ contenido<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n56">
+    <node id="n50">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -1198,14 +1007,14 @@ contenido<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n57">
+    <node id="n51">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="55.827683428165756" width="195.00000000000006" x="626.6608405721986" y="1371.7000429218647"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="164.51318359375" x="15.243408203125" y="10.781029214082764">Recibiendo respuesta al 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="164.51318359375" x="15.243408203125" y="10.781029214082992">Recibiendo respuesta al 
 pedido de prestamo<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1214,6 +1023,24 @@ pedido de prestamo<y:LabelModel>
             </y:ModelParameter>
           </y:NodeLabel>
           <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n52">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="236.50019155480584" x="-353.2255184696785" y="408.9349727859125"/>
+          <y:Fill color="#99CC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="192.75390625" x="21.87314265240292" y="6.015625">Verde: Casos de Uso Revisados<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -1268,7 +1095,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n7" target="n17">
+    <edge id="e4" source="n7" target="n11">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -1279,7 +1106,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e5" source="n19" target="n5">
+    <edge id="e5" source="n13" target="n5">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="29.688503951643213" ty="-7.427932461241312">
@@ -1298,7 +1125,7 @@ pedido de prestamo<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e6" source="n18" target="n5">
+    <edge id="e6" source="n12" target="n5">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="-2.8033433234804193" ty="-11.307485835031002">
@@ -1317,7 +1144,7 @@ pedido de prestamo<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e7" source="n19" target="n7">
+    <edge id="e7" source="n13" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="30.621280131795515" sy="-15.523387106126279" tx="0.0" ty="0.0"/>
@@ -1327,7 +1154,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e8" source="n18" target="n7">
+    <edge id="e8" source="n12" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="35.65145486606224" sy="7.318880640826023" tx="0.0" ty="0.0"/>
@@ -1337,7 +1164,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e9" source="n5" target="n17">
+    <edge id="e9" source="n5" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1354,7 +1181,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n24" target="n23">
+    <edge id="e10" source="n18" target="n17">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1373,7 +1200,7 @@ pedido de prestamo<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e11" source="n25" target="n25">
+    <edge id="e11" source="n19" target="n19">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1385,7 +1212,7 @@ pedido de prestamo<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e12" source="n25" target="n22">
+    <edge id="e12" source="n19" target="n16">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1395,7 +1222,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n23" target="n7">
+    <edge id="e13" source="n17" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="16.61481776556821" sy="10.533077633692708" tx="0.0" ty="0.0"/>
@@ -1405,7 +1232,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e14" source="n7" target="n24">
+    <edge id="e14" source="n7" target="n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1415,7 +1242,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n27" target="n28">
+    <edge id="e15" source="n21" target="n22">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -1426,7 +1253,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n27" target="n29">
+    <edge id="e16" source="n21" target="n23">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -1437,7 +1264,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n27" target="n30">
+    <edge id="e17" source="n21" target="n24">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -1448,7 +1275,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n27" target="n31">
+    <edge id="e18" source="n21" target="n25">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -1459,7 +1286,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n34" target="n35">
+    <edge id="e19" source="n28" target="n29">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -1470,7 +1297,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e20" source="n33" target="n32">
+    <edge id="e20" source="n27" target="n26">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -1481,7 +1308,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n33" target="n35">
+    <edge id="e21" source="n27" target="n29">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -1493,7 +1320,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n33" target="n36">
+    <edge id="e22" source="n27" target="n30">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -1505,7 +1332,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e23" source="n27" target="n37">
+    <edge id="e23" source="n21" target="n31">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1515,7 +1342,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e24" source="n27" target="n38">
+    <edge id="e24" source="n21" target="n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1525,7 +1352,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e25" source="n33" target="n5">
+    <edge id="e25" source="n27" target="n5">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1536,7 +1363,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n27" target="n40">
+    <edge id="e26" source="n21" target="n34">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-59.813716957053" ty="11.558998391251157"/>
@@ -1546,7 +1373,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n36" target="n1">
+    <edge id="e27" source="n30" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1556,7 +1383,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e28" source="n41" target="n42">
+    <edge id="e28" source="n35" target="n36">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1566,7 +1393,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n41" target="n43">
+    <edge id="e29" source="n35" target="n37">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1576,7 +1403,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n44" target="n45">
+    <edge id="e30" source="n38" target="n39">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1586,7 +1413,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n27" target="n48">
+    <edge id="e31" source="n21" target="n42">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-10.319323604267652" ty="-12.831762990027528"/>
@@ -1596,7 +1423,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e32" source="n42" target="n45">
+    <edge id="e32" source="n36" target="n39">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1613,7 +1440,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n44" target="n42">
+    <edge id="e33" source="n38" target="n36">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1623,7 +1450,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n50" target="n19">
+    <edge id="e34" source="n44" target="n13">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1640,7 +1467,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e35" source="n56" target="n52">
+    <edge id="e35" source="n50" target="n46">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1657,7 +1484,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e36" source="n54" target="n52">
+    <edge id="e36" source="n48" target="n46">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1677,7 +1504,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e37" source="n55" target="n52">
+    <edge id="e37" source="n49" target="n46">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1697,7 +1524,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e38" source="n51" target="n7">
+    <edge id="e38" source="n45" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1707,7 +1534,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n56" target="n7">
+    <edge id="e39" source="n50" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1717,7 +1544,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e40" source="n52" target="n7">
+    <edge id="e40" source="n46" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1727,7 +1554,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e41" source="n54" target="n7">
+    <edge id="e41" source="n48" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1737,7 +1564,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e42" source="n55" target="n7">
+    <edge id="e42" source="n49" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1749,7 +1576,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e43" source="n53" target="n7">
+    <edge id="e43" source="n47" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1759,7 +1586,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e44" source="n53" target="n7">
+    <edge id="e44" source="n47" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1769,7 +1596,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e45" source="n50" target="n7">
+    <edge id="e45" source="n44" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1779,7 +1606,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e46" source="n48" target="n43">
+    <edge id="e46" source="n42" target="n37">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1796,7 +1623,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e47" source="n48" target="n42">
+    <edge id="e47" source="n42" target="n36">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1813,7 +1640,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e48" source="n27" target="n39">
+    <edge id="e48" source="n21" target="n33">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1823,8 +1650,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e49" source="n57" target="n7">
-      <data key="d9"/>
+    <edge id="e49" source="n51" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1834,7 +1660,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e50" source="n57" target="n55">
+    <edge id="e50" source="n51" target="n49">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1851,7 +1677,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e51" source="n57" target="n54">
+    <edge id="e51" source="n51" target="n48">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1868,7 +1694,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e52" source="n54" target="n53">
+    <edge id="e52" source="n48" target="n47">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1885,7 +1711,7 @@ pedido de prestamo<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e53" source="n55" target="n53">
+    <edge id="e53" source="n49" target="n47">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

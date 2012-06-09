@@ -828,7 +828,7 @@ de contenido de ejecución<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="195.0" x="23.889033445313885" y="1459.9660385671493"/>
+          <y:Geometry height="55.827683428165756" width="195.0" x="11.162735791869181" y="1388.2359972477338"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="custom" textColor="#000000" visible="true" width="146.9619140625" x="24.01904296875" y="18.34743546408299">Habilitando contenido<y:LabelModel>
@@ -977,7 +977,7 @@ préstamo de contenido<y:LabelModel>
           <y:Geometry height="43.59999999999991" width="181.00000000000006" x="348.3793569383588" y="1610.4000343797718"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="149.79931640625" x="15.600341796875" y="4.6671874999999545">Rechazando préstamo
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="149.79931640625" x="15.600341796875057" y="4.6671874999999545">Rechazando préstamo
 contenido<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1014,7 +1014,7 @@ contenido<y:LabelModel>
           <y:Geometry height="55.827683428165756" width="195.00000000000006" x="377.6974724930868" y="1300.4245748795622"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="164.51318359375" x="15.243408203125" y="10.781029214082764">Recibiendo respuesta al 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.265625" modelName="custom" textColor="#000000" visible="true" width="164.51318359375" x="15.243408203125" y="10.781029214082992">Recibiendo respuesta al 
 pedido de prestamo<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1027,6 +1027,7 @@ pedido de prestamo<y:LabelModel>
       </data>
     </node>
     <node id="n52">
+      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="236.50019155480584" x="-353.2255184696785" y="408.9349727859125"/>
@@ -1616,7 +1617,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="92.265625" x="-81.08428682947572" y="-23.793556071121202">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="92.265625" x="-124.27313786326012" y="-0.703137478761164">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1633,7 +1634,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="92.265625" x="-57.44123459285933" y="11.207903646829436">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="92.265625" x="-43.556986136201374" y="7.502807128427321">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1735,6 +1736,7 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e51" source="n55" target="n7">
+      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="4.390837426991197" ty="79.1357490713915"/>
@@ -1745,6 +1747,7 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e52" source="n49" target="n55">
+      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1755,6 +1758,7 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e53" source="n55" target="n53">
+      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1765,6 +1769,7 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e54" source="n54" target="n55">
+      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

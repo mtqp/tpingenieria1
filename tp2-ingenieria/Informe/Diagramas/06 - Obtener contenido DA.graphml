@@ -17,26 +17,25 @@
     <node id="n0" yfiles.foldertype="group">
       <data key="d6">
         <y:TableNode configuration="YED_TABLE_NODE">
-          <y:Geometry height="1586.0457559585234" width="1609.1967122185895" x="283.3930139175668" y="672.3651301992418"/>
+          <y:Geometry height="1322.8815529100536" width="999.3375031001988" x="1318.2922428127063" y="132.91598054535567"/>
           <y:Fill color="#ECF5FF" color2="#0042F440" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="420.25" x="594.4733561092947" y="4.0">Cargar el contenido de reproducción y solicitar revisión
-</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="177.337890625" x="151.93395846252542" y="33.0">Administrador de contenidos<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="195.24267578125" x="402.0474136594744" y="4.0">Lograr obtener contenido</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="53.41796875" x="116.79432508680566" y="33.0">Usuario <y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:ColumnNodeLabelModelParameter id="column_0" inside="true" verticalPosition="0.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="153.68359375" x="582.0161100192687" y="33.0">Proveedor de contenidos<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="153.68359375" x="756.1192791005292" y="33.0">Proveedor de contenidos<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:ColumnNodeLabelModelParameter id="column_1" inside="true" verticalPosition="0.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="171.953125" x="1136.876796728538" y="33.0">Revisor de contenido digital<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="451.97825107473545" y="33.0">Sistema<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -66,24 +65,24 @@
           </y:StyleProperties>
           <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
           <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-          <y:BorderInsets bottom="27" bottomF="27.087461508224806" left="139" leftF="138.614740326816" right="116" rightF="116.47432628455681" top="56" topF="55.70722163547509"/>
+          <y:BorderInsets bottom="29" bottomF="29.164327965762595" left="54" leftF="53.77501601769154" right="73" rightF="72.70772281809468" top="35" topF="34.51324511634519"/>
           <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
             <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
             <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
             <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
             <y:Columns>
-              <y:Column id="column_0" minimumWidth="80.0" width="481.20580755005085">
+              <y:Column id="column_0" minimumWidth="80.0" width="287.0066189236111">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
-              <y:Column id="column_1" minimumWidth="80.0" width="355.3041986884357">
+              <y:Column id="column_2" minimumWidth="80.0" width="382.2772486772486">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
-              <y:Column id="column_2" minimumWidth="80.0" width="772.6867059801029">
+              <y:Column id="column_1" minimumWidth="80.0" width="327.35441674933907">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
             </y:Columns>
             <y:Rows>
-              <y:Row height="1532.0457559585234" id="row_0" minimumHeight="50.0">
+              <y:Row height="1268.8815529100536" id="row_0" minimumHeight="50.0">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
               </y:Row>
             </y:Rows>
@@ -93,11 +92,11 @@
       <graph edgedefault="directed" id="n0:">
         <node id="n0::n0">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="1284.2049860592995" y="2191.3234246495404"/>
-              <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="4.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
+            <y:GenericNode configuration="com.yworks.flowchart.decision">
+              <y:Geometry height="40.0" width="51.0" x="2118.6719846351807" y="913.650176394416"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.5" y="18.0">
                 <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -111,10 +110,10 @@
         <node id="n0::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="25.664595564597676" width="51.32919112919535" x="1298.5403904947023" y="2198.491126867242"/>
-              <y:Fill color="#000000" color2="#000000" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.664595564597676" y="10.832297782299065">
+              <y:Geometry height="40.0" width="80.0" x="1415.5389385178978" y="1386.6332054896468"/>
+              <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="4.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
                 <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -128,10 +127,10 @@
         <node id="n0::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="508.27234047383195" y="782.0723518347169"/>
+              <y:Geometry height="25.664595564597676" width="51.32919112919535" x="1429.8743429533001" y="1393.8009077073477"/>
               <y:Fill color="#000000" color2="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.664595564597676" y="10.832297782298838">
                 <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -145,11 +144,10 @@
         <node id="n0::n3">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="252.5291724588983" x="422.0077542443828" y="967.7589285384466"/>
+              <y:Geometry height="30.00000000000003" width="165.5733911350278" x="1372.7522429503838" y="1121.083147619276"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="182.248046875" x="35.14056279194915" y="4.03125">Ingresar contenido al sistema
-para ser revisado<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="108.8828125" x="28.345289317514016" y="6.015625">Recibir contenido<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -162,11 +160,10 @@ para ser revisado<y:LabelModel>
         <node id="n0::n4">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.00000000000001" width="251.32594581377816" x="1513.5520711121724" y="1845.5638145220767"/>
+              <y:Geometry height="30.00000000000003" width="165.5733911350278" x="1372.752242950384" y="1178.832227479504"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="218.798828125" x="16.26355884438908" y="4.03125">Seleccionar siguiente capítulo/track
-pendiente de revisión<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="166.943359375" x="-0.6849841199862112" y="6.015625">Recibir notificación de fallo<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -178,11 +175,12 @@ pendiente de revisión<y:LabelModel>
         </node>
         <node id="n0::n5">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="273.80071166507605" x="1502.3146881865234" y="1148.2602555479111"/>
-              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+            <y:GenericNode configuration="com.yworks.flowchart.start2">
+              <y:Geometry height="40.0" width="80.0" x="1431.464864443824" y="221.42922566170085"/>
+              <y:Fill color="#000000" color2="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="147.6953125" x="63.052699582538025" y="11.015625">Ver contenido completo<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
+                <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -194,12 +192,11 @@ pendiente de revisión<y:LabelModel>
         </node>
         <node id="n0::n6">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="1599.215044019062" y="1217.4763816221391"/>
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="30.00000000000003" width="165.5733911350278" x="1388.6781688763099" y="291.42922566170085"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
-                <y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="115.896484375" x="24.838453380014016" y="6.015625">Solicitar contenido<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -211,12 +208,11 @@ pendiente de revisión<y:LabelModel>
         </node>
         <node id="n0::n7">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="1599.215044019062" y="1528.468836816517"/>
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="30.00000000000003" width="165.5733911350278" x="1372.752242950384" y="1238.8322274795044"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
-                <y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="155.224609375" x="5.174390880013789" y="6.015625">Decidir si repetir proceso<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -228,12 +224,12 @@ pendiente de revisión<y:LabelModel>
         </node>
         <node id="n0::n8">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="267.60601680279774" x="1190.401977657901" y="1281.3738591109573"/>
+            <y:GenericNode configuration="com.yworks.flowchart.decision">
+              <y:Geometry height="35.0" width="51.0" x="1430.0389385178978" y="1310.2327164845756"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="241.333984375" x="13.136016213898756" y="4.03125">Loguear en el sistema que el contenido
-posee cortes<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.5" y="15.5">
+                <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -246,11 +242,10 @@ posee cortes<y:LabelModel>
         <node id="n0::n9">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="267.60601680279774" x="1190.401977657901" y="1467.044663594182"/>
+              <y:Geometry height="30.00000000000003" width="190.59984616148267" x="1680.4612557438697" y="330.48641158170085"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="237.642578125" x="14.981719338898756" y="4.03125">Informar de problemas en subtítulos al
-administrador de contenidos<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="172.421875" x="9.088985580741337" y="6.015625">Recibir pedido de contenido<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -263,11 +258,11 @@ administrador de contenidos<y:LabelModel>
         <node id="n0::n10">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="252.5291724588983" x="422.00775424438325" y="1284.381446862279"/>
+              <y:Geometry height="45.92592592592595" width="190.59984616148267" x="1680.4612557438693" y="605.8194885637281"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="203.611328125" x="24.45892216694915" y="4.03125">Informar de cortes* en contenido
-al proveeedor de contenidos<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="181.298828125" x="4.650509018241337" y="6.9942129629629335">Verificar si el contenido ya se
+encuentra almacenado<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -280,11 +275,11 @@ al proveeedor de contenidos<y:LabelModel>
         <node id="n0::n11">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="232.91098064429275" x="830.0679648815997" y="1414.4524384544388"/>
+              <y:Geometry height="45.92592592592595" width="190.5998461614828" x="1680.4612557438693" y="529.8935626378021"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="197.623046875" x="17.643966884646375" y="4.03125">Suministrar contenido corregido
-(sin cortes)<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="178.75" x="5.924923080741337" y="6.9942129629629335">Aumentar el log de cantidad 
+de pedidos de ese contenido<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -297,10 +292,10 @@ al proveeedor de contenidos<y:LabelModel>
         <node id="n0::n12">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="508.27234047383195" y="909.3257168415636"/>
-              <y:Fill color="#E8EEF7" color2="#FFFFFF" transparent="false"/>
+              <y:Geometry height="35.0" width="51.0" x="1750.2611788246106" y="681.7454144896541"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.5" y="15.5">
                 <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -314,11 +309,10 @@ al proveeedor de contenidos<y:LabelModel>
         <node id="n0::n13">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="252.5291724588983" x="422.00775424438325" y="1467.044663594182"/>
+              <y:Geometry height="30.00000000000003" width="165.5733911350278" x="1615.2115972133927" y="1121.083147619276"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="175.94921875" x="38.28997685444915" y="4.03125">Informar de mal subtitulado 
-al proveeedor de contenidos<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="105.255859375" x="30.15876588001379" y="6.015625">Enviar contenido<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -331,10 +325,10 @@ al proveeedor de contenidos<y:LabelModel>
         <node id="n0::n14">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="232.91098064429275" x="830.0679648815992" y="1543.804923038028"/>
+              <y:Geometry height="30.00000000000003" width="188.57331421576964" x="1763.1879415281003" y="772.8141975584371"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="203.095703125" x="14.907638759646375" y="11.015625">Suministrar subtítulos corregidos<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="174.443359375" x="7.064977420384821" y="6.015625">Pedir contenido a proovedor<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -346,12 +340,11 @@ al proveeedor de contenidos<y:LabelModel>
         </node>
         <node id="n0::n15">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="1599.2150440190615" y="1068.2602555479111"/>
-              <y:Fill color="#E8EEF7" color2="#FFFFFF" transparent="false"/>
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="30.00000000000003" width="190.59984616148267" x="2048.8720615544394" y="772.8141975584371"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
-                <y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="179.4296875" x="5.585079330741337" y="6.015625">Recibir petición de contenido<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -364,10 +357,10 @@ al proveeedor de contenidos<y:LabelModel>
         <node id="n0::n16">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.00000000000001" width="251.32594581377816" x="1198.5420131524108" y="1923.5800485397733"/>
+              <y:Geometry height="30.00000000000003" width="201.5000769192593" x="2043.421946175551" y="838.650176394416"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="114.14453125" x="68.59070728188908" y="11.015625">Aceptar contenido<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="184.3984375" x="8.55081970962965" y="6.015625">Se encontró contenido pedido<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -380,10 +373,10 @@ al proveeedor de contenidos<y:LabelModel>
         <node id="n0::n17">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.00000000000001" width="251.32594581377816" x="438.0308098329083" y="2039.2466720136165"/>
+              <y:Geometry height="30.00000000000003" width="179.0" x="2054.6719846351807" y="997.814197558437"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="118.333984375" x="66.49598071938908" y="11.015625000000227">Habilitar contenido<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="167.20703125" x="5.896484375" y="6.015625">Enviar contenido a sistema<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -396,10 +389,11 @@ al proveeedor de contenidos<y:LabelModel>
         <node id="n0::n18">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="208.10283038701618" x="1535.1636288255538" y="1642.4610766607057"/>
+              <y:Geometry height="40.00000000000003" width="176.08783068783055" x="2056.128069291265" y="1085.105812140887"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="138.291015625" x="34.90590738100809" y="11.015625">Aprobar capítulo/track<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="167.130859375" x="4.47848565641516" y="4.03125">Enviar notificación de fallo 
+a sistema<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -411,12 +405,12 @@ al proveeedor de contenidos<y:LabelModel>
         </node>
         <node id="n0::n19">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="1599.215044019062" y="1744.0124455913913"/>
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="40.00000000000003" width="165.5733911350278" x="1615.2115972133927" y="1173.832227479504"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
-                <y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="166.943359375" x="-0.6849841199862112" y="4.03125">Recibir notificación de fallo
+de proovedor<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -428,12 +422,11 @@ al proveeedor de contenidos<y:LabelModel>
         </node>
         <node id="n0::n20">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="1284.2049860593" y="1744.0124455913913"/>
-              <y:Fill color="#E8EEF7" color2="#FFFFFF" transparent="false"/>
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="30.00000000000003" width="201.5000769192593" x="1761.5112172842398" y="838.650176394416"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
-                <y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="196.9375" x="2.28128845962965" y="6.015625">Recibir contenido de  proovedor<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -445,12 +438,13 @@ al proveeedor de contenidos<y:LabelModel>
         </node>
         <node id="n0::n21">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="1599.215044019062" y="1351.3738591109573"/>
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="58.32804232804219" width="213.3511689128054" x="1755.5856712874668" y="904.486155230395"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
-                <y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="211.708984375" x="0.8210922689027029" y="6.210896164021051">Verificar si el contenido debe 
+almacenarse (cantidad de pedidos
+en log mayor a cota establecida)<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -463,10 +457,10 @@ al proveeedor de contenidos<y:LabelModel>
         <node id="n0::n22">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="1284.2049860592997" y="1351.3738591109573"/>
+              <y:Geometry height="40.0" width="51.0" x="1836.76125574387" y="987.814197558437"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.5" y="18.0">
                 <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -479,12 +473,12 @@ al proveeedor de contenidos<y:LabelModel>
         </node>
         <node id="n0::n23">
           <data key="d6">
-            <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="267.60601680279774" x="1190.401977657901" y="1211.3738591109573"/>
-              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+            <y:GenericNode configuration="com.yworks.flowchart.decision">
+              <y:Geometry height="30.00000000000003" width="51.0" x="1672.4982927809062" y="1053.9260543759049"/>
+              <y:Fill color="#E8EEF7" color2="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="287.96875" x="-10.181366598601244" y="4.03125">Loguear en el sistema que el contenido
-no se presenta en la máxima definición posible<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.5" y="13.0">
+                <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -497,11 +491,10 @@ no se presenta en la máxima definición posible<y:LabelModel>
         <node id="n0::n24">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="252.5291724588983" x="422.00775424438325" y="1211.3738591109573"/>
+              <y:Geometry height="30.00000000000003" width="219.22460125260977" x="1753.4982927809062" y="1053.9260543759049"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="251.599609375" x="0.4647815419491508" y="4.03125">Informar de baja resolución en contenido
-al proveeedor de contenidos<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="201.390625" x="8.916988126304886" y="6.015625">Almacenar contenido en sistema<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -513,11 +506,28 @@ al proveeedor de contenidos<y:LabelModel>
         </node>
         <node id="n0::n25">
           <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="45.92592592592595" width="190.5998461614828" x="1680.4612557438697" y="390.48641158170085"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="3.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="140.95703125" x="24.821407455741337" y="6.99421296296299">DA: Realizar operación
+ económica<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n26">
+          <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="906.523455203746" y="1351.3738591109573"/>
+              <y:Geometry height="35.0" width="51.0" x="1750.2611788246106" y="459.0046737489132"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.5" y="15.5">
                 <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -530,106 +540,27 @@ al proveeedor de contenidos<y:LabelModel>
         </node>
       </graph>
     </node>
-    <node id="n1">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="40.0" width="1714.3287610817174" x="283.3930139175669" y="2300.4440740294026"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="627.49609375" x="543.4163336658588" y="11.015625">Categorizar se refiere a hacer que el contenido forme parte de un grupo o no, y si será pago ó gratuito.<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:StyleProperties>
-            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-          </y:StyleProperties>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n2">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="40.0" width="1714.3287610817179" x="283.3930139175667" y="2340.4440740294026"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="613.873046875" x="550.227857103359" y="11.015625">Hemos pintado algunos rombos de blanco para indicar que serán usados para unificar distintos flujos<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:StyleProperties>
-            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-          </y:StyleProperties>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n3">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="40.0" width="1714.3287610817179" x="283.39301391756686" y="2380.4440740294026"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="1012.890625" x="350.7190680408589" y="11.015625">* Decimos que hay cortes en un libro (caso no trivial), cuando falta alguna página o hay errores en la decodificación del formato en que se encuentra (ej: PDF, DJVU,...)<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:StyleProperties>
-            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-          </y:StyleProperties>
-        </y:GenericNode>
-      </data>
-    </node>
-    <edge id="n0::e0" source="n0::n5" target="n0::n6">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="-4.547473508864641E-13" ty="18.113603563046127"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e1" source="n0::n6" target="n0::n8">
+    <edge id="n0::e0" source="n0::n8" target="n0::n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1639.215044019062" y="1301.3738591109573"/>
+            <y:Point x="1333.3884942035659" y="1327.7327164845756"/>
+            <y:Point x="1333.3884942035659" y="306.42922566170085"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.087890625" x="-104.87554130699482" y="25.024406829477584">hay cortes<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="14.951171875" x="-22.252671428000212" y="-23.332127691634014">Si<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="0.9051163439796849" distanceToCenter="false" position="right" ratio="0.5000000000000012" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="14.34780316058459" distanceToCenter="true" position="right" ratio="0.027314311536826258" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e2" source="n0::n8" target="n0::n10">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-3.007587751322035"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e3" source="n0::n12" target="n0::n3">
+    <edge id="n0::e1" source="n0::n7" target="n0::n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -639,7 +570,7 @@ al proveeedor de contenidos<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e4" source="n0::n9" target="n0::n13">
+    <edge id="n0::e2" source="n0::n4" target="n0::n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -649,22 +580,13 @@ al proveeedor de contenidos<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e5" source="n0::n15" target="n0::n5">
+    <edge id="n0::e3" source="n0::n3" target="n0::n1">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e6" source="n0::n4" target="n0::n15">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1862.9778017301398" y="1865.5638145220767"/>
-            <y:Point x="1862.9778017301398" y="1088.2602555479111"/>
+          <y:Path sx="0.0" sy="0.0" tx="-17.067937968646675" ty="-2.2737367544323206E-13">
+            <y:Point x="1352.2817233943103" y="1136.083147619276"/>
+            <y:Point x="1352.2817233943103" y="1219.0794725864505"/>
+            <y:Point x="1352.2817233943103" y="1406.6332054896466"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -672,133 +594,28 @@ al proveeedor de contenidos<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e7" source="n0::n13" target="n0::n14">
+    <edge id="n0::e4" source="n0::n8" target="n0::n1">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="548.2723404738324" y="1527.044663594182"/>
-            <y:Point x="946.5234552037456" y="1527.044663594182"/>
-          </y:Path>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="8.227616567460359"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e8" source="n0::n14" target="n0::n12">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="360.46775591551295" y="1563.804923038028"/>
-            <y:Point x="360.46775591551295" y="893.4109349324962"/>
-            <y:Point x="548.272340473832" y="893.4109349324962"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e9" source="n0::n7" target="n0::n18">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="124.357421875" x="-0.6378817409429303" y="4.990077050892069">forma parte de una 
-temporada/álbum<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.318359375" x="-26.507641498746807" y="5.61103457215836">No<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="61.54087306812016" distanceToCenter="true" position="left" ratio="0.0" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="16.34845989945711" distanceToCenter="true" position="right" ratio="0.04438841427535241" segment="-1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e10" source="n0::n19" target="n0::n4">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="4.547473508864641E-13" ty="-15.928170184044347"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="174.642578125" x="-7.675486786050897" y="6.7650096588038195">quedan más capítulos/track 
-por ver<y:LabelModel>
-              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="79.6458461480122" distanceToCenter="true" position="left" ratio="0.0913199885495507" segment="-1"/>
-            </y:ModelParameter>
-          </y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e11" source="n0::n18" target="n0::n19">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e12" source="n0::n19" target="n0::n20">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="156.7890625" x="-195.2094897389611" y="5.850063455805184">todos los capítulos/tracks
-fueron aprobados<y:LabelModel>
-              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="21.81881903628893" distanceToCenter="true" position="left" ratio="0.49032431202213356" segment="-1"/>
-            </y:ModelParameter>
-          </y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e13" source="n0::n7" target="n0::n20">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-3.3426821506902797">
-            <y:Point x="1324.2049860593" y="1548.468836816517"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="218.482421875" x="-481.52093750160657" y="31.042949310556196">consiste en un único video/canción 
-o es un libro<y:LabelModel>
-              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="97.29965402965627" distanceToCenter="true" position="right" ratio="0.26929269709435405" segment="-1"/>
-            </y:ModelParameter>
-          </y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e14" source="n0::n20" target="n0::n16">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e15" source="n0::n16" target="n0::n17">
+    <edge id="n0::e5" source="n0::n6" target="n0::n9">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1324.2049860593" y="1986.3376939010116"/>
-            <y:Point x="563.6937827397974" y="1986.3376939010116"/>
+            <y:Point x="1775.7611788246109" y="306.42922566170085"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -806,50 +623,187 @@ o es un libro<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e16" source="n0::n17" target="n0::n0">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="563.6937827397974" y="2135.2850483315788"/>
-            <y:Point x="1324.2049860592995" y="2135.2850483315788"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e17" source="n0::n11" target="n0::n12">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.19761143234893552">
-            <y:Point x="383.3214403781558" y="1434.4524384544388"/>
-            <y:Point x="389.02099339563546" y="929.5233282739125"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e18" source="n0::n21" target="n0::n7">
+    <edge id="n0::e6" source="n0::n11" target="n0::n10">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="112.3984375" x="-1.1699941415631656" y="14.7281376713388">caso canción/libro<y:LabelModel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e7" source="n0::n10" target="n0::n12">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e8" source="n0::n12" target="n0::n23">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="1697.9982927809062" y="699.2454144896541"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="14.951171875" x="-26.19630585856521" y="-22.520141871002693">Si<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="55.02926847999993" distanceToCenter="true" position="left" ratio="0.08931391361517321" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="13.535758997375526" distanceToCenter="true" position="right" ratio="0.15640944890868358" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e19" source="n0::n6" target="n0::n21">
+    <edge id="n0::e9" source="n0::n12" target="n0::n14">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="1858.4601206235532" y="699.2454144896541"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.318359375" x="18.6844932852116" y="-24.50534185449999">No<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="15.520958980872818" distanceToCenter="true" position="left" ratio="0.3250381237143517" segment="0"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e0" source="n0" target="n0::n8">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-357.9611360803244" sy="301.39503467548525" tx="8.20057588357713" ty="6.720390164903051"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e10" source="n0::n13" target="n0::n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e11" source="n0::n15" target="n0::n16">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e12" source="n0::n16" target="n0::n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="11.863207669308508"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e13" source="n0::n0" target="n0::n17">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="14.951171875" x="-19.520126912097112" y="6.23934830141684">Si<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="12.04465060977782" distanceToCenter="true" position="right" ratio="0.07555491623616269" segment="-1"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e14" source="n0::n0" target="n0::n18">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="2256.851030980646" y="933.650176394416"/>
+            <y:Point x="2256.851030980646" y="1105.105812140887"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.318359375" x="19.474090897344922" y="-15.933278358953658">No<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="6.948933268994654" distanceToCenter="true" position="left" ratio="0.20099240359136497" segment="0"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e15" source="n0::n19" target="n0::n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e16" source="n0::n14" target="n0::n15">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e17" source="n0::n18" target="n0::n19">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="2144.1719846351807" y="1193.832227479504"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e18" source="n0::n17" target="n0::n20">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="2023.4052933949308" y="1012.814197558437"/>
+            <y:Point x="2023.4052933949308" y="853.650176394416"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e19" source="n0::n20" target="n0::n21">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -865,75 +819,104 @@ o es un libro<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="68.13671875" x="-152.0318609216015" y="-18.91472943506801">caso video<y:LabelModel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n0::n22" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="6.448756010885859" ty="91.93903513477437"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e21" source="n0::n5" target="n0::n6">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-2.8421709430404007E-14" ty="-0.7083407307451921"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n0::n22" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-52.8835394965281" ty="91.93903513477437"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.318359375" x="40.62246203868517" y="72.29401050547176">No<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="9.930312178837857" distanceToCenter="true" position="right" ratio="0.5031137094071739" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="11.105659123809572" distanceToCenter="true" position="right" ratio="0.2529855133204817" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e21" source="n0::n22" target="n0::n9">
+    <edge id="n0::e22" source="n0::n23" target="n0::n13">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="148.890625" x="-144.760458886499" y="24.171609555241957">problemas en subtítulos<y:LabelModel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e23" source="n0::n22" target="n0::n23">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-6.382761621164946">
+            <y:Point x="1697.9982927809062" y="1007.814197558437"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.318359375" x="-34.87729750979224" y="-18.706369071440804">No<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="70.31517639111121" distanceToCenter="true" position="right" ratio="0.4023672931065173" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="9.72198264550275" distanceToCenter="true" position="right" ratio="0.07705702308933869" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e22" source="n0::n22" target="n0::n7">
+    <edge id="n0::e24" source="n0::n22" target="n0::n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="157.62109375" x="96.5314218706826" y="27.723239517673846">no hay cortes ni
-problemas de subtitulado<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="14.951171875" x="6.285129566251726" y="-4.13892322171273">Si<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="47.84124143101936" distanceToCenter="true" position="left" ratio="0.3927819609642156" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="13.692092613181888" distanceToCenter="true" position="left" ratio="-8.237171680123229" segment="-1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e23" source="n0::n3" target="n0::n15">
+    <edge id="n0::e25" source="n0::n24" target="n0::n23">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="548.272340473832" y="1088.2602555479111"/>
-          </y:Path>
+          <y:Path sx="-93.16110709473669" sy="0.0" tx="12.12822922710393" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e24" source="n0::n6" target="n0::n23">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="6.10252251118186"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e25" source="n0::n23" target="n0::n24">
+    <edge id="n0::e26" source="n0::n9" target="n0::n25">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -943,52 +926,50 @@ problemas de subtitulado<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e26" source="n0::n25" target="n0::n11">
+    <edge id="n0::e27" source="n0::n26" target="n0::n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="112.896484375" x="13.17283639040329" y="-0.5790425572454296">Operación exitosa<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="69.62113022204267" distanceToCenter="true" position="left" ratio="-5.59418383545551" segment="-1"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e27" source="n0::n10" target="n0::n25">
+    <edge id="n0::e28" source="n0::n26" target="n0::n7">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="548.2723404738324" y="1335.260910057418"/>
-            <y:Point x="946.523455203746" y="1335.260910057418"/>
+          <y:Path sx="0.0" sy="0.0" tx="-65.75661982976362" ty="0.28917477519166823">
+            <y:Point x="1365.1862247317376" y="476.5046737489132"/>
+            <y:Point x="1343.3775847317374" y="476.5046737489132"/>
+            <y:Point x="1343.3775847317374" y="1254.121402254696"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="105.9765625" x="-123.05452474699291" y="-17.292423363727096">Operación fallida<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="8.30805292318716" distanceToCenter="true" position="right" ratio="0.03688168093529598" segment="0"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e28" source="n0::n24" target="n0::n25">
+    <edge id="n0::e29" source="n0::n25" target="n0::n26">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="548.2723404738324" y="1267.8776529866182"/>
-            <y:Point x="402.00775424438325" y="1267.8776529866182"/>
-            <y:Point x="402.00775424438325" y="1371.3738591109573"/>
-          </y:Path>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e29" source="n0::n2" target="n0::n12">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="617.3470453444677" y="802.0723518347169"/>
-            <y:Point x="617.3470453444677" y="929.3257168415636"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>

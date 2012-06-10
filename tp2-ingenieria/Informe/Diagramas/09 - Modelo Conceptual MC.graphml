@@ -713,11 +713,11 @@ incomplete<y:LabelModel>
               <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="1.884741195894549" distanceToCenter="false" position="left" ratio="0.9151822861569375" segment="1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="141.314453125" x="-189.09517658535162" y="-25.239542168847947">puedeSerAccedido 0..*<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="141.314453125" x="-180.32223295278374" y="-47.79854008116524">puedeSerAccedido 0..*<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="1.9483914852539335" distanceToCenter="false" position="left" ratio="0.10334738046489812" segment="1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="63.832674415186055" distanceToCenter="true" position="left" ratio="0.24677362655049284" segment="1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -746,19 +746,11 @@ reproduce<y:LabelModel>
               <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.5" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="114.4140625" x="-249.36084568490145" y="-60.000687244022174">fueDescargadoPor
-0..*<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="122.6875" x="-113.80941412174917" y="-34.687479623151944">esReproducidoPor *<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="192.1538204592901" distanceToCenter="true" position="left" ratio="0.31990476746694385" segment="-1"/>
-            </y:ModelParameter>
-          </y:EdgeLabel>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="122.6875" x="-115.0626917835445" y="-25.914535990584113">esReproducidoPor *<y:LabelModel>
-              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="53.71894780793315" distanceToCenter="true" position="left" ratio="0.026792782055916054" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="52.46567014613783" distanceToCenter="true" position="left" ratio="0.10680366431699398" segment="-1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>

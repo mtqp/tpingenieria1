@@ -20,7 +20,7 @@
           <y:Geometry height="1333.1604315170127" width="983.1477418557141" x="-328.396862329662" y="696.3709015382043"/>
           <y:Fill color="#ECF5FF" color2="#0042F440" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="312.16650390625" x="335.49061897473206" y="4.0">Habilitar nuevo contenido (vista general)</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="256.5537109375" x="363.29701545910706" y="4.0">Carga y habilitación de contenido</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="177.337890625" x="423.3194500462163" y="33.0">Administrador de contenidos<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
@@ -130,7 +130,7 @@ de contenido<y:LabelModel>
               <y:Geometry height="40.0" width="164.56295837917122" x="197.94910342739973" y="1035.0674024382647"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="115.896484375" x="24.33323700208564" y="4.03125">Solicitar contenido
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="115.896484375" x="24.333237002085582" y="4.03125">Solicitar contenido
 a fabricante<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -198,7 +198,7 @@ de reproducción<y:LabelModel>
               <y:Geometry height="52.535846480166924" width="179.01737767223736" x="-1.6014179019780812" y="1456.0281527633194"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="4.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="169.52734375" x="4.745016961118679" y="3.3147982400834053">Da: Cargar el contenido de 
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="169.52734375" x="4.745016961118679" y="3.314798240083519">Da: Cargar el contenido de 
 reproducción y solicitar 
 revisión
 <y:LabelModel>
@@ -251,7 +251,7 @@ reproducción<y:LabelModel>
               <y:Geometry height="40.0" width="164.56295837917122" x="437.6462870142519" y="1148.6772165280054"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="136.708984375" x="13.926987002085582" y="4.03125">Suministrar contenido
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="136.708984375" x="13.926987002085639" y="4.03125">Suministrar contenido
 de ejecución<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -268,7 +268,7 @@ de ejecución<y:LabelModel>
               <y:Geometry height="40.0" width="164.56295837917122" x="206.30211315703434" y="1765.7987821178474"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="137.1484375" x="13.707260439585582" y="4.03125">Habilitar contenido de
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="137.1484375" x="13.707260439585639" y="4.03125">Habilitar contenido de
 ejecución<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -665,7 +665,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e12" source="n0::n5" target="n0::n16">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -676,7 +675,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e13" source="n0::n16" target="n0::n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -694,7 +692,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e14" source="n0::n16" target="n0::n18">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -716,7 +713,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e15" source="n0::n18" target="n0::n6">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -727,7 +723,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e16" source="n0::n17" target="n0::n19">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -740,7 +735,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e17" source="n0::n19" target="n0::n18">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -753,7 +747,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e18" source="n0::n6" target="n0::n7">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -764,7 +757,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e19" source="n0::n20" target="n0::n14">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -775,7 +767,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e20" source="n0::n15" target="n0::n10">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -793,7 +784,6 @@ revisión
       </data>
     </edge>
     <edge id="n0::e21" source="n0::n2" target="n0::n9">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">

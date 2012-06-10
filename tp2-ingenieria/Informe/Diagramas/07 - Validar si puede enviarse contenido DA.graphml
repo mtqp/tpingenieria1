@@ -20,7 +20,7 @@
           <y:Geometry height="994.5396825396824" width="827.5777954297242" x="116.39426496307331" y="217.0"/>
           <y:Fill color="#ECF5FF" color2="#0042F440" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="448.82177734375" x="189.37800904298714" y="4.0">Lograr validar si un contenido solicitado puede ser enviado</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="278.09423828125" x="274.7417785742372" y="4.0">Validar si puede enviarse contenido </y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="69.853515625" x="115.26760843953795" y="33.0">Dispositivo
 <y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>

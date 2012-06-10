@@ -15,7 +15,6 @@
   <graph edgedefault="directed" id="G">
     <data key="d7"/>
     <node id="n0" yfiles.foldertype="group">
-      <data key="d5"/>
       <data key="d6">
         <y:TableNode configuration="YED_TABLE_NODE">
           <y:Geometry height="1040.1168566218334" width="1050.0917171094789" x="-59.78609050770865" y="610.939686560898"/>
@@ -92,7 +91,6 @@
       </data>
       <graph edgedefault="directed" id="n0:">
         <node id="n0::n0">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
               <y:Geometry height="45.599999999999795" width="110.56000000000003" x="290.95801105479126" y="1510.106544555669"/>
@@ -126,7 +124,6 @@
           </data>
         </node>
         <node id="n0::n2">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
               <y:Geometry height="40.0" width="80.0" x="37.25649617718773" y="764.0784195556691"/>
@@ -144,7 +141,6 @@
           </data>
         </node>
         <node id="n0::n3">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
               <y:Geometry height="40.0" width="80.0" x="397.8680110547912" y="835.953419555669"/>
@@ -162,7 +158,6 @@
           </data>
         </node>
         <node id="n0::n4">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
               <y:Geometry height="40.0" width="80.0" x="758.4795259323947" y="1074.2310650558602"/>
@@ -180,10 +175,9 @@
           </data>
         </node>
         <node id="n0::n5">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="45.59999999999991" width="162.4" x="356.66801105479124" y="905.953419555669"/>
+              <y:Geometry height="45.59999999999991" width="162.4" x="356.66801105479124" y="968.4839795556691"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="143.39453125" x="9.502734374999989" y="13.449414062499955">Solicitar Tarjeta de crédito<y:LabelModel>
@@ -197,7 +191,6 @@
           </data>
         </node>
         <node id="n0::n6">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
               <y:Geometry height="45.59999999999991" width="134.4" x="33.746363662321556" y="1028.6310650558603"/>
@@ -215,7 +208,6 @@ tarjeta de crédito<y:LabelModel>
           </data>
         </node>
         <node id="n0::n7">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
               <y:Geometry height="45.59999999999991" width="162.4" x="717.2795259323947" y="1153.844887805956"/>
@@ -232,7 +224,6 @@ tarjeta de crédito<y:LabelModel>
           </data>
         </node>
         <node id="n0::n8">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
               <y:Geometry height="40.0" width="80.0" x="758.4795259323947" y="1239.0587105560514"/>
@@ -250,7 +241,6 @@ tarjeta de crédito<y:LabelModel>
           </data>
         </node>
         <node id="n0::n9">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
               <y:Geometry height="45.59999999999991" width="162.4" x="717.2795259323948" y="1325.8433785248014"/>
@@ -267,7 +257,6 @@ tarjeta de crédito<y:LabelModel>
           </data>
         </node>
         <node id="n0::n10">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
               <y:Geometry height="40.0" width="80.0" x="758.4795259323947" y="1418.2280464935513"/>
@@ -285,7 +274,6 @@ tarjeta de crédito<y:LabelModel>
           </data>
         </node>
         <node id="n0::n11">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
               <y:Geometry height="45.599999999999795" width="110.56000000000003" x="452.59602210958246" y="1510.106544555669"/>
@@ -338,7 +326,7 @@ tarjeta de crédito<y:LabelModel>
         <node id="n0::n14">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="60.94636366232157" y="958.6310650558603"/>
+              <y:Geometry height="40.0" width="80.0" x="306.2380110547913" y="1418.2280464935513"/>
               <y:Fill color="#E8EEF7" color2="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
@@ -354,9 +342,26 @@ tarjeta de crédito<y:LabelModel>
         </node>
         <node id="n0::n15">
           <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="45.59999999999991" width="134.4" x="340.80462286232193" y="1071.4310650558602"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="103.392578125" x="15.503710937499989" y="6.0988281249999545">Enviar datos de la 
+tarjeta de crédito<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n16">
+          <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="80.0" x="306.2380110547913" y="1418.2280464935513"/>
-              <y:Fill color="#E8EEF7" color2="#FFFFFF" transparent="false"/>
+              <y:Geometry height="40.0" width="80.0" x="397.8680110547912" y="898.4839795556691"/>
+              <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
                 <y:LabelModel>
@@ -371,8 +376,7 @@ tarjeta de crédito<y:LabelModel>
         </node>
       </graph>
     </node>
-    <edge id="n0::e0" source="n0::n2" target="n0::n15">
-      <data key="d9"/>
+    <edge id="n0::e0" source="n0::n2" target="n0::n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -395,7 +399,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e1" source="n0::n2" target="n0::n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -415,7 +418,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="e0" source="n0" target="n0::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-26.644826494291863" sy="-177.4760828161426" tx="0.0" ty="0.0"/>
@@ -425,18 +427,17 @@ tarjeta de crédito<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e2" source="n0::n3" target="n0::n5">
-      <data key="d9"/>
+    <edge id="n0::e2" source="n0::n3" target="n0::n16">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="224.154296875" x="-242.0771488573181" y="7.285939186918995">Si la cuenta no tiene asociada una tarjeta<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="224.154296875" x="-242.0771488573181" y="1.9159041455127408">Si la cuenta no tiene asociada una tarjeta<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="17.922851562499943" distanceToCenter="false" position="right" ratio="1.0000001" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="17.922851562499943" distanceToCenter="false" position="right" ratio="0.0" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
@@ -444,7 +445,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e3" source="n0::n3" target="n0::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.009765625">
@@ -464,7 +464,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e4" source="n0::n4" target="n0::n7">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -474,8 +473,7 @@ tarjeta de crédito<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e5" source="n0::n6" target="n0::n4">
-      <data key="d9"/>
+    <edge id="n0::e5" source="n0::n6" target="n0::n15">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -488,7 +486,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e6" source="n0::n7" target="n0::n8">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -499,7 +496,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e7" source="n0::n8" target="n0::n9">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -517,7 +513,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e8" source="n0::n10" target="n0::n11">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -537,7 +532,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e9" source="n0::n0" target="n0::n12">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -550,7 +544,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e10" source="n0::n11" target="n0::n12">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -563,7 +556,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e11" source="n0::n9" target="n0::n10">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -574,7 +566,6 @@ tarjeta de crédito<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e12" source="n0::n1" target="n0::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -584,53 +575,7 @@ tarjeta de crédito<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e13" source="n0::n8" target="n0::n14">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="0.33725795273943504" y="1259.0587105560514"/>
-            <y:Point x="0.33725795273943504" y="978.6310650558603"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="94.05859375" x="-105.94508902854284" y="-19.36211120176108">Validación fallida<y:LabelModel>
-              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="10.011520000000045" distanceToCenter="true" position="right" ratio="0.009745296123416155" segment="0"/>
-            </y:ModelParameter>
-          </y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e14" source="n0::n5" target="n0::n14">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="437.8680110547912" y="979.6348527056698"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e15" source="n0::n14" target="n0::n6">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e16" source="n0::n10" target="n0::n15">
-      <data key="d9"/>
+    <edge id="n0::e13" source="n0::n10" target="n0::n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -647,11 +592,59 @@ tarjeta de crédito<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e17" source="n0::n15" target="n0::n0">
+    <edge id="n0::e14" source="n0::n14" target="n0::n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e15" source="n0::n15" target="n0::n4">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e16" source="n0::n5" target="n0::n6">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="100.94636366232156" y="991.283979555669"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e17" source="n0::n16" target="n0::n5">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e18" source="n0::n8" target="n0::n16">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="0.5876574803940571" y="1259.0587105560514"/>
+            <y:Point x="0.5876574803940571" y="918.4839795556691"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>

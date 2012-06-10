@@ -58,7 +58,7 @@
           </y:StyleProperties>
           <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
           <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-          <y:BorderInsets bottom="52" bottomF="51.887324392292385" left="39" leftF="39.14811158103589" right="36" rightF="36.43253327337732" top="20" topF="20.419698633156372"/>
+          <y:BorderInsets bottom="42" bottomF="41.887324392292385" left="82" leftF="82.14811158103589" right="36" rightF="36.43253327337732" top="30" topF="30.419698633156372"/>
           <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
             <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
             <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
@@ -83,7 +83,7 @@
         <node id="n0::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="164.56295837917122" x="97.16310060836781" y="840.7906001713607"/>
+              <y:Geometry height="40.0" width="164.56295837917122" x="140.1631006083678" y="850.7906001713607"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="3.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="153.00390625" x="5.77952606458561" y="4.03125">DA: Carga y habilitación 
@@ -100,7 +100,7 @@ de contenido<y:LabelModel>
         <node id="n0::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="139.44457979795342" y="770.7906001713607"/>
+              <y:Geometry height="40.0" width="80.0" x="182.44457979795342" y="780.7906001713607"/>
               <y:Fill color="#000000" color2="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
@@ -117,7 +117,7 @@ de contenido<y:LabelModel>
         <node id="n0::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="164.56295837917122" x="432.6331966417707" y="840.7906001713607"/>
+              <y:Geometry height="40.0" width="164.56295837917122" x="432.6331966417707" y="850.7906001713607"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="3.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="141.724609375" x="11.419174502085639" y="11.015625">DA: Obtener contenido<y:LabelModel>
@@ -133,7 +133,7 @@ de contenido<y:LabelModel>
         <node id="n0::n3">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="474.91467583135636" y="952.3559117944485"/>
+              <y:Geometry height="40.0" width="80.0" x="474.91467583135636" y="962.3559117944485"/>
               <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="4.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
@@ -150,7 +150,7 @@ de contenido<y:LabelModel>
         <node id="n0::n4">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="25.664595564597676" width="51.32919112919535" x="489.2500802667587" y="959.5236140121494"/>
+              <y:Geometry height="25.664595564597676" width="51.32919112919535" x="489.2500802667587" y="969.5236140121494"/>
               <y:Fill color="#000000" color2="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.664595564597676" y="10.832297782298838">
@@ -177,7 +177,6 @@ de contenido<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e1" source="n0::n0" target="n0::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -188,7 +187,6 @@ de contenido<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e2" source="n0::n2" target="n0::n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.009765625"/>

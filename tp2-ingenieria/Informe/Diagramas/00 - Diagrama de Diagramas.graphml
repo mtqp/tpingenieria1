@@ -107,10 +107,10 @@ revisión DA<y:LabelModel>
     <node id="n5">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.75" width="252.5" x="649.75" y="234.135"/>
+          <y:Geometry height="48.75" width="252.5" x="691.7165970772443" y="223.885"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="199.955078125" x="26.2724609375" y="15.390625">6 - Lograr Obtener contenido DA<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="157.275390625" x="47.6123046875" y="15.390625">6 - Obtener contenido DA<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -124,7 +124,7 @@ revisión DA<y:LabelModel>
     <node id="n6">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.75" width="193.29999999999995" x="813.5" y="329.75"/>
+          <y:Geometry height="48.75" width="193.29999999999995" x="855.4665970772443" y="319.5"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="139.05859375" x="27.120703124999977" y="8.40625">8 - Realizar operacion 
@@ -142,7 +142,7 @@ economica DA<y:LabelModel>
     <node id="n7">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.75" width="217.5" x="566.0" y="329.75"/>
+          <y:Geometry height="48.75" width="217.5" x="607.9665970772443" y="319.5"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="179.5234375" x="18.98828125" y="8.40625">7 - Validar si puede enviarse 
@@ -160,10 +160,10 @@ contenido DA<y:LabelModel>
     <node id="n8">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.75" width="160.0000000000001" x="195.75" y="468.395"/>
+          <y:Geometry height="57.03288100208749" width="168.28288100208772" x="175.0427974947808" y="425.625"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="161.248046875" x="-0.6240234374999432" y="15.390625">9 - Modelo Conceptual MC<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="161.248046875" x="3.51741706354386" y="19.532065501043746">9 - Modelo Conceptual MC<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -177,7 +177,7 @@ contenido DA<y:LabelModel>
     <node id="n9">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.75" width="153.75" x="713.75" y="468.395"/>
+          <y:Geometry height="48.75" width="153.75" x="768.9692066805846" y="443.5463569937368"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="109.2109375" x="22.26953125" y="8.40625">10 - Estado de la 

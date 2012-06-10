@@ -34,7 +34,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="-384.2767450850864" y="722.8184663580939"/>
+          <y:Geometry height="100.0" width="60.0" x="-380.4262266154079" y="934.6184663580939"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="85.66259765625" x="-12.831298828125" y="104.0">Proveedor de 
@@ -113,7 +113,7 @@ contenidos<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="53.599999999999966" width="153.63520998050683" x="320.85658236280847" y="731.3521477719931"/>
+          <y:Geometry height="53.599999999999966" width="153.63520998050683" x="324.70710083248696" y="943.1521477719931"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="71.208984375" x="41.213112802753415" y="8.873730468749955">Solicitando 
@@ -148,10 +148,10 @@ contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="800.2467165911286" y="940.571854563569"/>
+          <y:Geometry height="100.0" width="60.0" x="1088.5485714901754" y="1404.4985745635688"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="48.79541015625" x="5.602294921875" y="104.0">Usuario<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="48.79541015625" x="5.602294921875" y="104.00000000000011">Usuario<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -169,7 +169,7 @@ contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="53.60000000000002" width="164.75" x="-20.069693025778747" y="735.2882869970346"/>
+          <y:Geometry height="53.60000000000002" width="164.75" x="-16.219174556100256" y="947.0882869970345"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="121.076171875" x="21.8369140625" y="8.873730468750068">Recibiendo petición 
@@ -188,7 +188,7 @@ de contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.60000000000002" width="146.0" x="72.68168379736409" y="841.0033784461284"/>
+          <y:Geometry height="43.60000000000002" width="146.0" x="76.53220226704258" y="1052.8033784461284"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="60.3798828125" x="42.81005859375" y="3.8737304687499545">Enviando
@@ -224,7 +224,7 @@ en todos los casos de uso?<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="154.0" x="561.8993569955713" y="738.6521477719931"/>
+          <y:Geometry height="39.0" width="154.0" x="565.7498754652498" y="950.452147771993"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="117.47705078125" x="18.261474609375" y="9.536865234375">Eligiendo contenido<y:LabelModel>
@@ -242,7 +242,7 @@ en todos los casos de uso?<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="175.0" x="310.1741873530619" y="843.3033784461284"/>
+          <y:Geometry height="39.0" width="175.0" x="314.0247058227404" y="1055.1033784461283"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="141.31884765625" x="16.840576171875" y="9.536865234375">Descargando contenido<y:LabelModel>
@@ -260,7 +260,7 @@ en todos los casos de uso?<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="195.0" x="561.8993569955713" y="635.8809506209564"/>
+          <y:Geometry height="39.0" width="195.0" x="534.6574999132499" y="806.8354672289563"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="152.1669921875" x="21.41650390625" y="1.57373046875">Reproduciendo contenido
@@ -324,7 +324,7 @@ de fallas)<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="175.0" x="351.37935693835874" y="1895.2625554041103"/>
+          <y:Geometry height="39.0" width="175.0" x="871.4107932379088" y="709.1809506209563"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="120.34619140625" x="27.326904296875" y="9.536865234375">Registrando usuario<y:LabelModel>
@@ -342,7 +342,7 @@ de fallas)<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="53.60000000000002" width="175.0" x="314.7325080106031" y="897.0207145459755"/>
+          <y:Geometry height="53.60000000000002" width="175.0" x="318.5830264802816" y="1108.8207145459755"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="143.47705078125" x="15.761474609375" y="8.873730468750068">Conociendo historial de 
@@ -361,7 +361,7 @@ compras<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="195.0" x="304.73250801060317" y="1005.556815907743"/>
+          <y:Geometry height="40.0" width="195.0" x="308.58302648028166" y="1217.356815907743"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="133.3779296875" x="30.81103515625" y="2.0737304687498863">Conociendo contenido
@@ -380,7 +380,7 @@ recomendado<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="860.5268238593897" y="1864.7625554041103"/>
+          <y:Geometry height="100.0" width="60.0" x="1088.5485714901754" y="748.1809506209563"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="70.47900390625" x="-5.239501953125" y="104.0">Usuario no 
@@ -422,7 +422,7 @@ registrado<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="-384.2767450850864" y="1020.4911637569612"/>
+          <y:Geometry height="100.0" width="60.0" x="-380.4262266154079" y="1232.2911637569612"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="87.83984375" x="-13.919921875" y="104.0">Administrador
@@ -444,7 +444,7 @@ de Contenidos<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.82768342816564" width="146.0" x="-43.77283913942213" y="1270.001715335914"/>
+          <y:Geometry height="55.82768342816564" width="146.0" x="-39.92232066974364" y="1481.801715335914"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="111.6943359375" x="17.15283203125" y="9.987572182832764">Ingresando nuevo 
@@ -463,7 +463,7 @@ contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.600000000000136" width="164.71824842105298" x="63.3225595868376" y="1001.956815907743"/>
+          <y:Geometry height="43.600000000000136" width="164.71824842105298" x="67.17307805651609" y="1213.756815907743"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="88.55712890625" x="38.08055975740149" y="3.873730468750182">Categorizando
@@ -482,7 +482,7 @@ contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="164.71824842105298" x="-278.5626852956126" y="919.1333262832766"/>
+          <y:Geometry height="55.827683428165756" width="164.71824842105298" x="-274.7121668259341" y="1130.9333262832765"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="124.6943359375" x="20.01195624177649" y="9.987572182832878">Aplicando Publicidad
@@ -501,7 +501,7 @@ a Contenidos<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="202.35334931408457" x="-100.1261884535067" y="926.3905759674869"/>
+          <y:Geometry height="55.827683428165756" width="202.35334931408457" x="-96.27566998382821" y="1138.190575967487"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="160.09521484375" x="21.129067235167284" y="9.987572182832878">Aplicando Posicionamiento
@@ -520,7 +520,7 @@ a Contenidos<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="1072.5602747682306" y="515.3313752299279"/>
+          <y:Geometry height="100.0" width="60.0" x="1088.5485714901754" y="566.8539153686984"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="72.6435546875" x="-6.32177734375" y="104.0">Sistema de 
@@ -542,7 +542,7 @@ Facturación<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="75.00000000000023" width="164.71824842105298" x="315.3150631425354" y="527.8313752299277"/>
+          <y:Geometry height="75.00000000000023" width="164.71824842105298" x="319.1655816122139" y="579.3539153686983"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="98.681640625" x="33.01830389802649" y="27.536865234375114">Cobrando Venta<y:LabelModel>
@@ -560,7 +560,7 @@ Facturación<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="-370.07443866004525" y="502.83137522992797"/>
+          <y:Geometry height="100.0" width="60.0" x="-366.22392019036675" y="557.8861591899371"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="71.208984375" x="-5.6044921875" y="104.0">Auspiciante<y:LabelModel>
@@ -581,7 +581,7 @@ Facturación<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="75.00000000000023" width="164.71824842105298" x="-5.889383628397468" y="515.3313752299279"/>
+          <y:Geometry height="75.00000000000023" width="164.71824842105298" x="-2.038865158718977" y="570.386159189937"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="134.09521484375" x="15.311516788651488" y="19.573730468750114">Ingresando datos para
@@ -600,7 +600,7 @@ el pago de publicidad<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.82768342816564" width="211.98352420359015" x="-43.68645512757382" y="627.345512119775"/>
+          <y:Geometry height="55.82768342816564" width="211.98352420359015" x="-39.83593665789533" y="839.1455121197749"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="155.048828125" x="28.467348039295075" y="9.987572182832878">Ingresando datos para el
@@ -619,7 +619,7 @@ el pago de publicidad<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.600000000000136" width="164.71824842105298" x="113.18104474236532" y="1060.3291309148558"/>
+          <y:Geometry height="43.600000000000136" width="164.71824842105298" x="117.0315632120438" y="1272.1291309148558"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="121.7998046875" x="21.45922186677649" y="3.873730468750182">Asignando precio al 
@@ -638,7 +638,7 @@ contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="181.00000000000006" x="-144.9005471154337" y="1130.2199923885419"/>
+          <y:Geometry height="55.827683428165756" width="181.00000000000006" x="-141.05002864575522" y="1342.0199923885418"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="141.31884765625" x="19.84057617187503" y="9.987572182832992">Reasignando tiempo de
@@ -657,7 +657,7 @@ contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.600000000000136" width="181.00000000000006" x="63.3225595868376" y="1130.2199923885419"/>
+          <y:Geometry height="43.600000000000136" width="181.00000000000006" x="67.17307805651609" y="1342.0199923885418"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="131.21337890625" x="24.89331054687503" y="3.873730468750182">Agrupando contenido 
@@ -676,7 +676,7 @@ en grupos<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="218.48373217931072" x="-80.01470522907749" y="1200.110853862228"/>
+          <y:Geometry height="55.827683428165756" width="218.48373217931072" x="-76.164186759399" y="1411.910853862228"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.77880859375" modelName="custom" textColor="#000000" visible="true" width="149.97705078125" x="34.25334069903036" y="2.0244374172079915">Redefiniendo parámetros
@@ -696,7 +696,7 @@ del contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="-419.11973684785414" y="1445.6594245519623"/>
+          <y:Geometry height="100.0" width="60.0" x="-415.26921837817565" y="1657.4594245519622"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="126.12890625" x="-33.064453125" y="104.0">Revisor de contenido
@@ -718,7 +718,7 @@ digital<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="195.0" x="-232.47799205846684" y="1553.5732662660453"/>
+          <y:Geometry height="55.827683428165756" width="195.0" x="-228.62747358878835" y="1765.3732662660452"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="131.9306640625" x="31.53466796875" y="9.987572182832992">Validando contenidos 
@@ -737,7 +737,7 @@ de ejecución<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="195.0" x="-238.2952567701637" y="1467.7455828378795"/>
+          <y:Geometry height="55.827683428165756" width="195.0" x="-234.4447383004852" y="1679.5455828378795"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="131.9306640625" x="31.53466796875" y="9.987572182832764">Validando contenidos 
@@ -756,7 +756,7 @@ de reproducción<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="-419.11973684785414" y="1640.7528105452238"/>
+          <y:Geometry height="100.0" width="60.0" x="-415.26921837817565" y="1852.5528105452238"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="151.4052734375" x="-45.70263671875" y="104.0">Revisor de especificación<y:LabelModel>
@@ -777,7 +777,7 @@ de reproducción<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="195.0" x="-232.47799205846684" y="1662.838968831141"/>
+          <y:Geometry height="55.827683428165756" width="195.0" x="-228.62747358878835" y="1874.638968831141"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="155.0615234375" x="19.96923828125" y="9.987572182832764">Validar especificación
@@ -828,7 +828,7 @@ de contenido de ejecución<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="195.0" x="23.889033445313885" y="1459.9660385671493"/>
+          <y:Geometry height="55.827683428165756" width="195.0" x="27.739551914992376" y="1671.7660385671493"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="129.0361328125" x="32.98193359375" y="17.950706948457764">Habilitando contenido<y:LabelModel>
@@ -846,7 +846,7 @@ de contenido de ejecución<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="199.94523702020024" width="609.1459968602826" x="-577.6435911413486" y="1795.859338155083"/>
+          <y:Geometry height="199.94523702020024" width="609.1459968602826" x="-573.7930726716701" y="2007.6593381550829"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="180.4140625" modelName="custom" textColor="#000000" visible="true" width="507.654296875" x="50.7458499926413" y="9.76558726010012">Caso de uso: Habilitando contenido
@@ -883,7 +883,7 @@ Fin Caso de uso<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="195.0" x="814.248366776149" y="635.8809506209564"/>
+          <y:Geometry height="39.0" width="195.0" x="736.5972350608071" y="874.3315582369563"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="128.30615234375" x="33.346923828125" y="9.536865234375">Calificando contenido<y:LabelModel>
@@ -901,7 +901,7 @@ Fin Caso de uso<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="175.0" x="314.73250801060317" y="1064.929130914856"/>
+          <y:Geometry height="39.0" width="175.0" x="318.58302648028166" y="1276.729130914856"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="126.1416015625" x="24.42919921875" y="9.536865234375">Autenticando usuario<y:LabelModel>
@@ -919,7 +919,7 @@ Fin Caso de uso<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="237.45268393782385" x="320.15301496944693" y="1486.106758270612"/>
+          <y:Geometry height="40.0" width="237.45268393782385" x="324.0035334391254" y="1697.906758270612"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="190.46240234375" x="23.495140797036925" y="10.036865234375">Pidiendo préstamo de contenido<y:LabelModel>
@@ -937,7 +937,7 @@ Fin Caso de uso<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="208.0" x="334.87935693835874" y="1403.6334196886016"/>
+          <y:Geometry height="40.0" width="208.0" x="338.72987540803723" y="1615.4334196886016"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="136.25341796875" x="35.873291015625" y="2.07373046875">Aceptando pedido 
@@ -956,7 +956,7 @@ préstamo de contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.59999999999991" width="181.00000000000006" x="348.3793569383588" y="1573.2735089533167"/>
+          <y:Geometry height="43.59999999999991" width="181.00000000000006" x="352.2298754080373" y="1785.0735089533166"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="134.7998046875" x="23.10009765625" y="3.8737304687499545">Rechazando préstamo
@@ -975,7 +975,7 @@ contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.600000000000136" width="218.48373217931072" x="293.153014969447" y="1130.2199923885419"/>
+          <y:Geometry height="43.600000000000136" width="218.48373217931072" x="827.927061058598" y="806.0393762209562"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="174.56787109375" x="21.957930542780332" y="11.836865234375182">Actualizando datos de cuenta<y:LabelModel>
@@ -993,10 +993,10 @@ contenido<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.827683428165756" width="195.00000000000006" x="341.3793569383588" y="1289.3464757617717"/>
+          <y:Geometry height="55.827683428165756" width="195.00000000000006" x="345.2298754080373" y="1501.1464757617716"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="147.0888671875" x="23.95556640625" y="9.987572182832764">Recibiendo respuesta al 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="147.0888671875" x="23.95556640625" y="9.987572182832992">Recibiendo respuesta al 
 pedido de prestamo<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1011,7 +1011,7 @@ pedido de prestamo<y:LabelModel>
     <node id="n51">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="236.50019155480584" x="-353.2255184696785" y="408.9349727859125"/>
+          <y:Geometry height="30.0" width="236.50019155480584" x="-349.375" y="463.4946527859125"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="177.419921875" x="29.54013483990292" y="5.6494140625">Verde: Casos de Uso Revisados<y:LabelModel>
@@ -1029,7 +1029,7 @@ pedido de prestamo<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="195.0" x="341.37935693835885" y="1638.5717600479643"/>
+          <y:Geometry height="39.0" width="195.0" x="345.22987540803734" y="1850.3717600479642"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="106.62890625" x="44.185546875" y="9.536865234375">Agregando amigo<y:LabelModel>
@@ -1047,7 +1047,7 @@ pedido de prestamo<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="195.0" x="341.3793569383588" y="1826.2625554041103"/>
+          <y:Geometry height="39.0" width="195.0" x="345.2298754080373" y="2038.0625554041103"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="107.33349609375" x="43.833251953125" y="9.536865234375">Eliminando amigo<y:LabelModel>
@@ -1065,7 +1065,7 @@ pedido de prestamo<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="805.6995045404968" y="1477.592980221935"/>
+          <y:Geometry height="100.0" width="60.0" x="1088.5485714901754" y="1689.392980221935"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="40.84814453125" x="9.575927734375" y="104.0">Amigo<y:LabelModel>
@@ -1086,7 +1086,7 @@ pedido de prestamo<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="214.4999999999999" x="341.37935693835885" y="1717.8657200733612"/>
+          <y:Geometry height="39.0" width="214.4999999999999" x="345.22987540803734" y="1929.6657200733612"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="183.943359375" x="15.278320312499943" y="9.536865234375">Aceptando solicitud de amistad<y:LabelModel>
@@ -1104,10 +1104,47 @@ pedido de prestamo<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.0" width="218.48373217931072" x="332.8874908487034" y="1774.230748881827"/>
+          <y:Geometry height="39.0" width="218.48373217931072" x="336.7380093183819" y="1986.0307488818269"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="202.0087890625" x="8.237471558405389" y="9.536865234375">Rechanzando solicitud de amistad<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n57">
+      <data key="d4"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="61.11947520000024" width="146.0" x="624.8672457147495" y="687.0614754209562"/>
+          <y:Fill color="#99CC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" modelName="custom" textColor="#000000" visible="true" width="121.08251953125" x="12.458740234375" y="12.633468068750176">Validando Datos de 
+Tarjeta de crédito<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n58">
+      <data key="d4"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="43.600000000000136" width="218.48373217931072" x="311.7498116330968" y="1345.729130914856"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" modelName="custom" textColor="#000000" visible="true" width="174.56787109375" x="21.957930542780332" y="11.836865234375068">Actualizando datos de cuenta<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1158,7 +1195,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="standard" target="none"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-136.19301413030524" y="-15.370385387374427">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-136.1929900453924" y="-15.370373180343108">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1184,18 +1221,18 @@ pedido de prestamo<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="29.688503951643213" ty="-7.427932461241312">
-            <y:Point x="543.3810424804688" y="703.0526123046875"/>
+            <y:Point x="531.685302734375" y="894.4298095703125"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-130.16494890368767" y="9.179530400800445">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-133.57285166596876" y="34.02488904303482">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="18.257520784458745" distanceToCenter="true" position="right" ratio="0.18671667754241722" segment="-1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:Arc height="-8.465447535854764E-6" ratio="-1.349821587837141E-7" type="fixedRatio"/>
+          <y:Arc height="-8.191620509023778E-6" ratio="-1.349821587837141E-7" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -1203,11 +1240,11 @@ pedido de prestamo<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="-2.8033433234804193" ty="-11.307485835031002">
-            <y:Point x="396.27252197265625" y="804.8240356445312"/>
+            <y:Point x="400.123046875" y="1016.6240234375"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-77.2476130785829" y="-40.25721211980567">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-77.2476131810318" y="-40.25720753998826">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1244,7 +1281,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="6.827383913129211" y="-3.41114693314762">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="6.8273774804639515" y="-3.4111347261164155">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1259,11 +1296,11 @@ pedido de prestamo<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="402.2325134277344" y="974.688720703125"/>
+            <y:Point x="406.0830383300781" y="1186.48876953125"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-73.48383453304427" y="-35.32903659115186">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-73.48383453304399" y="-35.32899320375577">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1278,7 +1315,7 @@ pedido de prestamo<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="890.5267944335938" y="1914.7625732421875"/>
+            <y:Point x="1118.548583984375" y="798.1809692382812"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1389,7 +1426,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="-26.83244249975712" ty="12.499999999999886"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="six_pos" modelPosition="shead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="77.400390625" x="-87.5253909590271" y="-20.701156508353392">&lt;&lt;extiende&gt;&gt;</y:EdgeLabel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="six_pos" modelPosition="shead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="77.400390625" x="-87.54584416903612" y="-20.598205692773945">&lt;&lt;extiende&gt;&gt;</y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1401,7 +1438,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="-8.85073010526321" sy="-0.12069473684550758" tx="-30.54829681756337" ty="14.209543796019261"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="six_pos" modelPosition="ttail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="77.400390625" x="-78.8575551169356" y="23.609240128520014">&lt;&lt;extiende&gt;&gt;</y:EdgeLabel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="six_pos" modelPosition="ttail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="77.400390625" x="-218.65468074453423" y="163.47388126039993">&lt;&lt;extiende&gt;&gt;</y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1432,7 +1469,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="77.400390625" x="1.9999930171243818" y="54.90981570017925">&lt;&lt;extiende&gt;&gt;</y:EdgeLabel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="77.400390625" x="1.9999865844591227" y="135.04850276175205">&lt;&lt;extiende&gt;&gt;</y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1503,7 +1540,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="70.05859375" x="-74.6710308653933" y="15.53659133417932">&lt;&lt;include&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="70.05859375" x="-74.67103729805856" y="15.536664576366547">&lt;&lt;include&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1530,7 +1567,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-62.43089183484756" y="-21.45488413862813">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-46.954669723225265" y="-25.430244239763397">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1577,7 +1614,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-71.98174776697572" y="-24.159767008621202">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-71.98174847759508" y="-24.15981583674602">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1594,7 +1631,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-48.82159200583958" y="11.018012578261505">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="-48.82159462380763" y="11.017963750136232">&lt;&lt;extends&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1619,12 +1656,12 @@ pedido de prestamo<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="308.3396023534385" y="1317.2603174758547"/>
-            <y:Point x="308.3396023534385" y="1595.0735089533166"/>
+            <y:Point x="312.190120823117" y="1529.0603174758546"/>
+            <y:Point x="312.190120823117" y="1806.8735089533166"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="standard" target="none"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-113.47435851999518" y="53.35528671254133">&lt;&lt;includes&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-113.47436495266044" y="53.35535995472901">&lt;&lt;includes&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1641,7 +1678,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="standard" target="none"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-76.70923102150311" y="15.777354369913155">&lt;&lt;includes&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-76.70923745416837" y="15.777427612100382">&lt;&lt;includes&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1658,7 +1695,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-78.73903805859845" y="10.320347358320078">&lt;&lt;includes&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-78.73904449126377" y="10.320298530195032">&lt;&lt;includes&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1675,7 +1712,7 @@ pedido de prestamo<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-76.76899710305167" y="-32.934011895848016">&lt;&lt;includes&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-76.76900353571693" y="-32.93393865366079">&lt;&lt;includes&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1697,11 +1734,11 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e46" source="n53" target="n54">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="30.0" ty="0.0">
-            <y:Point x="865.6995045404968" y="1845.7625554041103"/>
+            <y:Point x="869.5500230101753" y="2057.5625554041103"/>
+            <y:Point x="1148.5485714901754" y="2052.9051501664053"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1710,11 +1747,11 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e47" source="n56" target="n54">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="20.227615013594686" ty="0.0">
-            <y:Point x="855.9271195540915" y="1793.730748881827"/>
+            <y:Point x="859.77763802377" y="2005.5307488818269"/>
+            <y:Point x="955.443293811203" y="2005.5307488818269"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1723,11 +1760,10 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e48" source="n55" target="n54">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="-21.638192093385214" ty="0.0">
-            <y:Point x="814.0613124471116" y="1737.3657200733612"/>
+          <y:Path sx="0.0" sy="0.0" tx="-21.52045458777252" ty="44.71372511374943">
+            <y:Point x="889.4832869167902" y="1949.1657200733612"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1736,12 +1772,11 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e49" source="n52" target="n54">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-30.0" ty="38.81569099922899">
-            <y:Point x="769.7709040524054" y="1658.0717600479643"/>
-            <y:Point x="769.7709040524054" y="1566.408671221164"/>
+            <y:Point x="773.6214225220839" y="1869.8717600479642"/>
+            <y:Point x="773.6214225220839" y="1778.208671221164"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1750,12 +1785,11 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e50" source="n48" target="n54">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="30.992577747301766">
-            <y:Point x="749.7709040524054" y="1595.0735089533166"/>
-            <y:Point x="749.7709040524054" y="1558.5855579692368"/>
+            <y:Point x="753.6214225220839" y="1806.8735089533166"/>
+            <y:Point x="753.6214225220839" y="1770.3855579692367"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1764,12 +1798,11 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e51" source="n46" target="n54">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-15.240103126612667" ty="22.09715339002946">
-            <y:Point x="580.7311230117186" y="1506.106758270612"/>
-            <y:Point x="580.7311230117186" y="1549.6901336119645"/>
+            <y:Point x="584.5816414813971" y="1717.906758270612"/>
+            <y:Point x="584.5816414813971" y="1761.4901336119644"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1778,12 +1811,11 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e52" source="n47" target="n54">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-18.05761019454917" ty="10.053408724656265">
-            <y:Point x="605.1495176005018" y="1423.6334196886016"/>
-            <y:Point x="605.1495176005018" y="1537.6463889465913"/>
+            <y:Point x="609.0000360701803" y="1635.4334196886016"/>
+            <y:Point x="609.0000360701803" y="1749.4463889465912"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1792,12 +1824,11 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e53" source="n50" target="n54">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-22.753455307776676" ty="0.0">
-            <y:Point x="625.1495176005018" y="1317.2603174758547"/>
-            <y:Point x="625.1495176005018" y="1527.592980221935"/>
+            <y:Point x="629.0000360701803" y="1529.0603174758546"/>
+            <y:Point x="629.0000360701803" y="1739.392980221935"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1806,13 +1837,12 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e54" source="n55" target="n52">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-9.749999999999943" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-77.80759106968884" y="-30.994448302753426">&lt;&lt;includes&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-77.8075975023541" y="-30.99437506056597">&lt;&lt;includes&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1824,22 +1854,100 @@ pedido de prestamo<y:LabelModel>
       </data>
     </edge>
     <edge id="e55" source="n56" target="n52">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="312.8874908487034" y="1793.730748881827"/>
-            <y:Point x="312.8874908487034" y="1658.0717600479643"/>
+            <y:Point x="316.7380093183819" y="2005.5307488818269"/>
+            <y:Point x="316.7380093183819" y="1869.8717600479642"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-95.2182554245033" y="-84.46749108169183">&lt;&lt;includes&gt;&gt;<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="-95.21826185716856" y="-84.46753990981688">&lt;&lt;includes&gt;&gt;<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="37.18896770875357" distanceToCenter="true" position="left" ratio="0.5537188636087148" segment="1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e56" source="n27" target="n57">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="549.6959838867188" y="667.237548828125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.05859375" x="45.344484988774525" y="38.28364750918922">&lt;&lt;includes&gt;&gt;<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="18.257520784458745" distanceToCenter="true" position="right" ratio="0.18671667754241722" segment="-1"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="-1.0562566785665695E-5" ratio="-1.349821587837141E-7" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e57" source="n57" target="n16">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="828.3890380859375" y="723.151123046875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="24.113304707513862" y="11.513860892440562">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="18.257520784458745" distanceToCenter="true" position="right" ratio="0.18671667754241722" segment="-1"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="-8.816957233648282E-6" ratio="-1.349821587837141E-7" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e58" source="n57" target="n49">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="817.51806640625" y="772.7302856445312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="74.060546875" x="32.629543738694906" y="42.83451908661743">&lt;&lt;extends&gt;&gt;<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="18.257520784458745" distanceToCenter="true" position="right" ratio="0.18671667754241722" segment="-1"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="-8.890739081834909E-6" ratio="-1.349821587837141E-7" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e59" source="n7" target="n58">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e60" source="n57" target="n26">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>

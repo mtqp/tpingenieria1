@@ -205,8 +205,8 @@ hacer una b\'usqueda diferente, va al paso 2.
 	\item El usuario selecciona la modalidad que va utilizar.
 	\item El sistema valida que el dispositivo est\'e soportado para iniciar el proceso de descarga o streaming.
 	\item Si la cuenta no tiene asociada una tarjeta, el sistema pide una, el usuario ingresa los datos.
-	\item Extiende Caso de Uso "Cobrando venta"
-	\item Si es descarga, extiende Caso de Uso "Descargando contenido"; si el contenido es soportado y es streaming extiende Caso de Uso "Reproduciendo contenido online"
+	\item Extiende Caso de Uso $"$Cobrando venta$"$
+	\item Si es descarga, extiende Caso de Uso $"$Descargando contenido$"$; si el contenido es soportado y es streaming extiende Caso de Uso $"$Reproduciendo contenido online$"$
 	\item \textbf{Fin Caso de uso}
 \end{enumerate}
 
@@ -231,7 +231,8 @@ hacer una b\'usqueda diferente, va al paso 2.
 
 \begin{enumerate}
 	\item El sistema actualiza el estado de la cuenta, marca a la cuenta como descargando el contenido
-\item El sistema env\'ia un paquete de datos (del archivo) al usuario, por el canal de comunicaci\'on. 3 - Contin\'ua con el siguiente paquete cuando este se envi\'o exitosamente. Repite el paso 2, hasta enviar todos los paquetes.
+	\item El sistema env\'ia un paquete de datos (del archivo) al usuario, por el canal de comunicaci\'on. 
+		2.1 - Contin\'ua con el siguiente paquete cuando este se envi\'o exitosamente. Repite luego el paso 2, hasta enviar todos los paquetes.
 	\item El sistema avisa al usuario que el contenido se descarg\'o exitosamente.
 	\item El sistema actualiza en la cuenta que se descarg\'o el contenido (ya no est\'a marcada como \emph{descargando el contenido})
 	\item \textbf{Fin Caso de Uso.}
@@ -333,8 +334,8 @@ hacer una b\'usqueda diferente, va al paso 2.
 	\item \textbf{Fin Caso de Uso.}
 \end{enumerate}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent{3.1 - El sistema verifica que el email ya existe, vuelve al punto 1}\\
-6.1 - El sistema no puede validar la tarjeta de cr\'edito, vuelve al punto 1
+\noindent{4.1 - El sistema verifica que el email ya existe, vuelve al punto 1.}\\
+6.1 - El sistema no puede validar la tarjeta de cr\'edito, vuelve al punto 1.
 
 \begin{center} \line(1,0){450} \end{center}
 \newpage
@@ -412,8 +413,8 @@ hacer una b\'usqueda diferente, va al paso 2.
 \end{enumerate}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
 
-\noindent{3.1 En caso de que alg\'un par\'ametro par\'ametro sea nulo (de los no opcionales), el sistema muestra un mensaje de error y vuelve al paso 2.}\\
-4.1 - El mail ya existe y no le pertenece al usuario editando, env\'ia mensaje de error y vuelve a punto 2
+\noindent{4.1 En caso de que alg\'un par\'ametro par\'ametro sea nulo (de los no opcionales), el sistema muestra un mensaje de error y vuelve al paso 2.}\\
+5.1 - El mail ya existe y no le pertenece al usuario editando, env\'ia mensaje de error y vuelve a punto 2.
 
 \begin{center} \line(1,0){450} \end{center}
 \newpage
@@ -495,7 +496,7 @@ hacer una b\'usqueda diferente, va al paso 2.
 \noindent{\textbf{Caso de uso: Agregando amigo}} \\
 \textbf{Actores:} Amigo. \\
 \textbf{Pre:} El Amigo se encuentra autenticado. \\
-\textbf{Post:} Se crea la solicitud de amistad si el amigo existe..\\
+\textbf{Post:} Se crea la solicitud de amistad si el amigo existe.\\
 \noindent{\textbf{\underline{Caso normal}}} 
 \begin{enumerate}
 	\item El amigo abre el sistema de manejo de amistades.
@@ -579,7 +580,7 @@ hacer una b\'usqueda diferente, va al paso 2.
 \end{enumerate}
 \textbf{Fin Caso de Uso.} \\
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent 2.1 - De no estar paga la publicidad, repite el paso 1) al d\'i­a siguiente.
+\noindent 3.1 - De no estar paga la publicidad, repite el paso 1 al d\'i­a siguiente.
 \begin{center} \line(1,0){450} \end{center}
 \newpage
 \begin{center} \line(1,0){450} \end{center}
@@ -597,7 +598,7 @@ hacer una b\'usqueda diferente, va al paso 2.
 
 \end{enumerate}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent  	2.1 - De no estar pago el posicionamiento, repite el paso 1) al d\'i­a siguiente.
+\noindent{3.1 - De no estar pago el posicionamiento, repite el paso 1 al d\'i­a siguiente.}
 \begin{center} \line(1,0){450} \end{center}
 
 
@@ -670,7 +671,7 @@ hacer una b\'usqueda diferente, va al paso 2.
 
 \end{enumerate}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent 1.2 - Selecciona la categor\'i­a entera de contenido a los que se quiere asignar un mismo valor de tiempo de pr\'estamos
+\noindent 2.2 - Selecciona la categor\'i­a entera de contenido a los que se quiere asignar un mismo valor de tiempo de pr\'estamos
 \begin{center} \line(1,0){450} \end{center}
 \newpage
 \begin{center} \line(1,0){450} \end{center}
@@ -691,7 +692,7 @@ hacer una b\'usqueda diferente, va al paso 2.
 
 \end{enumerate}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent 1.2 - El administador de contenido selecciona la categor\'i­a entera de contenido a los que se quiere cambiar el valor de los par\'ametros
+\noindent 2.2 - El administador de contenido selecciona la categor\'i­a entera de contenido a los que se quiere cambiar el valor de los par\'ametros
 \begin{center} \line(1,0){450} \end{center}
 \newpage
 \begin{center} \line(1,0){450} \end{center}
@@ -768,7 +769,7 @@ El Proveedor de contenidos logra pagar por el posicionamiento.\\ \noindent{\text
 \begin{center} \line(1,0){450} \end{center}
 
 
-\noindent{\textbf{Caso de uso: Validando contenido de reproducci\'on}} \\ \textbf{Actores:} Revisor de contenido digital \\ \textbf{Pre:} El contenido a validar debe ser de reproducci\'on \\ \textbf{Post:} El estado del contenido es validado o con errores\\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item El revisor de contenido digital se loguea al sistema de revisi\'on de contenido digital. \item El revisor verifica en la cola asignada a \'el si posee alg\'un contendo a validar \item El revisor elige el contenido y valida que se encuentre en la m\'axima definici\'on posible \item El contenido cumple la m\'axima definici\'on posible. El revisor pasar a verificar que el contenido no posea cortes. \item Si el contenido es un video, el revisor valida adem\'as que los subt\'itulos sean correctos. \item Si el contenido forma parte de una temporada o \'album, el revisor repite desde el paso 1, hasta haber revisado toda la temporada o \'album \item Se agrega el contenido a la cola de contenido para habilitar (extiende CU Habilitando contenido). \item \textbf{Fin Caso de Uso.} \end{enumerate} \noindent{\textbf{\underline{Caso alternativo}}} \\ \noindent{2.1 - El revisor no posee ning\'un contenido a validar, ir a paso 8.} \\ \noindent{3.1 - El contenido no se encuentra en la m\'axima definici\'on posible. El revisor loguea en el sistema que el contenido posee un error (ver DA Lograr calidad en contenidos de reproducci\'on) (ir a paso 7)} \\ \noindent{4.1 - El contenido posee cortes. El revisor loguea en el sistema que el contenido posee un error (ver DA Lograr calidad en contenidos de reproducci\'on) (ir a paso 7)} \\ \noindent{5.1 - El video tiene subt\'itulos incorrectos, el revisor El revisor loguea en el sistema que el contenido posee un error (ver DA Lograr calidad en contenidos de reproducci\'on) (ir a paso 7)} \\ \begin{center} \line(1,0){450} \end{center}
+\noindent{\textbf{Caso de uso: Validando contenido de reproducci\'on}} \\ \textbf{Actores:} Revisor de contenido digital \\ \textbf{Pre:} El contenido a validar debe ser de reproducci\'on \\ \textbf{Post:} El estado del contenido es validado o con errores\\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item El revisor de contenido digital se loguea al sistema de revisi\'on de contenido digital. \item El revisor verifica en la cola asignada a \'el si posee alg\'un contendo a validar \item El revisor elige el contenido y valida que se encuentre en la m\'axima definici\'on posible \item El contenido cumple la m\'axima definici\'on posible. El revisor pasar a verificar que el contenido no posea cortes. \item Si el contenido es un video, el revisor valida adem\'as que los subt\'itulos sean correctos. \item Si el contenido forma parte de una temporada o \'album, el revisor repite desde el paso 1, hasta haber revisado toda la temporada o \'album \item Se agrega el contenido a la cola de contenido para habilitar (extiende CU Habilitando contenido). \item \textbf{Fin Caso de Uso.} \end{enumerate} \noindent{\textbf{\underline{Caso alternativo}}} \\ \noindent{3.1 - El revisor no posee ning\'un contenido a validar, ir a paso 8.} \\ \noindent{4.1 - El contenido no se encuentra en la m\'axima definici\'on posible. El revisor loguea en el sistema que el contenido posee un error (ver DA Lograr calidad en contenidos de reproducci\'on) (ir a paso 7)} \\ \noindent{5.1 - El contenido posee cortes. El revisor loguea en el sistema que el contenido posee un error (ver DA Lograr calidad en contenidos de reproducci\'on) (ir a paso 7)} \\ \noindent{6.1 - El video tiene subt\'itulos incorrectos, el revisor El revisor loguea en el sistema que el contenido posee un error (ver DA Lograr calidad en contenidos de reproducci\'on) (ir a paso 7)} \\ \begin{center} \line(1,0){450} \end{center}
 
 
 \newpage
@@ -832,7 +833,7 @@ De esta forma un arbol de la forma en que se utilizan los diagramas es el siguie
 \subsubsection{Obtener contenido}
 
 	\begin{center}
-		\includegraphics[scale=0.43]{Diagramas/06-ObtenerContenidoDA.png}
+		\includegraphics[scale=0.40]{Diagramas/06-ObtenerContenidoDA.png}
 	\end{center}
 
 \newpage
@@ -859,84 +860,91 @@ De esta forma un arbol de la forma en que se utilizan los diagramas es el siguie
 		\includegraphics[scale=0.45]{Diagramas/09-ModeloConceptualMC.png}
 	\end{center}
 
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
 \subsubsection{Object Contraint Language (OCL)}
 	Para complementar el \emph{Modelo Conceptual} agregaremos una serie de limitaciones que nos permiten modelar reglas para el sistema.
 Este lenguaje nos permite especificar formalmente restricciones a las clases definidas.\\
 
 
-\newpage
-\begin{center} \line(1,0){450} \end{center}
-
-
-\textbf{context Prestamos (prestamos valido)}\\
+\noindent{\textbf{Context Pr\'estamo (prestamos valido)}}\\
 Los que se prestan son amigos (el id del usuario que recibe el pr\'estamo esta entre los ids de los amigos del usuario que presta\\
 \noindent{\textbf{inv:} self.prestadoA.esAmigoDe $\rightarrow$ size() $>$ 0 $\wedge$}\\
 self.prestadoA.esAmigoDe $\rightarrow$ includes( self.prestadoPor )\\
-\begin{center} \line(1,0){450} \end{center}
-\textbf{ Context: Pr\'estamo}\\
+
 No se prestan contenidos de valor cero (contenidos gratis)\\
 \noindent{\textbf{inv:} self.contenidoAsociado.monto $>$ 0}\\
-\begin{center} \line(1,0){450} \end{center}
+
 Si un usuario presta un contenido, debi\'o haberlo comprado \\
-\noindent{\textbf{inv:} p.prestadoPor.realiz\'o$\rightarrow$ size()$>$0 and
+\noindent{\textbf{inv:} p.prestadoPor.realiz\'o$\rightarrow$ size()$>$0 $\wedge$\\
 p.prestadoPor.realiz\'o$\rightarrow$collect(seCompro)$\rightarrow$includes(p.ContenidoAsociado)}\\
-\begin{center} \line(1,0){450} \end{center}
+
 Los ids de los prestamos son diferentes\\
 \noindent{\textbf{inv:} Prestamo.allIntances()$\rightarrow$forAll(i,j $\mid$ i $\ne$ j $\Rightarrow$ i.id $\ne$ j.id)}\\
-\begin{center} \line(1,0){450} \end{center}
+
 S\'olo se puede prestar contenido de tipo Online\\
 \noindent{\textbf{inv:} self.contenidoAsociado.TipoContenido $=$ online}\\
-\begin{center} \line(1,0){450} \end{center}
-Ver q no haya coliciones de prestamos\\
-\noindent{\textbf{inv:} Prestamo.allInstances()$\rightarrow$forAll( i , j $\mid$ i $\ne$j and i.prestadoPor $=$ j.prestadoPor $\Rightarrow$ ((i.contenidoAsociado $=$ j.contenidoAsociado)$\Rightarrow$ i.fechaPrestamo $>$ j.fechaPrestamo + j.tiempoPrestamo or i.fechaPrestamo+i.tiempoPrestamo $<$ j.fechaPrestamo or j.fechaPrestamo $>$ i.fechaPrestamo + i.tiempoPrestamo or j.fechaPrestamo + j.tiempoPrestamo $<$ i.fechaPrestamo ) }\\
-\begin{center} \line(1,0){450} \end{center}
+
+
+Ver que no haya coliciones de prestamos\\
+\noindent{\textbf{inv:} Prestamo.allInstances()$\rightarrow$forAll( i , j $\mid$ i $\ne$j $\wedge$ i.prestadoPor $=$ j.prestadoPor $\Rightarrow$ ((i.contenidoAsociado $=$ j.contenidoAsociado)$\Rightarrow$ i.fechaPrestamo $>$ j.fechaPrestamo + j.tiempoPrestamo $\vee$ \\
+i.fechaPrestamo+i.tiempoPrestamo $<$ j.fechaPrestamo $\vee$ j.fechaPrestamo $>$ i.fechaPrestamo + i.tiempoPrestamo $\vee$ j.fechaPrestamo + j.tiempoPrestamo $<$ i.fechaPrestamo ) }\\
+
+\newpage
+
 No puede pasar que si tengo un contenido prestado m\'as de una vez por la misma persona, que m\'as de un pr\'estamo figure como actualmente prestado, ni que hay un pr\'estamo con fecha de pr\'estamo posterior al del pr\'estamo que figure como actualmente prestado\\
    
-\noindent{\textbf{inv:} Prestamo.allInstances()$\rightarrow$select(p $\mid$ p.estaPrestado)$\rightarrow$forAll(p$\mid$ not Prestamo.allInstances()$\rightarrow$Exists(p2 $\mid$ p2$\ne$p and (p.prestadoPor $=$ p2.prestadoPor and p.contenidoAsociado $=$ p2.contenidoAsociado and p2.estaPrestado or p.prestadoPor $=$ p2.prestadoPor and p.contenidoAsociado $=$ p2.contenidoAsociado and p2.fechaPrestamo $>$ p.fechaPrestamo)))}\\
+\noindent{\textbf{inv:} Prestamo.allInstances()$\rightarrow$select(p $\mid$ p.estaPrestado)$\rightarrow$forAll(p$\mid$ not Prestamo.allInstances()$\rightarrow$Exists(p2 $\mid$ p2$\ne$p $\wedge$ (p.prestadoPor $=$ p2.prestadoPor $\wedge$ p.contenidoAsociado $=$ p2.contenidoAsociado $\wedge$ p2.estaPrestado $\vee$ p.prestadoPor $=$ p2.prestadoPor $\wedge$ p.contenidoAsociado $=$ p2.contenidoAsociado $\wedge$ p2.fechaPrestamo $>$ p.fechaPrestamo)))}
 \begin{center} \line(1,0){450} \end{center}
-\textbf{Context Usuario}\\
+
+\noindent{\textbf{Context Usuario}}\\
 Un usuario no puede ser amigo de si mismo\\
     \noindent{\textbf{inv:} self.esAmigoDe.size()$>$0 $\Rightarrow$ self.esAmigoDe()$\rightarrow$forAll( x $\mid$ x.usuarioId $\ne$ self.usuarioId)}\\
-\begin{center} \line(1,0){450} \end{center}
+
 El usuario tiene contenido recomendado sii calific\'o al menos un contenido\\
 \emph{nota: not+xor equivale a si y s\'olo si}\\
-\noindent{\textbf{inv:} not( self.califico.isEmpty() xor self.leRecomiendan.isEmpty() )}\\
-\begin{center} \line(1,0){450} \end{center}
+\noindent{\textbf{inv:} not( self.califico.isEmpty() $\oplus$ self.leRecomiendan.isEmpty() )}\\
+
 El usuario s\'olo calific\'o contenido que compr\'o (para todo contenido calificado, existe alguna compra hecha con ese contenido)\\
     \noindent{\textbf{inv:} self.califico$\rightarrow$forAll( u $\mid$ self.realizo$\rightarrow$exists( c $\mid$ c.seCompro.idContenido $=$ u.idContenido ))}\\
-\begin{center} \line(1,0){450} \end{center}
+
 Todos los contenidos tienen diferente id\\
 \noindent{\textbf{inv:} Contenido.allIntances()$\rightarrow$forAll(c1,c2 $\mid$ c1 $\ne$ c2 $\Rightarrow$ c1.idContenido $\ne$ c2.idContenido)}\\
-\begin{center} \line(1,0){450} \end{center}
+
 La cantidad de contenidos recomendados a un usuario es igual a cero (si nunca calific\'o) o diez (cuando ya calific\'o)\\
-\noindent{\textbf{inv:} self.leRecomiendan$\rightarrow$size() $=c$ 0 or self.leRecomiendan$\rightarrow$size()$=$ 10}\\
-\begin{center} \line(1,0){450} \end{center}
-La aparici\'on de cada g\'enero en el contenido recomendado a un usuario es proporcional a la suma de las calificaciones que el usuario le di\'o a contenido de ese g\'enero, sobre la suma de calificaciones totales.\\
-No se recomienda contenido ya comprado ni contenido obtenido de pr\'estamos\\
+\noindent{\textbf{inv:} self.leRecomiendan$\rightarrow$size() $=c$ 0 $\vee$ self.leRecomiendan$\rightarrow$size()$=$ 10}\\
+
+
+La aparici\'on de cada g\'enero en el contenido recomendado a un usuario es proporcional a la suma de las calificaciones que el usuario le di\'o a contenido de ese g\'enero, sobre la suma de calificaciones totales. No se recomienda contenido ya comprado ni contenido obtenido de pr\'estamos.\\
 \noindent{\textbf{inv:} self.leRecomiendan$\rightarrow$forall(c $\mid$ not c.comprado(isEmpty()) $\Rightarrow$ c.comprado$\rightarrow$forall(c2$\mid$ c2.seRealiz\'o.idUsuario $\ne$ self.seRealiz\'o.idUsuario)}\\
-\begin{center} \line(1,0){450} \end{center}
+
 Se puede reproducir s\'olo la reproduccion online\\
 \noindent{\textbf{inv:} self.reproduce.size() $=$1 $\Rightarrow$ self.reproduce.TipoContenido $=$ Online}\\
-\begin{center} \line(1,0){450} \end{center}
+
+\newpage
 Se puede reproducir s\'olo lo que compro y no prest\'o, o pidi\'o prestado\\
-\noindent{\textbf{inv:} self.Reproduce.size() $=$ 1 $\Rightarrow$ self.realizo$\rightarrow$collect(seCompr\'o)$\rightarrow$includes(self.Reproduce) and
-self.Reproduce.pr\'estamos$\rightarrow$forall(p $\mid$ p.esPrestadoPor $=$ self $\Rightarrow$ not p.estaPrestado))) or
+\noindent{\textbf{inv:} self.Reproduce.size() $=$ 1 $\Rightarrow$ self.realizo$\rightarrow$collect(seCompr\'o)$\rightarrow$includes(self.Reproduce) $\wedge$
+self.Reproduce.pr\'estamos$\rightarrow$forall(p $\mid$ p.esPrestadoPor $=$ self $\Rightarrow$ not p.estaPrestado))) or\\
 self.Reproduce.pr\'estamos$\rightarrow$exists(p2 $\mid$ p2.esPrestadoA $=$ self $\Rightarrow$p2.estaPrestado)))} \\
-\begin{center} \line(1,0){450} \end{center}
+
 No hay dos usuarios iguales. Todos los usuarios tienen diferente id\\
-\noindent{\textbf{inv:} Usuario.allInstances()$\rightarrow$forAll(u1, u2 $\mid$ u1$\ne$u2 $\Rightarrow$ u1.idUsuario$\ne$u2.idUsuario)}\\
+\noindent{\textbf{inv:} Usuario.allInstances()$\rightarrow$forAll(u1, u2 $\mid$ u1$\ne$u2 $\Rightarrow$ u1.idUsuario$\ne$u2.idUsuario)}
 \begin{center} \line(1,0){450} \end{center}
-\textbf{Context Contenido Calificado}\\
+
+\noindent{\textbf{Context Contenido Calificado}}\\
 El contenido se califica de 0 a 10.\\
-\noindent {\textbf{inv:} 0 $\leq$ self.calificacion and self.calificacion $\leq$ 10}\\
+\noindent {\textbf{inv:} 0 $\leq$ self.calificacion $\wedge$ self.calificacion $\leq$ 10}
 \begin{center} \line(1,0){450} \end{center}
-\textbf{Context Compra}\\
+
+\noindent{\textbf{Context Compra}}\\
 El monto de la compra es igual al costo del contenido\\
-\noindent {\textbf{inv:} self.monto $=$ self.seCompro.costo}\\
+\noindent {\textbf{inv:} self.monto $=$ self.seCompro.costo}
 \begin{center} \line(1,0){450} \end{center}
-\textbf{Context Publicidad}\\
+
+\noindent{\textbf{Context Publicidad}}\\
 La publicidad s\'olo se aplica a contenido de precio igual a cero (contenido gratuito)\\
-\noindent{\textbf{inv:} self.asociadoA$\rightarrow$size() > 0 $\Rightarrow$ (self.asociadoA$\rightarrow$forall(c $\mid$ c.costo >0)) } \\
+\noindent{\textbf{inv:} self.asociadoA$\rightarrow$size() $>$ 0 $\Rightarrow$ (self.asociadoA$\rightarrow$forall(c $\mid$ c.costo $>$ 0)) }
 \begin{center} \line(1,0){450} \end{center}
 
 
@@ -946,28 +954,40 @@ La publicidad s\'olo se aplica a contenido de precio igual a cero (contenido gra
 
 \section{Trazabilidad}
 
-	Trazabilidad de los Objetivos del Tp1 con los diagramas antes mencionados.
+	A continuaci\'on se mostrar\'a la relaci\'on entre los distintos diagramas y el diagrama de objetivos del primer trabajo pr\'actico.
 
-A continuaci\'on se mostrar\'a la relaci\'on entre los distintos diagramas
-title: Diagrama de Objetivos
-subtitle: 0. Lograr enviar exitosamente el contenido:
-Queremos definir de qu\'e forma el contenido se va a enviar. Para eso el contenido se va a poder descargar o ver de forma online en el sistema. Los casos de uso Solicitando contenido, Eligiendo contenido, Reproduciendo contenido online, Descargando contenido tratan la interacci\'on que va a existir entre el usuario y el sistema para lograr lo pedido.
-Podemos ver adem\'as en el modelo conceptual cu\'al es la relaci\'on entre el contenido y el usuario. Los casos de uso y escenarios fijan que no puede haber m\'as de un contenido reproduciendo en simult\'aneo, siendo reafirmado por el modelo conceptual.
-En el diagrama de actividad de Obtener contenido se puede ver el ciclo que cumple la solicitud hasta que esta se responde.
-subtitle: 1.:Lograr proveer contenido contenido gratuito y pago bajo demanda para generar ingresos
-En esta secci\'on se quiere definir la forma en la que se consigue el contenido y c\'omo se busca generar ingresos mediante un sistema de descarga bajo demanda.
-    Los casos de uso asociados al administrador de contenido y al proveedor de contenido muestran c\'omo se comporta el sistema cuando se ingresa un nuevo contenido, junto con la forma de categorizarlo. Se observa c\'omo se cumplen los objetivos para obtener el contenido y lograr el almacenamiento eficiente. En el diagrama de Agentes 2.3.2 se puede observar como el administrador de contenido interact\'ua con el proveedor de contenido y el camino hasta habilitarlo al p\'ublico. Se complementa con los casos de uso en donde muestra la forma de categorizar el contenido, alterando sus par\'ametros.
-    Por otro lado, se observa c\'omo es la interacci\'on del sistema con el sistema de facturaci\'on para lograr cobrar el contenido, publicidad y posicionamiento. los casos de uso asociados al sistema de facturaci\'on muestran este comportamiento. El diagrama de Agentes 2.3.7 muestra como se realiza la operaci\'on econ\'omica.
-    En el diagrama 2.4 se puede observar como esta categorizado el contenido, que cuenta con un G\'enero y categor\'eas. Estas son las que se utilizan para filtrar cuando se quiere elegir el contenido a adquirir, y siendo el G\'enero el que se utiliza para determinar qu\'e contenido ser\'a recomendado por el sistema.
-subtitle: 2. Lograr que sea personalizado
-    Se hizo hincapi\'e en el sistema de pr\'estamo, as\'i como en la recomendaci\'on de contenido para que el sistema sea personalizado.
-Se cre\'o el rol de amigo para detallar el sistema de pr\'estamo en los casos de uso. Con las restricciones de OCL, se valid\'o el funcionamiento de los pr\'estamos, sin agregarse la clase de Amigo, ya que es un Usuario. El usuario as\'i tiene una relaci\'on as\'i mismo que representa a los amigos de ese usuario/cuenta.
-La recomendaci\'on de contenido viene de la mano de la calificaci\'on de contenido y la recomendaci\'on de contenido. En el diagrama, se plantea un algoritmo para la calificaci\'on de contenido que utiliza las calificaciones previas hechas por el usuario para definir qu\'e contenido mostrarle dependiendo del g\'enero del contenido. En el modelo conceptual vemos las restricciones que se aplican a la estructura de clases para que se realicen la recomendaci\'on de contenido por parte del sistema. Por ejemplo, no se recomienda contenido salvo que el usuario haya calificado al menos uno de ellos. Adem\'as, como es objeto de CentralMarket generar ingresos, se tom\'o como pol\'itica s\'olo recomendar contenido pago.
-subtitle: 3 - Lograr proveer el contenido de forma transparente   
+\subsection{ Lograr enviar exitosamente el contenido}
+    Queremos definir de qu\'e forma el contenido se va a enviar. Para eso el contenido se va a poder descargar o ver de forma online en el sistema. Los casos de uso Solicitando contenido, Eligiendo contenido, Reproduciendo contenido online, Descargando contenido tratan la interacci\'on que va a existir entre el usuario y el sistema para lograr lo pedido. \\
+
+\indent Podemos ver adem\'as en el modelo conceptual cu\'al es la relaci\'on entre el contenido y el usuario. Los casos de uso y escenarios fijan que no puede haber m\'as de un contenido reproduciendo en simult\'aneo, siendo reafirmado por el modelo conceptual.\\
+\indent En el diagrama de actividad de Obtener contenido se puede ver el ciclo que cumple la solicitud hasta que esta se responde.
+\subsection{ Lograr proveer contenido contenido gratuito y pago bajo demanda para generar ingresos}
+
+En esta secci\'on se quiere definir la forma en la que se consigue el contenido y c\'omo se busca generar ingresos mediante un sistema de descarga bajo demanda. \\
+
+\indent Los casos de uso asociados al administrador de contenido y al proveedor de contenido muestran c\'omo se comporta el sistema cuando se ingresa un nuevo contenido, junto con la forma de categorizarlo. Se observa c\'omo se cumplen los objetivos para obtener el contenido y lograr el almacenamiento eficiente. En el diagrama de Agentes 2.3.2 se puede observar como el administrador de contenido interact\'ua con el proveedor de contenido y el camino hasta habilitarlo al p\'ublico. Se complementa con los casos de uso en donde muestra la forma de categorizar el contenido, alterando sus par\'ametros.\\
+
+\indent Por otro lado, se observa c\'omo es la interacci\'on del sistema con el sistema de facturaci\'on para lograr cobrar el contenido, publicidad y posicionamiento. los casos de uso asociados al sistema de facturaci\'on muestran este comportamiento. El diagrama de Agentes 2.3.7 muestra como se realiza la operaci\'on econ\'omica.\\
+
+\indent En el diagrama 2.4 se puede observar como esta categorizado el contenido, que cuenta con un g\'enero y categor\'ias. Estas son las que se utilizan para filtrar cuando se quiere elegir el contenido a adquirir, y siendo el G\'enero el que se utiliza para determinar qu\'e contenido ser\'a recomendado por el sistema.
+
+\newpage
+\subsection{ Lograr que sea personalizado}
+    Se hizo hincapi\'e en el sistema de pr\'estamo, as\' como en la recomendaci\'on de contenido para que el sistema sea personalizado. \\
+
+\indent Se cre\'o el rol de amigo para detallar el sistema de pr\'estamo en los casos de uso. Con las restricciones de OCL, se valid\'o el funcionamiento de los pr\'estamos, sin agregarse la clase de Amigo, ya que es un Usuario. El usuario as\'i tiene una relaci\'on asi mismo que representa a los amigos de ese usuario/cuenta.\\
+
+\indent La recomendaci\'on de contenido viene de la mano de la calificaci\'on de contenido y la recomendaci\'on de contenido. En el diagrama, se plantea un algoritmo para la calificaci\'on de contenido que utiliza las calificaciones previas hechas por el usuario para definir qu\'e contenido mostrarle dependiendo del g\'enero del contenido. En el modelo conceptual vemos las restricciones que se aplican a la estructura de clases para que se realicen la recomendaci\'on de contenido por parte del sistema. Por ejemplo, no se recomienda contenido salvo que el usuario haya calificado al menos uno de ellos. Adem\'as, como es objeto de CentralMarket generar ingresos, se tom\'o como pol\'itica s\'olo recomendar contenido pago.\\
+
+\newpage
+
+\subsection{ Lograr proveer el contenido de forma transparente}   
     En esta secci\'on se muestra todo el comportamiento del sistema para lograr que el contenido se pueda seguir reproduciendo desde el \'ultimo estado en que se lo dej\'o. Los casos de uso muestran el accionar del sistema cuando uno se autentica, y como el sistema toma las medidas necesarias para lograr la transparencia. En el diagrama de actividad 3.3.6 se puede observar como el sistema interacciona con el dispositivo para validar el traspaso (si es que hubo un cambio de dispositivo) y determina si es posible o no la carga del contenido.
-subtitle: 4 - Lograr calidad de contenido.
-    Se busca proveer los contenidos de mayor calidad, para eso CentralMarket cuenta con revisores de contenido digital y de especificaci\'on. Se quiere que todo contenido que est\'e disponible a los usuarios cuente con un est\'andar de calidad. En los casos de uso relacionados al Revisor de contenido digital y Revisor de especificaci\'on se denota de qu\'e forma se valida que se superen los test. Adem\'as el administrador de contenido una vez que los test se realizan decide dado su resultado habilitarlo o no. El flujo se ve en los diagramas de actividad de 03 - Carga y habilitaci\'on de contenido DA, 04 - Cargar el contenido de reproducci\'on y solicitar revisi\'on DA, 05 - Cargar el contenido de ejecuci\'on y solicitar revisi\'on DA.
-En el modelo conceptual s\'olo se denot\'o que existe un tipo de contenido especial llamado \emph{Contenido en revisi\'on} sin m\'as detalle.
+
+\subsection{ Lograr calidad de contenido}
+    Se busca proveer los contenidos de mayor calidad, para eso CentralMarket cuenta con revisores de contenido digital y de especificaci\'on. Se quiere que todo contenido que est\'e disponible a los usuarios cuente con un est\'andar de calidad. En los casos de uso relacionados al Revisor de contenido digital y Revisor de especificaci\'on se denota de qu\'e forma se valida que se superen los test. Adem\'as el administrador de contenido una vez que los test se realizan decide dado su resultado habilitarlo o no. El flujo se ve en los diagramas de actividad de 03 - Carga y habilitaci\'on de contenido DA, 04 - Cargar el contenido de reproducci\'on y solicitar revisi\'on DA, 05 - Cargar el contenido de ejecuci\'on y solicitar revisi\'on DA. \\
+
+\indent En el modelo conceptual s\'olo se denot\'o que existe un tipo de contenido especial llamado \emph{Contenido en revisi\'on} sin m\'as detalle.
 
 \newpage
 

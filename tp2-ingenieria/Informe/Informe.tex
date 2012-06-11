@@ -116,19 +116,29 @@ A tal efecto hemos revisado una serie de puntos con los directivos y se han modi
 \begin{itemize}
 	
 	\item{ Los agentes \emph{Gerente de proyecto} y \emph{Desarrollador} que figuraban en el diagrama de objetivos de la documentación revisada con el cliente no 			serán tenidos en cuenta en esta etapa ya que forman parte intrínseca de la construcción del mismo y no de su comportamiento.}
+
 	\item{ El agente \emph{Cliente} será modelado en esta etapa a través del usuario quien es el que interactúa directamente con el sistema)}
+
 	\item{ De las diferentes opciones propuestas para el tipo de descarga (no streaming) los directivos han optado por la descarga directa.}
 	
 	\item{ Del diagrama de objetivos, la rama 3.1 (Soportar TV, PC, tablet y mobile) no será modelada en esta etapa ya que un equipo especial de CentralMarket
 se ocupará de definir esas necesidades.}
+
 	\item{ Del mismo modo la Situación 6 mencionada en la documentación anterior sobre la \emph{Actualización de la interfaz de usuario} no será incluida en esta nueva presentación ya que CentralMaket se ocupará también }
+
 	\item{ En el modelado a continuación asumiremos que todos los actores que interactuen con el sistema ya tienen creada una cuenta previa para poder loguearse y realizar sus acciones }
+
 	\item{ Consultamos a la analista de CentralMarket al respecto de los tipos de publicidad y tipos de posicionamiento y nos comentó que dejáramos la definición de estos tipos a ellos con lo cual asumiremos que ya están definidos en el sistema}
+
 	\item{ La analista también hizo incapié en que es importante que el Administrador de contenidos tenga una forma de "poner online" los contenidos que 
 ya han sido verificados, es por eso que le hemos otorgado la opción de "Habilitar" los contenidos cuando quiere ponerlos online}
+
 	\item{ Los directivos nos nos mencionaron que quieren poder ver claramente cual es el flujo de validación de los contenidos, para asegurarse de brindar
 la mejor calidad aunque para los contenidos en si quieren poder asegurar no llegar a generar inconsistencias en el sistema. Es por eso que decidimos presentarles
 todo lo referente a revisión de contenidos en un \emph{Casos de Uso} y un \emph{Diagramas de actividad} y con relación a los contenidos en si agregar también un \emph{Modelo Conceptual}}
+
+	\item{ Al consultar sobre los paquetes los directivos nos comentaron que en una primera instancia no implementarán paquetes, quizás más adelante, así que no quieren demasiada información sobre ellos, decidimos no agregarlos en el \emph{Modelo conceptual} para simplificar la descripción de los contenidos ya que en un 
+futuro puede extenderse.}
 
 
 
@@ -150,6 +160,78 @@ Presentaremos las funcionalidades con tres tipos de diagramas: de \emph{Casos de
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/01-CasosdeUsoCU.png}
 	\end{center}
+
+\newpage
+
+\subsection{Descripción de los casos de uso.}
+
+Template:
+
+
+\noindent{\textbf{Caso de uso:} Eligiendo contenido.} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} El usuario está registrado y autenticado. \\
+\textbf{Post:} El usuario eligió un contenido.\\
+
+\noindent{\textbf{\underline{Caso normal}}} \\
+
+\begin{enumerate}
+	\item
+\end{enumerate}
+
+\textbf{Fin Caso de Uso.}\\
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+
+------ Fin template -------
+
+\noindent{\textbf{Caso de uso:} Eligiendo contenido.} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} El usuario está registrado y autenticado. \\
+\textbf{Post:} El usuario eligió un contenido.\\
+
+\noindent{\textbf{\underline{Caso normal}}}
+
+\begin{enumerate}
+	\item El usuario entra a la búsqueda de contenido en el sistema.
+	\item El usuario ingresa un término en la búsqueda de acuerdo al contenido que quiera buscar y/o marca los filtros que necesite.
+	\item El sistema ofrece una lista básica de contenidos acorde al usuario y los filtros completados.
+	\item El usuario ve que el contenido a buscar forma forma parte de lista seleccionada y accede a al detalle.
+	\item El usuario decide si va a consumir el contenido, de ser así, extiende caso de uso "Solicitando contenido"
+	\item \textbf{Fin Caso de uso}\\
+\end{enumerate}
+
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+
+4.1 - El usuario no encuentra el contenido que está buscando y decide
+hacer una búsqueda diferente, va al paso 2.
+
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso:} Solicitando contenido. } \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} El usuario está autenticado y ha elegido un contenido. \\
+\textbf{Post:} El usuario solicitó un contenido.\\
+
+\noindent{\textbf{\underline{Caso normal}}} \\
+
+\begin{enumerate}
+	\item El sistema muestra al usuario, dado el tipo de contenido, cuáles son las modalidades para consumirlo (descarga y/o streaming)
+	\item El usuario selecciona la modalidad que va utilizar.
+	\item El sistema valida que el dispositivo esté soportado para iniciar el proceso de descarga o streaming.
+	\item Si la cuenta no tiene asociada una tarjeta, el sistema pide una, el usuario ingresa los datos.
+	\item Extiende Caso de Uso "Cobrando venta"
+	\item Si es descarga, extiende Caso de Uso "Descargando contenido"; si el contenido es soportado y es streaming extiende Caso de Uso "Reproduciendo contenido online"
+	\item \textbf{Fin Caso de uso}
+\end{enumerate}
+
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+
+3.1 El sistema muestra un mensaje de error indicando que el dispositivo no está soportado. Ir a 7.
+4.1 - Si el contenido es gratuito, ir a 6
+6.1 - De no ser válida la tarjeta, el sistema muestra mensaje de error y vuelve a 4.
+6.2 - De no ser exitoso el cobro, el sistema muestra mensaje de error
+
+
 
 \newpage
 

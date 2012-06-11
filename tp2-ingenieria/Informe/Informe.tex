@@ -165,26 +165,25 @@ Presentaremos las funcionalidades con tres tipos de diagramas: de \emph{Casos de
 
 \subsection{Descripción de los casos de uso.}
 
-Template:
-
-
+------ principio template -------\\
 \noindent{\textbf{Caso de uso:} Eligiendo contenido.} \\
 \textbf{Actores:} Usuario. \\
 \textbf{Pre:} El usuario está registrado y autenticado. \\
 \textbf{Post:} El usuario eligió un contenido.\\
-
-\noindent{\textbf{\underline{Caso normal}}} \\
-
+\noindent{\textbf{\underline{Caso normal}}} 
 \begin{enumerate}
-	\item
+	\item a
 \end{enumerate}
-
-\textbf{Fin Caso de Uso.}\\
+\textbf{Fin Caso de Uso.}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
+\begin{center} \line(1,0){450} \end{center}
 
------- Fin template -------
+------ Fin template -------\\
+ 
+\newpage
 
-\noindent{\textbf{Caso de uso:} Eligiendo contenido.} \\
+\begin{center} \line(1,0){450} \end{center}
+\noindent{\textbf{Caso de uso: Eligiendo contenido.}} \\
 \textbf{Actores:} Usuario. \\
 \textbf{Pre:} El usuario está registrado y autenticado. \\
 \textbf{Post:} El usuario eligió un contenido.\\
@@ -197,7 +196,7 @@ Template:
 	\item El sistema ofrece una lista básica de contenidos acorde al usuario y los filtros completados.
 	\item El usuario ve que el contenido a buscar forma forma parte de lista seleccionada y accede a al detalle.
 	\item El usuario decide si va a consumir el contenido, de ser así, extiende caso de uso "Solicitando contenido"
-	\item \textbf{Fin Caso de uso}\\
+	\item \textbf{Fin Caso de uso}
 \end{enumerate}
 
 \noindent{\textbf{\underline{Caso alternativo}}} \\
@@ -207,12 +206,16 @@ hacer una búsqueda diferente, va al paso 2.
 
 \begin{center} \line(1,0){450} \end{center}
 
-\noindent{\textbf{Caso de uso:} Solicitando contenido. } \\
+\newpage
+
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Solicitando contenido. }} \\
 \textbf{Actores:} Usuario. \\
 \textbf{Pre:} El usuario está autenticado y ha elegido un contenido. \\
 \textbf{Post:} El usuario solicitó un contenido.\\
 
-\noindent{\textbf{\underline{Caso normal}}} \\
+\noindent{\textbf{\underline{Caso normal}}} 
 
 \begin{enumerate}
 	\item El sistema muestra al usuario, dado el tipo de contenido, cuáles son las modalidades para consumirlo (descarga y/o streaming)
@@ -226,10 +229,137 @@ hacer una búsqueda diferente, va al paso 2.
 
 \noindent{\textbf{\underline{Caso alternativo}}} \\
 
-3.1 El sistema muestra un mensaje de error indicando que el dispositivo no está soportado. Ir a 7.
-4.1 - Si el contenido es gratuito, ir a 6
-6.1 - De no ser válida la tarjeta, el sistema muestra mensaje de error y vuelve a 4.
-6.2 - De no ser exitoso el cobro, el sistema muestra mensaje de error
+\noindent{3.1 - El sistema muestra mensaje de error indicando que el dispositivo no está soportado. Ir a 7.}\\
+4.1 - Si el contenido es gratuito, ir a 6.\\
+6.1 - De no ser válida la tarjeta, el sistema muestra mensaje de error y vuelve a 4.\\
+6.2 - De no ser exitoso el cobro, el sistema muestra mensaje de error.\\
+
+\begin{center} \line(1,0){450} \end{center}
+
+\newpage 
+
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Descargando contenido}} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} dispositivo soportado, usuario autenticado, usuario eligi\'o modalidad de descarga. \\
+\textbf{Post:} El contenido fue descargado.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+
+\begin{enumerate}
+	\item El sistema actualiza el estado de la cuenta, marca a la cuenta como descargando el contenido
+\item El sistema env\'ia un paquete de datos (del archivo) al usuario, por el canal de comunicaci\'on. 3 - Contin\'ua con el siguiente paquete cuando este se envi\'o exitosamente. Repite el paso 2, hasta enviar todos los paquetes.
+	\item El sistema avisa al usuario que el contenido se descarg\'o exitosamente.
+	\item El sistema actualiza en la cuenta que se descarg\'o el contenido (ya no est\'a marcada como \emph{descargando el contenido})
+	\item \textbf{Fin Caso de Uso.}
+
+\end{enumerate}
+
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+
+\noindent{1.1 En caso de que en el estado de la cuenta haya alg\'un contenido descarg\'andose \'o un contenido distinto en reproducci\'on \'o pausado, el sistema muestra un mensaje de error, y vuelve a la pantalla de selecci\'on de contenido.}\\
+
+\noindent{3.1 En caso de que un paquete no se haya logrado enviar por alg\'un error, el sistema reintenta el env\'io del mismo paquete antes de continuar con el siguiente (i.e. vuelve al paso 2)}\\
+\begin{center} \line(1,0){450} \end{center}
+
+\newpage
+
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Reproduciendo contenido online }} \\
+\textbf{Actores:} Usuario.  \\
+\textbf{Pre:} Dispositivo soportado, usuario autenticado, usuario eligió modalidad streaming . \\
+\textbf{Post:} Se reprodujo el contenido online (finalizó con un stop) .\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El sistema carga el estado de la cuenta
+	\item Si no había contenido en reproducción, dejá asentado en el estado de la cuenta que el último estado es el inicio, y continúa con el paso 4. Si el contenido estaba pausado, el sistema muestra un mensaje al usuario, preguntando si desea continuar la reproducción desde donde se lo dejó o no.
+	\item El usuario acepta reproducir desde el estado en que se dejó.
+	\item El sistema marca el estado de la cuenta como \emph{reproduciendo contenido} y empieza a reproducir desde el último estado.
+	\item El usuario termina de ver el contenido (o detiene la reproducción)
+	\item El sistema marca en el estado de la cuenta \emph{no hay contenido reproduciéndose/descargándose}
+	\item En caso de que el usuario decida calificar el contenido, extiende Caso de Uso \emph{Calificando contenido}
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+
+\noindent{2.1 En caso de que en el estado de la cuenta haya algún contenido descargándose ó un contenido distinto en reproducción o pausado, el sistema muestra un mensaje de error, y vuelve a la pantalla de selección de contenido}
+3.1 El usuario cancela, y vuelve a la pantalla de selección de contenido
+6.1 El usuario pausa la reproducción del contenido y el sistema marca en el estado de la cuenta como \emph{contenido en pausa}, y sigue en paso 8.
+
+\begin{center} \line(1,0){450} \end{center}
+
+\newpage
+
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Calificando contenido}} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} Usuario autenticado, usuario reprodujo el contenido, usuario no calificó el contenido anteriormente. \\
+\textbf{Post: El contenido recibió calificación del usuario} .\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+
+	\item El usuario entra al sistema de calificación
+	\item El sistema muestra el detalle del contenido anteriormente reproducido y permite que el usuario ingrese un valor del 1 al 10 (10 equivale a excelente, 1 a pésimo)
+	\item El usuario ingresa la calificación y acepta.
+	\item El sistema guarda la calificación dada para el contenido.
+	\item El sistema actualiza la lista de recomendados acorde al nuevo registro de calificaciones (Explicado en el diagrama de Clases Conceptuales)
+
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+
+\noindent{\textbf{Caso de uso: Conociendo historial de compras}} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} Usuario autenticado. \\
+\textbf{Post:} Usuario conoce el historial de compras realizadas.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El usuario entra al historial de compras
+	\item El sistema muestra el detalle del historial de compras y una solapa con contenido recomendado
+	\item El usuario navega por el historial, pudiendo ver el detalle de cada una de ellas. En cualquier momento puede decidir ver el contenido recomendado 	cliqueando en la solapa (extiende caso de uso \emph{Conociendo contenido recomendado}
+	\item El usuario cierra el historial
+	\item El sistema cierra la pantalla del historial
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\begin{center} \line(1,0){450} \end{center}
+
+
+\noindent{\textbf{Caso de uso: Conociendo contenido recomendado}} \\
+\textbf{Actores:} Usuario . \\
+\textbf{Pre:} usuario autenticado. \\
+\textbf{Post:} usuario conoce el contenido recomendado por el sistema.\\
+\noindent{\textbf{\underline{Caso normal}}} \\
+	Trivial\\
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Registrando Usuario }} \\
+\textbf{Actores:} Usuario no registrado. \\
+\textbf{Pre:} - \\
+\textbf{Post:} El Usuario se registra.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El sistema pide datos para la registración de la cuenta (email y contraseña, información de personal (opcional), datos de tarjeta de crédito (opcional)
+	\item El usuario ingresa los datos pedidos
+	\item El sistema valida si el email ya existe
+	\item El sistema verifica que el email no existe, se graba el email y la contraseña
+	\item Si el usuario puso datos de la tarjeta de crédito, extiende CU Validando datos de tarjeta de crédito
+	\item Se crea una cuenta a nombre del nuevo usuario con sus datos.
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+\noindent{3.1 - El sistema verifica que el email ya existe, vuelve al punto 1}
+6.1 - El sistema no puede validar la tarjeta de crédito, vuelve al punto 1
+
+\begin{center} \line(1,0){450} \end{center}
+
+--trabajando fin--
 
 
 

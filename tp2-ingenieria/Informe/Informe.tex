@@ -138,9 +138,9 @@ todo lo referente a revisión de contenidos en un \emph{Casos de Uso} y un \emph{
 \section{Diagramas}
 	
 	A continuación presentamos una serie de modelos que representan el comportamiento acordado con los directivos de CentralMarket.
-Presentaremos las funcionalidades con tres tipos de diagramas, de \emph{Casos de Uso}, de \emph{Diagramas de actividad} y \emph{Modelo Conceptual}
+Presentaremos las funcionalidades con tres tipos de diagramas: de \emph{Casos de Uso}, de \emph{Actividad} y \emph{Modelo Conceptual}.\\
 
-	Un diagrama de casos de uso permite identificar claramente la interacción del sistema con diferentes actores. A continuación se muestran todos los actores relevantes al sistema y las acciones que pueden realizar con el sistema.
+	Un diagrama de \emph{Casos de Uso} permite identificar claramente la interacción del sistema con diferentes actores. A continuación se muestran todos los actores relevantes al sistema y las acciones que pueden realizar con el sistema.
 
 \newpage
 
@@ -156,54 +156,92 @@ Presentaremos las funcionalidades con tres tipos de diagramas, de \emph{Casos de
 \subsection{Diagrama de Actividad}
 
 	Un diagrama de actividad permite modelar una secuencia de acciones entre los componentes e un sistema. En nuestro caso lo hemos utilizado para 
-describir los flujos principales del sistema y la interacción a través del mismo de los diferentes agentes que intervienen.
+describir los flujos principales del sistema y la interacción a través del mismo de los diferentes agentes que intervienen.\\
 
-	La serie de diagramas acontinuación guardan una relación siendo que los diagramas principales utilizan diagramas secundarios para describir el comportamiento.
-Así, en si un diagrama un estado (que representa una acción) se encuentra recuadrado con una línea más gruesa y precedido por las siglas DA (Diagrama de Actividad) indica que ese estado o acción se describe con mayor detalle en otro Diagrama de Actividad.
+	Los diagramas a continuación guardan una relación siendo que los diagramas principales utilizan diagramas secundarios para describir el comportamiento. Así, en si un diagrama un estado (que representa una acción) se encuentra recuadrado con una línea más gruesa y precedido por las siglas DA (Diagrama de Actividad) indica que ese estado o acción se describe con mayor detalle en otro Diagrama de Actividad.\\
+
+	El siguiente diagrama muestra la relación que existe entre los \emph{Diagramas de actividad} para mayor legibilidad de los mismos. Si un \emph{Diagrama de actividad} $A$ tiene una flecha con otro \emph{Diagrama de actividad} $B$ ejemplo: ($A \rightarrow B$) significa que diagrama A aparece mencionado en el diagrama B.
+De esta forma un arbol de la forma en que se utilizan los diagramas es el siguiente:\\
+
 
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/00-DiagramaDeDiagramas.png}
 	\end{center}
 
+\subsubsection{Tratamiento general de un contenido}
+
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/02-TratamientoGeneralDeUnContenidoDA.png}
 	\end{center}
 
+\newpage
+
+\subsubsection{Carga y habilitación de contenido}
+
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/03-CargaYHabilitacionDeContenidoDA.png}
 	\end{center}
+\newpage
+
+\subsubsection{Cargar el contenido de reproducción y solicitar revisión}
 
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/04-CargarElContenidoDeReproduccionYSolicitarRevisionDA.png}
 	\end{center}
 
+\newpage
+
+\subsubsection{Cargar el contenido de ejecución y solicitar revisión}
+
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/05-CargarElContenidoDeEjecucionYSolicitarRevisionDA.png}
 	\end{center}
+
+\newpage
+
+\subsubsection{Obtener contenido}
 
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/06-ObtenerContenidoDA.png}
 	\end{center}
 
+\newpage
+
+\subsubsection{Validar si puede enviarse contenido}
+
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/07-ValidarSiPuedeEnviarseContenidoDA.png}
 	\end{center}
+
+\newpage
+
+\subsubsection{Realizar operación económica}
 
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/08-RealizarOperacionEconomicaDA.png}
 	\end{center}
 
+\newpage
+
+\subsection{Modelo Conceptual}
+
 	\begin{center}
 		\includegraphics[scale=0.37]{Diagramas/09-ModeloConceptualMC.png}
 	\end{center}
 
-\subsection{Modelo Conceptual}
+\subsubsection{Object Contraint Language (OCL)}
+	Para complementar el \emph{Modelo Conceptual} agregaremos una serie de limitaciones que nos permiten modelar reglas para el sistema.
+Este lenguaje nos permite especificar formalmente restricciones a las clases definidas.
 
+\newpage
 
+\subsection{Diagrama de Máquina de Estados Finitos (FSM)}
 	
+\newpage
+
 \section{Trazabilidad}
 
-
+	Trazabilidad de los Objetivos del Tp1 con los diagramas antes mencionados
 
 \newpage
 

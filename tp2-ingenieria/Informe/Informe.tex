@@ -54,7 +54,7 @@
 \materia{Ingenier\'ia de Software I}
 \submateria{Primer Cuatrimestre de 2012}
 \titulo{Trabajo pr\'actico 2}
-\subtitulo{Modelos de comportamiento del sistema de software para a CentralMarket}
+\subtitulo{Modelos de comportamiento del sistema de software para CentralMarket}
 \grupo{Grupo 1}
 
 \integrante{Abreg\'u, Angel}{082/09}{angelj\_a@hotmail.com}
@@ -108,14 +108,14 @@
 
 \subsection{Introducci\'on}
 
-	Tras haber realizado una serie de iteraciones con los directivos de CentralMarket sobre la ï¿½ltima presentaciï¿½n del sistema y en base
+	Tras haber realizado una serie de iteraciones con los directivos de CentralMarket sobre la ï¿½ltima presentaci\'on del sistema y en base
 a las correciones y ajustes que nos han comentado quieren, hemos armado una nueva serie de documentos para detallar mejor el comportamiento del sistema.
 A tal efecto hemos revisado una serie de puntos con los directivos y se han modificado algunos:
 
 
 \begin{itemize}
 	
-	\item{ Los agentes \emph{Gerente de proyecto} y \emph{Desarrollador} que figuraban en el diagrama de objetivos de la documentaciï¿½n revisada con el cliente no 			serï¿½n tenidos en cuenta en esta etapa ya que forman parte intrï¿½nseca de la construcciï¿½n del mismo y no de su comportamiento.}
+	\item{ Los agentes \emph{Gerente de proyecto} y \emph{Desarrollador} que figuraban en el diagrama de objetivos de la documentaci\'on revisada con el cliente no 			serï¿½n tenidos en cuenta en esta etapa ya que forman parte intrï¿½nseca de la construcci\'on del mismo y no de su comportamiento.}
 
 	\item{ El agente \emph{Cliente} serï¿½ modelado en esta etapa a travï¿½s del usuario quien es el que interactï¿½a directamente con el sistema)}
 
@@ -124,7 +124,7 @@ A tal efecto hemos revisado una serie de puntos con los directivos y se han modi
 	\item{ Del diagrama de objetivos, la rama 3.1 (Soportar TV, PC, tablet y mobile) no serï¿½ modelada en esta etapa ya que un equipo especial de CentralMarket
 se ocuparï¿½ de definir esas necesidades.}
 
-	\item{ Del mismo modo la Situaciï¿½n 6 mencionada en la documentaciï¿½n anterior sobre la \emph{Actualizaciï¿½n de la interfaz de usuario} no serï¿½ incluida en esta nueva presentaciï¿½n ya que CentralMaket se ocuparï¿½ tambiï¿½n }
+	\item{ Del mismo modo la Situaci\'on 6 mencionada en la documentaci\'on anterior sobre la \emph{Actualizaci\'on de la interfaz de usuario} no serï¿½ incluida en esta nueva presentaci\'on ya que CentralMaket se ocuparï¿½ tambiï¿½n }
 
 	\item{ En el modelado a continuaciï¿½n asumiremos que todos los actores que interactuen con el sistema ya tienen creada una cuenta previa para poder loguearse y realizar sus acciones }
 
@@ -164,21 +164,6 @@ Presentaremos las funcionalidades con tres tipos de diagramas: de \emph{Casos de
 \newpage
 
 \subsection{Descripciï¿½n de los casos de uso.}
-
------- principio template -------\\
-\noindent{\textbf{Caso de uso:} Eligiendo contenido.} \\
-\textbf{Actores:} Usuario. \\
-\textbf{Pre:} El usuario estï¿½ registrado y autenticado. \\
-\textbf{Post:} El usuario eligiï¿½ un contenido.\\
-\noindent{\textbf{\underline{Caso normal}}} 
-\begin{enumerate}
-	\item a
-\end{enumerate}
-\textbf{Fin Caso de Uso.}
-\noindent{\textbf{\underline{Caso alternativo}}} \\
-\begin{center} \line(1,0){450} \end{center}
-
------- Fin template -------\\
  
 \newpage
 
@@ -553,7 +538,7 @@ hacer una bï¿½squeda diferente, va al paso 2.
 \begin{enumerate}
 	\item El amigo abre el sistema de manejo de amistades.
 \item El amigo busca el amigo a eliminar, y lo elimina	
- \item El sistema lo borra de la lista de amigos. De esta forma, no podrÃ¡n ver los contenidos comprados por el otro ni podrÃ¡n prestarse mÃ¡s contenido entre sÃ­.
+ \item El sistema lo borra de la lista de amigos. De esta forma, no podr\'an ver los contenidos comprados por el otro ni podr\'an prestarse m\'as contenido entre s\'i­.
 \item \textbf{Fin Caso de Uso.} \\
 \end{enumerate}
 
@@ -568,7 +553,7 @@ hacer una bï¿½squeda diferente, va al paso 2.
 \textbf{Post:} Se acepta la solicitud de amistad\\
 \noindent{\textbf{\underline{Caso normal}}} 
 \begin{enumerate}
-	\item El sistema le envÃ­a al Amigo una solicitud de amistad (incluye caso de uso Agregando amigo)
+	\item El sistema le env\'i­a al Amigo una solicitud de amistad (incluye caso de uso Agregando amigo)
 \item El amigo lo acepta.
 \item El sistema registra la aceptacion, ahora los amigos pueden ver los contenidos comprados de cada uno.
 \item avisa a quien emitio la solicitud
@@ -586,10 +571,10 @@ hacer una bï¿½squeda diferente, va al paso 2.
 \textbf{Post:}  Se rechaza la solicitud de amistad.\\
 \noindent{\textbf{\underline{Caso normal}}} 
 \begin{enumerate}
-	\item El sistema le envÃ­a al Amigo una solicitud de amistad (incluye caso de uso Agregando amigo)
+	\item El sistema le env\'i­a al Amigo una solicitud de amistad (incluye caso de uso Agregando amigo)
 \item El amigo lo rechaza.
 \item El sistema registra el rechazo
-\item El sistema recuerda el rechazo para que al amigo rechazante no le lleguen mÃ¡s peticiones de amistad, por mas que estas puedan ser realizadas por el amigo que emitio el pedido.
+\item El sistema recuerda el rechazo para que al amigo rechazante no le lleguen m\'as peticiones de amistad, por mas que estas puedan ser realizadas por el amigo que emitio el pedido.
 \item \textbf{Fin Caso de Uso.} \\
 
 \end{enumerate}
@@ -613,7 +598,7 @@ hacer una bï¿½squeda diferente, va al paso 2.
 \end{enumerate}
 \textbf{Fin Caso de Uso.} \\
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent 2.1 - De no estar paga la publicidad, repite el paso 1) al dÃ­a siguiente.
+\noindent 2.1 - De no estar paga la publicidad, repite el paso 1) al d\'i­a siguiente.
 \begin{center} \line(1,0){450} \end{center}
 
 
@@ -630,7 +615,7 @@ hacer una bï¿½squeda diferente, va al paso 2.
 
 \end{enumerate}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent  	2.1 - De no estar pago el posicionamiento, repite el paso 1) al dÃ­a siguiente.
+\noindent  	2.1 - De no estar pago el posicionamiento, repite el paso 1) al d\'i­a siguiente.
 \begin{center} \line(1,0){450} \end{center}
 
 
@@ -641,7 +626,7 @@ hacer una bï¿½squeda diferente, va al paso 2.
 \noindent{\textbf{\underline{Caso normal}}} 
 \begin{enumerate}
 	\item El administrador de contenidos ingresa al sistema de administracion de contenido.
-	\item El administrador de contenidos selecciona un contenido y le asigna las categorÃ­as a las que pertenecerÃ¡.
+	\item El administrador de contenidos selecciona un contenido y le asigna las categor\'i­as a las que pertenecer\'a.
 \item \textbf{Fin Caso de Uso.} \\
 
 \end{enumerate}
@@ -674,7 +659,7 @@ hacer una bï¿½squeda diferente, va al paso 2.
 \begin{enumerate}
 	\item El administrador de contenidos ingresa al sistema de administracion de contenido.
 	\item El administrador de contenido selecciona los contenidos que quiere que formen parte de un grupo o paquete
-    \item El administrador de contenido le asigna un nombre al grupo (i.e: Grandes Ã©xitos de Stallone)
+    \item El administrador de contenido le asigna un nombre al grupo (i.e: Grandes \'exitos de Stallone)
 	\item El administrador de contenido le asigna un valor monetario no negativo (puede ser 0) al paquete o grupo de contenidos
 	\item El administrador de contenido finaliza el armado del grupo
 	\item El sistema publica el grupo, que ahora puede ser adquirido por los clientes
@@ -687,40 +672,40 @@ hacer una bï¿½squeda diferente, va al paso 2.
 
 
 
-	\noindent{\textbf{Caso de uso:} Asignando tiempo de prÃ©stamo a contenido.} \\
+	\noindent{\textbf{Caso de uso:} Asignando tiempo de pr\'estamo a contenido.} \\
 \textbf{Actores:} Administrador de contenido. \\
-\textbf{Pre:} contenido estÃ¡ en el sistema (puede no estar habilitado) \\
-\textbf{Post:}el administrador de contenido asigno un valor tiempo de prÃ©stamo (puede ser nulo)\\
+\textbf{Pre:} contenido est\'a en el sistema (puede no estar habilitado) \\
+\textbf{Post:}el administrador de contenido asigno un valor tiempo de pr\'estamo (puede ser nulo)\\
 \noindent{\textbf{\underline{Caso normal}}} 
 \begin{enumerate}
 	\item El administrador de contenidos ingresa al sistema de administracion de contenido.
 	\item Seleccion de contenido
-	\item .1 Selecciona el contenido individual al que se quiere cambiar el valor del tiempo de prÃ©stamo
+	\item .1 Selecciona el contenido individual al que se quiere cambiar el valor del tiempo de pr\'estamo
 	\item Le asigna asigna un valor temporal (puede ser 0)
 \item \textbf{Fin Caso de Uso.} \\
 
 \end{enumerate}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent 1.2 - Selecciona la categorÃ­a entera de contenido a los que se quiere asignar un mismo valor de tiempo de prÃ©stamos
+\noindent 1.2 - Selecciona la categor\'i­a entera de contenido a los que se quiere asignar un mismo valor de tiempo de pr\'estamos
 \begin{center} \line(1,0){450} \end{center}
 
 
-\noindent{\textbf{Caso de uso:} Definiendo parÃ¡metros de almacenamiento.} \\
+\noindent{\textbf{Caso de uso:} Definiendo par\'ametros de almacenamiento.} \\
 \textbf{Actores:} Administrador de contenido \\
-\textbf{Pre:} contenido/s estÃ¡/n en el sistema (puede/n no estar habilitado/s) \\
-\textbf{Post:} el administrador de contenido asigno los parÃ¡metros de almacenamiento a uno o un grupo de contenidos \\
+\textbf{Pre:} contenido/s est\'a/n en el sistema (puede/n no estar habilitado/s) \\
+\textbf{Post:} el administrador de contenido asigno los par\'ametros de almacenamiento a uno o un grupo de contenidos \\
 \noindent{\textbf{\underline{Caso normal}}} 
 \begin{enumerate}
 	\item El administrador de contenidos ingresa al sistema de administracion de contenido.
 	\item seleccion de contenido
-	\item .1 El administrador de contenido selecciona el contenido individual al que se quiere cambiar el valor de los parÃ¡metros de almacenamiento
-	\item El administador de contenido le asigna asigna un valor al parÃ¡metro de cantidad de descargas necesarias para que se almacene el contenido
-	\item El administrador de contenido asigna un valor al parÃ¡metro del perÃ­odo de tiempo en el que se contabiliza la cantidad de descargas. 
+	\item .1 El administrador de contenido selecciona el contenido individual al que se quiere cambiar el valor de los par\'ametros de almacenamiento
+	\item El administador de contenido le asigna asigna un valor al par\'ametro de cantidad de descargas necesarias para que se almacene el contenido
+	\item El administrador de contenido asigna un valor al par\'ametro del per\'i­odo de tiempo en el que se contabiliza la cantidad de descargas. 
 \item \textbf{Fin Caso de Uso.} \\
 
 \end{enumerate}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent 1.2 - El administador de contenido selecciona la categorÃ­a entera de contenido a los que se quiere cambiar el valor de los parÃ¡metros
+\noindent 1.2 - El administador de contenido selecciona la categor\'i­a entera de contenido a los que se quiere cambiar el valor de los par\'ametros
 \begin{center} \line(1,0){450} \end{center}
 
 
@@ -735,7 +720,7 @@ hacer una bï¿½squeda diferente, va al paso 2.
 \item El Administrador de contenido habilita los contenidos que no hayan tenido error en la revision.
 \item Para los contenidos con error,si el contenido es de ejecucion el Administrador de contenido avisa a el/los fabricante/s (ver DA Lograr calidad en contenidos de ejecucion), y si el contenido es de reproduccion el Administrador de Contenido se comunica con el proveedor de contenido (ver DA Lograr calidad en contenidos de reproduccion). 
 \item El sistema saca los contenidos de la cola
-\item El sistema publica los contenidos habilitados con los parÃ¡metros y categorÃ­as previamente asignados
+\item El sistema publica los contenidos habilitados con los par\'ametros y categor\'i­as previamente asignados
 \item \textbf{Fin Caso de Uso.} \\
 
 \end{enumerate}
@@ -753,14 +738,14 @@ hacer una bï¿½squeda diferente, va al paso 2.
 	\item El administrador de contenidos ingresa al sistema de administracion de contenido.
 \item Ingresa el nuevo contenido en la cola de revision correspondiente al tipo de contenido.
 \item El administrador de contenidos le asigna el Genero al contenido.
-\item Si el administrador de contenido decide modificar el tiempo de prÃ©stamos, extiende CU: Asignando tiempo de prÃ©stamo
-\item Si el administrador de contenido decide modificar las categorÃ­as a las que pertenecerÃ¡: extiende CU: Categorizando contenido
+\item Si el administrador de contenido decide modificar el tiempo de pr\'estamos, extiende CU: Asignando tiempo de pr\'estamo
+\item Si el administrador de contenido decide modificar las categor\'i­as a las que pertenecer\'a: extiende CU: Categorizando contenido
 \item Si el administrador de contenido decide asignar el precio al contenido: extiende CU: Asignando precio al contenido
-\item Si el Adminsitrador de contenido decide modificar los parÃ¡metros para el almacenamiento: extiende CU: Definiendo parÃ¡metros de descarga.
-\item Todos los parÃ¡metros no ingresados, el sistema los asigna por default. Arbitrariamente se decidio: 
+\item Si el Adminsitrador de contenido decide modificar los par\'ametros para el almacenamiento: extiende CU: Definiendo par\'ametros de descarga.
+\item Todos los par\'ametros no ingresados, el sistema los asigna por default. Arbitrariamente se decidio: 
 \begin{itemize}
-\item Tiempo de prÃ©stamo: 3 semanas.  
-\item ParÃ¡metros de almacenamiento: 100 descargas en una semana.
+\item Tiempo de pr\'estamo: 3 semanas.  
+\item Par\'ametros de almacenamiento: 100 descargas en una semana.
 \item Valor monetario: 0 (gratis)
 \end{itemize}
 \item \textbf{Fin Caso de Uso.} \\
@@ -869,12 +854,130 @@ De esta forma un arbol de la forma en que se utilizan los diagramas es el siguie
 
 \subsubsection{Object Contraint Language (OCL)}
 	Para complementar el \emph{Modelo Conceptual} agregaremos una serie de limitaciones que nos permiten modelar reglas para el sistema.
-Este lenguaje nos permite especificar formalmente restricciones a las clases definidas.
+Este lenguaje nos permite especificar formalmente restricciones a las clases definidas.\\
 
-\newpage
 
-\subsection{Diagrama de Mï¿½quina de Estados Finitos (FSM)}
-	
+--- OCL ---
+
+
+context Prestamos (prestamos valido)
+1) Los que se prestan son amigos (el id del usuario que recibe el préstamo esta entre los ids de los amigos del usuario que presta)
+    inv:      self.prestadoA.esAmigoDe $\rightarrow$ size() > 0 and
+
+self.prestadoA.esAmigoDe $\rightarrow$ includes( self.prestadoPor )
+
+
+2) - No se prestan contenidos de valor cero (contenidos gratis)
+
+Context: Préstamo
+
+inv: self.contenidoAsociado.monto > 0
+
+2.0) Si un usuario presta un contenido, debió haberlo comprado
+
+Context Prestamo
+
+p.prestadoPor.realizó$\rightarrow$ size()>0 and
+p.prestadoPor.realizó$\rightarrow$collect(seCompro)$\rightarrow$includes(p.ContenidoAsociado)
+
+21) Los ids de los prestamos son diferentes
+
+inv: Prestamo.allIntances()$\rightarrow$forAll(i,j $\mid$ i $\ne$ j $\Rightarrow$ i.id $\ne$ j.id)
+
+4) - Sólo se puede prestar contenido de tipo Online
+
+Context Prestamo
+
+inv : self.contenidoAsociado.TipoContenido $=$ online
+
+5) - Ver q no haya coliciones de prestamos
+
+Prestamo.allInstances()$\rightarrow$forAll( i , j $\mid$ i $\ne$j and i.prestadoPor $=$ j.prestadoPor $\Rightarrow$ ((i.contenidoAsociado $=$ j.contenidoAsociado)$\Rightarrow$  i.fechaPrestamo >  j.fechaPrestamo + j.tiempoPrestamo or i.fechaPrestamo+i.tiempoPrestamo < j.fechaPrestamo or j.fechaPrestamo >  i.fechaPrestamo + i.tiempoPrestamo or j.fechaPrestamo + j.tiempoPrestamo < i.fechaPrestamo )
+
+5.1) No puede pasar que si tengo un contenido prestado más de una vez por la misma persona, que más de un préstamo figure como actualmente prestado, ni que hay un préstamo con fecha de préstamo posterior al del préstamo que figure como actualmente prestado
+   
+Prestamo.allInstances()$\rightarrow$select(p $\mid$ p.estaPrestado)$\rightarrow$forAll(p$\mid$ $\not$ Prestamo.allInstances()$\rightarrow$Exists(p2 $\mid$ p2$\ne$p and (p.prestadoPor $=$ p2.prestadoPor and p.contenidoAsociado $=$ p2.contenidoAsociado and p2.estaPrestado or p.prestadoPor $=$ p2.prestadoPor and p.contenidoAsociado $=$ p2.contenidoAsociado and p2.fechaPrestamo > p.fechaPrestamo)) )
+
+
+6) - Un usuario no puede ser amigo de si mismo
+Context Usuario
+    inv: self.esAmigoDe.size()>0 $\Rightarrow$ self.esAmigoDe()$\rightarrow$forAll( x $\mid$ x.usuarioId $\ne$ self.usuarioId)
+
+7) -El usuario tiene contenido recomendado sii calificó al menos un contenido
+\emph{nota:  not+xor equivale a si y sólo si}
+Context Usuario
+
+inv: not( self.califico.isEmpty() xor self.leRecomiendan.isEmpty() )
+
+8)El usuario sólo calificó contenido que compró (para todo contenido calificado, existe alguna compra hecha con ese contenido)
+Context Usuario
+    inv: self.califico$\rightarrow$forAll( u $\mid$ self.realizo$\rightarrow$exists( c $\mid$ c.seCompro.idContenido $=$ u.idContenido ))
+
+
+9) - Todos los contenidos tienen diferente id
+
+inv: Contenido.allIntances()$\rightarrow$forAll(c1,c2 $\mid$ c1 $\ne$ c2 $\Rightarrow$ c1.idContenido $\ne$ c2.idContenido)
+
+
+10) -La cantidad de contenidos recomendados a un usuario es igual a cero (si nunca calificó) o diez (cuando ya calificó)
+
+Context Usuario
+
+inv: self.leRecomiendan$\rightarrow$size() $=$ 0 or self.leRecomiendan$\rightarrow$size()$=$ 10
+
+11) La aparición de cada género en el contenido recomendado a un usuario es proporcional a la suma de las calificaciones que el usuario le dió a contenido de ese género, sobre la suma de calificaciones totales.
+
+
+12) - No se recomienda contenido ya comprado ni contenido obtenido de préstamos
+
+Context Usuario
+
+self.leRecomiendan$\rightarrow$forall(c $\mid$ not c.comprado(isEmpty()) $\Rightarrow$ c.comprado$\rightarrow$forall(c2$\mid$ c2.seRealizó.idUsuario $\ne$ self.seRealizó.idUsuario)
+
+13) - La publicidad sólo se aplica a contenido de precio igual a cero (contenido gratuito)
+
+Context Publicidad
+
+self.asociadoA$\rightarrow$size() > 0 $\Rightarrow$ (self.asociadoA$\rightarrow$forall(c $\mid$ c.costo >0))   
+
+14) - Se puede reproducir sólo la reproduccion online
+
+Context Usuario
+
+self.reproduce.size() $=$1 $\Rightarrow$ self.reproduce.TipoContenido $=$ Online
+
+
+15) - Se puede reproducir sólo lo que compro y no prestó, o pidió prestado
+
+Context usuario
+
+self.Reproduce.size() $=$ 1 $\Rightarrow$ self.realizo$\rightarrow$collect(seCompró)$\rightarrow$includes(self.Reproduce) and
+
+self.Reproduce.préstamos$\rightarrow$forall(p $\mid$ p.esPrestadoPor $=$ self $\Rightarrow$ not p.estaPrestado))) or
+self.Reproduce.préstamos$\rightarrow$exists(p2 $\mid$ p2.esPrestadoA $=$ self $\Rightarrow$p2.estaPrestado)))
+
+16) - No hay dos usuarios iguales. Todos los usuarios tienen diferente id
+
+Context Usuario
+
+inv: Usuario.allInstances()$\rightarrow$forAll(u1, u2 $\mid$ u1$\ne$u2 $\Rightarrow$ u1.idUsuario$\ne$u2.idUsuario)
+
+
+17) - El contenido se califica de 0 a 10.
+
+Context Contenido Calificado
+
+inv: 0 $<=$ self.calificacion and self.calificacion $\<=$ 10
+
+18)El monto de la compra es igual al costo del contenido
+
+Context Compra
+
+inv: self.monto $=$ self.seCompro.costo
+
+--- OCL ---
+
+
 \newpage
 
 \section{Trazabilidad}

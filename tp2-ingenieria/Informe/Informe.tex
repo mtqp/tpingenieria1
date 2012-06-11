@@ -354,13 +354,195 @@ hacer una b�squeda diferente, va al paso 2.
 	\item \textbf{Fin Caso de Uso.}
 \end{enumerate}
 \noindent{\textbf{\underline{Caso alternativo}}} \\
-\noindent{3.1 - El sistema verifica que el email ya existe, vuelve al punto 1}
+\noindent{3.1 - El sistema verifica que el email ya existe, vuelve al punto 1}\\
 6.1 - El sistema no puede validar la tarjeta de cr�dito, vuelve al punto 1
 
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Validando datos de tarjeta de cr�dito}} \\
+\textbf{Actores:} Sistema de Facturaci�n. \\
+\textbf{Pre:} El sistema de facturaci�n recibi� un pedido de validaci�n. \\
+\textbf{Post:} El sistema de facturaci�n realiz� la validaci�n.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El sistema le env�a al sistema de facturaci�n los datos de la tarjeta, para validar si son correctos
+	\item El sistema de facturaci�n los valida y emite respuesta acorde al resultado de la validaci�n.
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Autenticando Usuario}} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} El usuario se haya registrado previamente. \\
+\textbf{Post:} El usuario logr� autenticarse exitosamente.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El sistema pide email y contrase�a
+	\item El usuario ingresa email y contrase�a
+	\item El sistema valida si el email ya existe en su base de datos
+	\item El sistema verifica si la contrase�a ingresada es igual a la anteriormente grabada
+	\item El sistema autentica al usuario
+	\item El sistema carga la pantalla principal y libera las funcionalidades del usuario.
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+
+\noindent{\textbf{Caso de uso: Autenticando Usuario}} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} El usuario se haya registrado previamente. \\
+\textbf{Post:} El usuario logr� autenticarse exitosamente.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El sistema pide email y contrase�a
+	\item El usuario ingresa email y contrase�a
+	\item El sistema valida si el email ya existe en su base de datos
+	\item El sistema verifica si la contrase�a ingresada es igual a la anteriormente grabada
+	\item El sistema autentica al usuario
+	\item El sistema carga la pantalla principal y libera las funcionalidades del usuario.
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+\noindent{3.1 - El sistema verifica que el email no existe, vuelve al punto 1}\\
+4.1 - El sistema verifica que son distintas las contrase�as, vuelve al punto 1.\\
+6.1 - Si el usuario posee contenido pausado previamente, extiende caso de uso \emph{Reproduciendo contenido online}.\\
+
+
+\begin{center} \line(1,0){450} \end{center}
+\newpage
 \begin{center} \line(1,0){450} \end{center}
 
 
 
+\noindent{\textbf{Caso de uso: Actualizando datos de cuenta}} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} El usuario se autentic� exitosamente. \\
+\textbf{Post:} Los datos de su cuenta fueron actualizados.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El usuario abre el sistema de administraci�n de la cuenta.
+	\item El usuario altera los par�metros deseados
+	\item El usuario pide guardar los cambios
+	\item Si el usuario cambia el mail, el sistema verifica que no pertenezca a otro usuario
+	\item El sistema graba los datos de la cuenta editados
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+
+\noindent{3.1 En caso de que alg�n par�metro par�metro sea nulo (de los no opcionales), el sistema muestra un mensaje de error y vuelve al paso 2.}\\
+4.1 - El mail ya existe y no le pertenece al usuario editando, env�a mensaje de error y vuelve a punto 2
+
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Actualizando datos de tarjeta de cr�dito }} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} El usuario se autentic� exitosamente. \\
+\textbf{Post:} Los datos de tarjeta de cr�dito de su cuenta fueron actualizados.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El usuario abre el sistema de administraci�n de datos de tarjeta de cr�dito.
+	\item El usuario cambia (o ingresa si es que no ten�a) los datos de la tarjeta de cr�dito
+	\item Usa caso de uso: \emph{validando datos de la tarjeta de cr�dito}
+	\item Si se pudo validar,  se emite mensaje de \emph{cambio exitoso} y se guardan los cambios
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+\noindent{4.1 - Si no se pudo validar, el sistema muestra un mensaje de error. Volver al paso 2.}\\
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Pidiendo pr�stamo de contenido}} \\
+\textbf{Actores:} Amigo. \\
+\textbf{Pre:} El Amigo est� autenticado. \\
+\textbf{Post:} El sistema graba el pedido de pr�stamo.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El usuario entra en la lista de sus amigos
+	\item El usuario elige a alguno de sus amigos
+	\item El sistema busca el contenido que el amigo puede prestar
+	\item El sistema muestra el contenido posible para pr�stamo de su amigo
+	\item El usuario selecciona un contenido del disponible
+	\item El sistema enviar el pedido de pr�stamo al amigo elegido.
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Rechazando pedido pr�stamo de contenido}} \\
+\textbf{Actores:} Amigo. \\
+\textbf{Pre:} El amigo est� autenticado. \\
+\textbf{Post:} Se efect�a el rechazo del pedido de pr�stamo.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El sistema le env�a al Amigo una solicitud de pedido de pr�stamo (incluye caso de uso Pidiendo pr�stamo de contenido).
+	\item El Amigo selecciona que NO quiere prestarlo
+	\item El sistema no efect�a el pr�stamo y guarda en la cuenta del Amigo que realiz� el pedido un mensaje de que este fue rechazado. Usa el Caso de Uso: 	Recibiendo respuesta al pedido de prestamo
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Recibiendo respuesta al pedido de prestamo}} \\
+\textbf{Actores:} Usuario. \\
+\textbf{Pre:} El usuario pid� prestamos. \\
+\textbf{Post:} El usuario se entera el resultado de su pedido.\\
+\noindent{\textbf{\underline{Caso normal}}}\\
+	Trivial\\
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Aceptando pedido pr�stamo de contenido}} \\
+\textbf{Actores:} Amigo. \\
+\textbf{Pre:} El amigo est� autenticado. \\
+\textbf{Post:} Se efect�a aceptaci�n del pedido de pr�stamo y este pasa a estar disponible para el amigo solicitante y deja de estarlo para el amigo prestante.\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+
+	\item El sistema le env�a al Amigo una solicitud de pedido de pr�stamo (incluye caso de uso Pidiendo pr�stamo de contenido).
+	\item El Amigo acepta el prestamo de dicho contenido
+	\item El sistema efect�a el pr�stamo, elimin�ndolo del contenido disponible para el amigo que acept� y poniendolo como disponible en la cuenta del usuario solicitante.
+	\item El sistema guarda en la cuenta del Amigo que realiz� el pedido que este fue aceptado. Usa el Caso de Uso: Recibiendo respuesta al pedido de prestamo
+	\item El sistema guarda la informaci�n necesaria para poder saber el tiempo de pr�stamos y poder hacer la devoluci�n autom�tica.
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Agregando amigo}} \\
+\textbf{Actores:} Amigo. \\
+\textbf{Pre:} El Amigo se encuentra autenticado. \\
+\textbf{Post:} Se crea la solicitud de amistad si el amigo existe..\\
+\noindent{\textbf{\underline{Caso normal}}} 
+\begin{enumerate}
+	\item El amigo abre el sistema de manejo de amistades.
+	\item El Amigo busca a la persona (rol de amigo) con la que se quiere contactar y la selecciona
+	\item El amigo encuentra a la persona y la selecciona.
+	\item El sistema env�a solicitud de amistad al usuario elegido como amigo a agregar
+	\item \textbf{Fin Caso de Uso.}
+\end{enumerate}
+\noindent{\textbf{\underline{Caso alternativo}}} \\
+\noindent{3.1 - El amigo no encuentra a la persona, ir a paso 5.}
+\begin{center} \line(1,0){450} \end{center}
+\newpage
+\begin{center} \line(1,0){450} \end{center}
+
+
+
+--trabajando fin--
 
 
 	\noindent{\textbf{Caso de uso:} Eliminando amigo} \\
@@ -588,6 +770,23 @@ hacer una b�squeda diferente, va al paso 2.
 \begin{center} \line(1,0){450} \end{center}
 
 
+\noindent{\textbf{Caso de uso: Ingresando datos para el pago de publicidad}} \\ \textbf{Actores:} Auspiciante . \\ \textbf{Pre:} --. \\ \textbf{Post:} El auspiciante logra pagar por la publicidad.\\ \noindent{\textbf{\underline{Caso normal}}} \\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item El auspiciante se autentica en el sistema \item El auspiciante ingresa sus datos. Si no tiene datos personales previos ingresados, los ingresa al sistema el sistema. Si tiene datos personales previos ingresados, no hace nada. \item El auspiciante selecciona un tipo de publicidad. \item El auspiciante selecciona la categor�a donde se aplicar� la publicidad. \item El auspiciante ingresa su tarjeta de cr�dito para el pago. \item El auspiciante efect�a el pago (Extiende caso de uso \emph{Cobrando Venta}) \item El sistema devuelve mensaje de \emph{transacci�n exitosa} \item \textbf{Fin Caso de Uso.} \end{enumerate} \begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Ingresando datos para el pago del posicionamiento}} \\ \textbf{Actores: } Proveedor de contenidos. \\ \textbf{Pre:} - \\ \textbf{Post:}
+El Proveedor de contenidos logra pagar por el posicionamiento.\\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item El proveedor de contenidos se autentica en el sistema. \item El proveedor de contenidos sus ingresa datos. Si no tiene datos personales previos ingresados, los ingresa al sistema el sistema. Si tiene datos personales previos ingresados, no hace nada. \item El proveedor de contenidos selecciona un tipo de posicionamiento. \item El proveedor de contenidos selecciona el posicionamiento. \item El proveedor de contenidos ingresa su tarjeta de cr�dito para el pago. \item El Proveedor de contenidos selecciona si desea que su tarjeta se guarde o no en el sistema. \item El proveedor de contenidos efectua el pago (Extiende caso de uso \emph{Cobrando Venta}) \item El Sistema devuelve mensaje de \emph{transacci�n existosa} \item \textbf{Fin Caso de Uso.} \end{enumerate} \noindent{\textbf{\underline{Caso alternativo}}} \\ \noindent{8.1 - El pago no pudo realizarse, El sistema devuelve mensaje de \emph{error en la transacci�n} vuelve al paso 5} \begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Cobrando Venta}} \\ \textbf{Actores: Sistema de Facturaci�n} . \\ \textbf{Pre:} El sistema de facturaci�n recibi� un pedido de cobro con los datos de la tarjeta de cr�dito. \\ \textbf{Post:} El sistema devuelve el resultado de la operaci�n. Si el resultado es positivo, el sistema de facturaci�n realiza el cobro.\\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item Usa caso de uso: \emph{Validando datos de tarjeta de cr�dito}. \item El sistema de facturaci�n verifica si se puede hacer el cobro. \item Si se puede hacer el cobro lo efectiviza y le env�a un mensaje al sistema informando OK. \item El sistema registra el pago. \item El sistema muestra un mensaje con el resultado de la transacci�n \item \textbf{Fin Caso de Uso.} \end{enumerate} \noindent{\textbf{\underline{Caso alternativo}}} \\ \noindent{1.1 - Si no se puede validar, ir a 5.} \noindent{3.1 - Si no se puede, no realiza el cobro, Ir a 5} \begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Recibiendo petici�n de contenido}} \\ \textbf{Actores: }Proveedor de contenidos. \\ \textbf{Pre:} El usuario solicit� un contenido \\ \textbf{Post:} El proveedor de contenido encontr� el contenido en su sistema.\\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item El proveedor de contenidos recibe una petici�n de contenido. \item El proveedor de contenido lo busca en su sistema y lo encuentra. \item \textbf{Fin Caso de Uso.} \end{enumerate} \noindent{\textbf{\underline{Caso alternativo}}} \\ \noindent{2.1 - El proveedor de contenido no encuentra el contenido en su sistema.} \noindent{2.2 - El proveedor de contenido env�a una notificaci�n de fallo al sistema.} \begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Enviando contenido}} \\ \textbf{Actores:} Proveedor de contenidos \\ \textbf{Pre:} El proveedor de contenido recibi� una petici�n de contenido y lo encontr� en su sistema \\ \textbf{Post:} El proveedor de contenido env�� el contenido al sistema.\\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item El proveedor de contenido env�a el contenido al sistema. \item \textbf{Fin Caso de Uso.} \end{enumerate} \noindent{\textbf{\underline{Caso alternativo}}} \\ \noindent{1.1 - Ocurre un fallo en el env�o vuelve al paso 1) } \begin{center} \line(1,0){450} \end{center}
+
+
+\noindent{\textbf{Caso de uso: Validando contenido de reproducci�n}} \\ \textbf{Actores:} Revisor de contenido digital \\ \textbf{Pre:} El contenido a validar debe ser de reproducci�n \\ \textbf{Post:} El estado del contenido es validado o con errores\\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item El revisor de contenido digital se loguea al sistema de revisi�n de contenido digital. \item El revisor verifica en la cola asignada a �l si posee alg�n contendo a validar \item El revisor elige el contenido y valida que se encuentre en la m�xima definici�n posible \item El contenido cumple la m�xima definici�n posible. El revisor pasar a verificar que el contenido no posea cortes. \item Si el contenido es un video, el revisor valida adem�s que los subt�tulos sean correctos. \item Si el contenido forma parte de una temporada o �lbum, el revisor repite desde el paso 1, hasta haber revisado toda la temporada o �lbum \item Se agrega el contenido a la cola de contenido para habilitar (extiende CU Habilitando contenido). \item \textbf{Fin Caso de Uso.} \end{enumerate} \noindent{\textbf{\underline{Caso alternativo}}} \\ \noindent{2.1 - El revisor no posee ning�n contenido a validar, ir a paso 8.} \\ \noindent{3.1 - El contenido no se encuentra en la m�xima definici�n posible. El revisor loguea en el sistema que el contenido posee un error (ver DA Lograr calidad en contenidos de reproducci�n) (ir a paso 7)} \\ \noindent{4.1 - El contenido posee cortes. El revisor loguea en el sistema que el contenido posee un error (ver DA Lograr calidad en contenidos de reproducci�n) (ir a paso 7)} \\ \noindent{5.1 - El video tiene subt�tulos incorrectos, el revisor El revisor loguea en el sistema que el contenido posee un error (ver DA Lograr calidad en contenidos de reproducci�n) (ir a paso 7)} \\ \begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Validando especificaci�n de contenido de ejecuci�n}} \\ \textbf{Actores:} Revisor de especificaci�n \\ \textbf{Pre:} El contenido a validar debe ser de ejecuci�n, el contenido se encuentra en la cola de revisi�n, revisor autenticado en el sistema \\ \textbf{Post:} El contenido de ejecuci�n pasa el test de especificaci�n o no.\\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item El revisor de contenido especificaci�n se loguea al sistema de revisi�n de contenido especificaci�n. \item El revisor verifica en la cola asignada a �l si posee alg�n contenido a validar \item Como existe al menos uno, el revisor de especificaci�n solicita la especificaci�n de la aplicaci�n al fabricante \item El revisor confecciona un conjunto de casos de prueba para testear la aplicaci�n \item El revisor verifica que el comportamiento del programa sea el esperado por la especificaci�n. \item El revisor guarda en el sistema si pas� el test o no. \item \textbf{Fin Caso de Uso.} \end{enumerate} \noindent{\textbf{\underline{Caso alternativo}}} \\ \noindent{3.1 Como no existe ning�n contenido, ir a paso 7.} \begin{center} \line(1,0){450} \end{center}
+
+\noindent{\textbf{Caso de uso: Validando contenido de ejecuci�n}} \\ \textbf{Actores:} Revisor de contenido digital, Revisor de especificaci�n \\ \textbf{Pre:} El contenido a validar debe ser de ejecuci�n, revisor de contenido digital autenticado en el sistema \\ \textbf{Post:} El estado del contenido es validado o con errores\\ \noindent{\textbf{\underline{Caso normal}}} \begin{enumerate} \item El revisor de especificaci�n valida el cumplimiento de la especificaci�n. Incluye CU Validando especificaci�n de contenido de ejecuci�n. \item El revisor de contenido digital somete al contenido a un conjunto de eventos de acuerdo al tipo de aplicaci�n (arranque, tama�o de los archivos abiertos, cantidad de thread en ejecuci�n, etc), durante un tiempo establecido con anterioridad. \item Luego del test, si siempre logr� iniciarse en menos de 30 segundos y nunca estuvo colgado por m�s de 5 segundos, se aprueba el contenido \item Se agrega el contenido a la cola de contenido para habilitar (extiende CU Habilitando contenido). \item \textbf{Fin Caso de Uso.} \end{enumerate} \noindent{\textbf{\underline{Caso alternativo}}} \\ \noindent{2.1 - Si el contenido no cumple con la especificaci�n, el revisor de contenido digital loguea en el sistema este suceso (ir a paso 4).}\\ \noindent{3.1 - Si ocurri� un cuelgue de duraci�n mayor a 5 segundos, o no logr� iniciarse en menos de 30 segundos, se considera rechazada la aplicaci�n, y se loguea en sistema el suceso.(ir a paso 4).}\\ \begin{center} \line(1,0){450} \end{center}
 
 
 \newpage

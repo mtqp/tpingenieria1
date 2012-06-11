@@ -860,12 +860,13 @@ Este lenguaje nos permite especificar formalmente restricciones a las clases def
 --- OCL ---
 
 
-context Prestamos (prestamos valido)
-1) Los que se prestan son amigos (el id del usuario que recibe el préstamo esta entre los ids de los amigos del usuario que presta)
-    inv:      self.prestadoA.esAmigoDe $\rightarrow$ size() > 0 and
+\textbf{context Prestamos (prestamos valido)}\\
+1) Los que se prestan son amigos (el id del usuario que recibe el préstamo esta entre los ids de los amigos del usuario que presta)\\
 
-self.prestadoA.esAmigoDe $\rightarrow$ includes( self.prestadoPor )
+ \noindent{\textbf{inv:} self.prestadoA.esAmigoDe $\rightarrow$ size() $>$ 0 $\wedge$}\\
+      self.prestadoA.esAmigoDe $\rightarrow$ includes( self.prestadoPor )\\
 
+\begin{center} \line(1,0){450} \end{center}
 
 2) - No se prestan contenidos de valor cero (contenidos gratis)
 

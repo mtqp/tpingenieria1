@@ -1,0 +1,8 @@
+Se agregó el rol de "Amigo" en los casos de uso ya que se decidió que el préstamo de contenido
+sólo tiene sentido entre personas que se conozcan entre sí y posean una relación de amistad.
+Un usuario hasta no tener al menos un amigo, no puede realizar ningún préstamo. 
+El sistema permite la creación de nuevas amistades, así como la terminación de estas. Siempre que la cantidad
+de amigos de un usuario sea mayor estricto a uno, él podra acceder a las funcionalidades de los préstamos.
+Esta diferencia de roles, no es necesaria que el usuario la conozca. Alcanza con que el sistema
+habilite o desabilite la funcionalidad de préstamos dependiendo de la cantidad de amigos asociados
+a un usuario.

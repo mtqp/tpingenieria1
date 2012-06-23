@@ -1,0 +1,22 @@
+El usuario tiene contenido recomendado sii calificó al menos un contenido
+nota: not+xor equivale a si y si solo si
+inv: self.calificaciones->isEmpty() <==> self.leRecomiendan->isEmpty()
+
+El usuario solo califico contenido que compro (para todo contenido calificado, existe alguna compra hecha con ese contenido)
+inv: !self.calificaciones->isEmpty() ==> !self.realizo->isEmpty() && 
+										 self.calificaciones->collect(contenidoCalificado)->forAll( u | self.realizo->exists( c | c.seCompro.idContenido == u.idContenido))
+										 
+						
+corregir el:						
+La cantidad de contenidos recomendados a un usuario es igual a cero (si nunca califico) o diez (cuando ya califico)
+APARECE UNA "C" MACABRA
+
+La aparición de cada género en el contenido recomendado a un usuario es proporcional a la
+suma de las calificaciones que el usuario le dió al contenido de ese género, sobre la suma de calificaciones totales. 
+No se recomienda contenido ya comprado ni contenido obtenido de préstamos.
+inv: self.leRecomiendan->collect(contenidoRecomendado)->forall(c | !c.comprado->isEmpty() 
+																	==> c.comprado->forall(c2 | c2.seRealizó.idUsuario != self.seRealizó.idUsuario))
+																	
+Context Calificación //Contenido Calificado
+Las calificaciones son de 0 a 10.
+inv: 0 <= self.calificacion ^ self.calificacion <= 10

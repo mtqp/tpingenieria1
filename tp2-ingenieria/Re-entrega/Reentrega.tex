@@ -110,15 +110,14 @@
 
 	A continuación listamos los puntos de correción del Trabajo práctico 2:
 
-\begin{itemize}
+\begin{itemize}	
 	
-	
-	\item{ \emph{Aclaración sobre las cuentas}: Aclarar que el resto de las cuentas (salvo la del usuario) serán creadas previamente por el administrador del sistema. }
+	\item{ \emph{Aclaraci\'on sobre las cuentas}: Aclarar que el resto de las cuentas (salvo la del usuario) serán creadas previamente por el administrador del sistema. }
 	\item{ \emph{Amigo vs Usuario}: Justificar mejor lo referente a esta interacci\'on Amigo-Usuario o cambiar el diseño. }
 	\item{ \emph{Contenido Calificado}: Corregir Contenido Calificado y Contenido Recomendado, ambas podrian ser clases en si mismas, ajustar el OCL de forma adecuada. }
 	\item{ \emph{Modelo de FSM}: Modelar con FSM la interacción entre los diversos dispositivos de un mismo usuario. }\\
 
-	Prodeceremos entonces a enumerar las correciones al Tp2, destacando en \textbf{negrita}x los cambios que sean peque\~{n}os.
+	Prodeceremos entonces a enumerar las correciones al Tp2, destacando en \textbf{negrita} los cambios que sean peque\~{n}os.
 
 \end{itemize}
 
@@ -134,14 +133,14 @@
 Se decidió mantener el rol de \emph{Amigo} en los casos de uso ya que el pr\'estamo de contenido s\'olo tiene sentido entre personas que se conozcan entre s\'i y posean una relaci\'on de amistad. \\
 Un usuario hasta no tener al menos un amigo, no puede realizar ning\'un pr\'estamo.\\
 
-El sistema permite la creaci\'on de nuevas amistades, as\'i como la terminaci\'on de estas. Siempre que la cantidad de amigos de un usuario sea mayor estricto que cero, \'el podr\'a acceder a las funcionalidades de los pr\'estamoss.\\
+El sistema permite la creaci\'on de nuevas amistades, as\'i como la terminaci\'on de estas. Siempre que la cantidad de amigos de un usuario sea mayor estricto que cero, \'el podr\'a acceder a las funcionalidades de los pr\'estamos.\\
 
 No es necesario que el usuario conozca esta diferencia de roles alcanza con que el sistema habilite o inhabilite la funcionalidad de pr\'estamos dependiendo de la cantidad de amigos asociados a un usuario.\\
 
 \section{Contenido Calificado}
 
 	\begin{center}
-		\includegraphics[scale=0.37]{Diagramas/09-ModeloConceptualMC.png}
+		\includegraphics[scale=0.36]{Diagramas/09-ModeloConceptualMC.png}
 	\end{center}
 	
 	\noindent{En negrita figuran las clases modificadas.}\\
@@ -162,13 +161,11 @@ El usuario tiene contenido recomendado sii calific\'o al menos un contenido.\\
 \noindent{\textbf{inv:} self.calificaciones$\rightarrow$notEmpty() $\Longrightarrow$ self.realizo$\rightarrow$notEmpty() $\wedge$\\
 self.calificaciones$\rightarrow$collect(contenidoCalificado)$\rightarrow$\\forAll( u $\mid$ self.realizo$\rightarrow$exists( c $\mid$ c.seCompro.idContenido $==$ u.idContenido))\\
 
-\newpage
-
 \noindent{La cantidad de contenidos recomendados a un usuario es igual a cero (si nunca calific\'o) o diez (cuando ya calific\'o)}\\
 \noindent{\textbf{inv:} ( self.calificaciones$\rightarrow$isEmpty() $\Longrightarrow$ self.leRecomiendan$\rightarrow$isEmpty() ) $\wedge$\\
 ( self.calificaciones$\rightarrow$notEmpty() $\Longrightarrow$ ( self.leRecomiendan$\rightarrow$size() $==$ 10 ) )\\
 
-\noindent{La aparici\'on de cada g\'enero en el contenido recomendado a un usuario es proporcional a la suma de las calificaciones que el usuario le di\'o a contenido de ese g\'enero, sobre la suma de calificaciones totales. No se recomienda contenido ya comprado ni contenido obtenido de pr\'estamos.}\\
+\noindent{No se recomienda contenido ya comprado ni contenido obtenido de pr\'estamos.}\\
 \noindent{\textbf{inv:} self.leRecomiendan$\rightarrow$collect(contenidoRecomendado)$\rightarrow$forall(c $\mid$ c.comprado$\rightarrow$notEmpty() $\Longrightarrow$ c.comprado$\rightarrow$forall(c2 $\mid$ c2.seRealiz\'o.idUsuario $\ne$ self.seRealiz\'o.idUsuario))\\
 \begin{center} \line(1,0){450} \end{center}
 
@@ -191,10 +188,11 @@ Cosas que se pueden apreciar en el modelo:
 
 \begin{itemize}
 	
-	\item{ S\'olamente se pude estar reproduciendo un solo contenido para los diversos dispositivos de un usuario. } 
-	\item{ Todos los disposivos pueden estar reproduciendo contenido al mismo tiempo, pero \'este debe ser siempre el mismo (para la misma cuenta de usuario).} 
+	\item{ S\'olamente se puede estar reproduciendo un s\'olo contenido para los diversos dispositivos de un usuario. } 
+	\item{ Todos los dispositivos pueden estar reproduciendo contenido al mismo tiempo, pero \'este debe ser siempre el mismo (para la misma cuenta de usuario).} 
 	\item{ Si un contenido en reproducci\'on está siendo visto por varios dispositivos y uno de ellos pausa la reproducci\'on, el resto tambi\'en ser\'a pausado.}
-	\item{ Se guarda el el estado del \'ultimo paquete enviado exitosamente.}  
+	\item{ Se guarda el estado del \'ultimo paquete enviado exitosamente.}
+	\item{ El \emph{Estado inicial} es para cuando no se ha comenzado a reproducir ning\'un contenido. El estado \emph{Sin reproducir (con estado)} indica que es posible continuar con la reproducci\'on de un contenido a\'un cuando todos los dispositivos se hayan desconectado. Adem\'as muestra que se puede elegir un nuevo contenido a reproducir si y s\'olo si todos los dispositivos cerraron.}
 
 \end{itemize}
 

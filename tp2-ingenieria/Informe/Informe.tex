@@ -913,7 +913,7 @@ Todos los contenidos tienen diferente id\\
 \noindent{\textbf{inv:} Contenido.allIntances()$\rightarrow$forAll(c1,c2 $\mid$ c1 $\ne$ c2 $\Rightarrow$ c1.idContenido $\ne$ c2.idContenido)}\\
 
 La cantidad de contenidos recomendados a un usuario es igual a cero (si nunca calific\'o) o diez (cuando ya calific\'o)\\
-\noindent{\textbf{inv:} self.leRecomiendan$\rightarrow$size() $=c$ 0 $\vee$ self.leRecomiendan$\rightarrow$size()$=$ 10}\\
+\noindent{\textbf{inv:} self.leRecomiendan$\rightarrow$size() $=$ 0 $\vee$ self.leRecomiendan$\rightarrow$size()$=$ 10}\\
 
 
 La aparici\'on de cada g\'enero en el contenido recomendado a un usuario es proporcional a la suma de las calificaciones que el usuario le di\'o a contenido de ese g\'enero, sobre la suma de calificaciones totales. No se recomienda contenido ya comprado ni contenido obtenido de pr\'estamos.\\

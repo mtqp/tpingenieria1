@@ -917,7 +917,8 @@ reproducción 1 ?<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.052734375" x="-340.9705209946262" y="101.10461506787533">Cerrar (i) !
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.052734375" x="-340.9705209946262" y="94.12024006787533">Cerrar (i) !
+[cant &gt; 1]
 {cant--}<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
@@ -937,12 +938,13 @@ reproducción 1 ?<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.052734375" x="-466.28834565691636" y="193.11246754189028">Cerrar (i) !
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.052734375" x="-438.91474189442397" y="204.74214310038565">Cerrar (i) !
+[cant &gt; 1]
 {cant--}<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="3.6797817529820307" distanceToCenter="true" position="left" ratio="-33.02175365852652" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="54.81746298934768" distanceToCenter="true" position="left" ratio="0.9227418068379043" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:Arc height="212.86778259277344" ratio="0.8767877817153931" type="fixedRatio"/>
@@ -1546,7 +1548,6 @@ Pasar a reproduccion n
       </data>
     </edge>
     <edge id="e70" source="n12" target="n10">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1567,7 +1568,6 @@ Quitar pausa n?<y:LabelModel>
       </data>
     </edge>
     <edge id="e71" source="n10" target="n9">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="-39.16781831879689" sy="-11.451195077567263" tx="0.0" ty="0.0">
@@ -1587,7 +1587,6 @@ Quitar pausa n?<y:LabelModel>
       </data>
     </edge>
     <edge id="e72" source="n4" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="27.74326363183127" sy="-18.3612285254452" tx="421.137027461103" ty="-132.42303267521584">
@@ -1609,7 +1608,6 @@ Quitar pausa n?<y:LabelModel>
       </data>
     </edge>
     <edge id="e73" source="n22" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="-17.17286681877556" ty="-9.32999358717143">
@@ -1629,7 +1627,6 @@ Quitar pausa n?<y:LabelModel>
       </data>
     </edge>
     <edge id="e74" source="n7" target="n22">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1651,7 +1648,6 @@ Quitar pausa n?<y:LabelModel>
       </data>
     </edge>
     <edge id="e75" source="n12" target="n9">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="-10.067623122672671" ty="-20.251168722754073">

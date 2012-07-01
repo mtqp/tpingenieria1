@@ -405,6 +405,24 @@ de dispositivos a los que se le enviaron un paquete<y:LabelModel>
         </y:UMLNoteNode>
       </data>
     </node>
+    <node id="n22">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="48.8416" width="107.2676409185803" x="1013.7970930489532" y="745.34414300714"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="91.310546875" x="7.978547021790064" y="8.452049999999986">Nadie
+reproduciendo<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
     <edge id="e0" source="n1" target="n2">
       <data key="d10">
         <y:PolyLineEdge>
@@ -1250,7 +1268,7 @@ reproduccion<y:LabelModel>
               <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="65.66127004189792" distanceToCenter="true" position="right" ratio="0.9289141779754719" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="105.044921875" x="-118.70168637701147" y="60.64485221478026">[enviado = cant]<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="110.951171875" x="-121.65481137701147" y="60.64485221478026">{enviado = cant}<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1571,20 +1589,41 @@ Quitar pausa n?<y:LabelModel>
       <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
-          <y:Path sx="27.74326363183127" sy="-18.3612285254452" tx="-27.912974797773472" ty="-19.398588125591573">
-            <y:Point x="1036.6419677734375" y="761.537841796875"/>
+          <y:Path sx="27.74326363183127" sy="-18.3612285254452" tx="421.137027461103" ty="-132.42303267521584">
+            <y:Point x="1266.471435546875" y="817.3453979492188"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="59.259765625" x="-320.9817757884896" y="-139.95420419809534">Finalizar!
-[c=1]<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="65.330078125" x="-167.7371901893232" y="-119.6579419441614">Cerrar{i}!
+[cant=1]
+{cant--}<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.8728216464809242" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="3.1905150503122077" distanceToCenter="false" position="right" ratio="0.23135679337252385" segment="-1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:Arc height="-126.14549255371094" ratio="-0.6849091053009033" type="fixedRatio"/>
+          <y:Arc height="-14.872815132141113" ratio="-0.19224752485752106" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e73" source="n22" target="n6">
+      <data key="d9"/>
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-17.17286681877556" ty="-9.32999358717143">
+            <y:Point x="855.2276611328125" y="778.8955078125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="59.259765625" x="-129.36211333331846" y="-25.15365785028996">Finalizar!<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.5" segment="0"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="-57.466304779052734" ratio="-0.5620784163475037" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>

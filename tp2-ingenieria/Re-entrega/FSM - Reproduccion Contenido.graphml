@@ -155,7 +155,7 @@ del contenido<y:LabelModel>
     <node id="n8">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNode3">
-          <y:Geometry height="53.799999999999955" width="87.6" x="98.43519999999995" y="-91.44800043448163"/>
+          <y:Geometry height="53.799999999999955" width="87.6" x="82.0824" y="-233.41323666526202"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="86.3125" x="0.6437500000000114" y="10.931249999999977">Estado de 
@@ -172,11 +172,11 @@ Reproducción<y:LabelModel>
     <node id="n9">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.84159999999997" width="91.74720000000008" x="268.8279999999999" y="-67.07635617560904"/>
+          <y:Geometry height="48.84159999999997" width="91.74720000000008" x="252.47519999999997" y="-209.04159240638944"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="66.296875" x="12.725162500000067" y="8.452049999999986">Sin 
-reproducir<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="48.666015625" x="21.540592187500067" y="8.452049999999986">Estado 
+inicial<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -190,7 +190,7 @@ reproducir<y:LabelModel>
     <node id="n10">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.96769603340292" width="149.06137787056366" x="524.1066405010438" y="-78.13940419231051"/>
+          <y:Geometry height="70.96769603340292" width="149.06137787056366" x="579.3655992016238" y="-78.72183934970927"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="67.205078125" x="40.92814987278189" y="19.515098016701458">Listo para 
@@ -208,7 +208,7 @@ reproducir<y:LabelModel>
     <node id="n11">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.8416" width="87.60000000000002" x="711.9604292275574" y="63.50254300713999"/>
+          <y:Geometry height="48.8416" width="87.60000000000002" x="940.8183858404547" y="60.53212082979529"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="75.830078125" x="5.8849609374999545" y="8.45205">Efectuando 
@@ -226,10 +226,10 @@ envío<y:LabelModel>
     <node id="n12">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.8416" width="87.60000000000002" x="1011.2394588726514" y="-67.07635617560905"/>
+          <y:Geometry height="48.8416" width="87.60000000000002" x="1211.4296910596615" y="-92.55877788750884"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="55.140625" x="16.229687499999955" y="15.436424999999986">pausado<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="55.140625" x="16.229687500000068" y="15.436425">pausado<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -367,11 +367,11 @@ enviados<y:LabelModel>
     <node id="n20">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="48.8416" width="87.60000000000002" x="371.25737365850085" y="63.50254300713999"/>
+          <y:Geometry height="48.8416" width="87.60000000000002" x="724.7671858404547" y="60.53212082979529"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="41.80000000000007" y="22.420800000000014">
-            <y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="64.2109375" x="11.694531249999955" y="8.45205">Envío 
+efectuado<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -384,7 +384,6 @@ enviados<y:LabelModel>
     </node>
     <node id="n21">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLNoteNode>
           <y:Geometry height="126.2045929018789" width="364.4977035490599" x="1089.6104105775912" y="39.82765318887675"/>
@@ -406,6 +405,25 @@ de dispositivos a los que se le enviaron un paquete<y:LabelModel>
         </y:UMLNoteNode>
       </data>
     </node>
+    <node id="n22">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52.0269027139874" width="110.85901628392497" x="98.43519999999995" y="6.673297545367447"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="79.375" x="15.742008141962515" y="3.0603263569936985">Sin 
+reproducir
+(con estado)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
     <edge id="e0" source="n1" target="n2">
       <data key="d10">
         <y:PolyLineEdge>
@@ -424,7 +442,7 @@ de dispositivos a los que se le enviaron un paquete<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="132.841796875" x="6.226091083707047" y="-23.42896868116793">buscar contenido (i) !<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="124.83203125" x="10.230973896206933" y="-23.42896868116793">Buscar contenido (i)<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -443,7 +461,7 @@ de dispositivos a los que se le enviaron un paquete<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="126.666015625" x="0.10058658638615725" y="-22.88491906275476">Elegir contenido (i) !<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="118.041015625" x="4.413086586386044" y="-22.88491906275476">Elegir contenido (i)<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -519,7 +537,7 @@ de dispositivos a los que se le enviaron un paquete<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="91.43359375" x="9.640850080078053" y="-41.56548262717075">reproducir (i) !<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="94.837890625" x="7.938701642578053" y="-41.56548262717081">Reproducir (i) !<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -560,7 +578,7 @@ de dispositivos a los que se le enviaron un paquete<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="61.033073728719444" sy="7.84473638759664E-6" tx="0.0" ty="0.0">
-            <y:Point x="258.98492431640625" y="-53.601776123046875"/>
+            <y:Point x="242.6321258544922" y="-195.5670166015625"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -584,7 +602,7 @@ de dispositivos a los que se le enviaron un paquete<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-29.573428225728435">
-            <y:Point x="591.2439575195312" y="-57.44226837158203"/>
+            <y:Point x="646.5029296875" y="-58.02470397949219"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -596,19 +614,19 @@ de dispositivos a los que se le enviaron un paquete<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="456.6694641113281" y="-62.586822509765625"/>
+            <y:Point x="486.047119140625" y="-138.88754272460938"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="87.9296875" x="49.83108260049579" y="-47.33446348276502">
-reproducir 1 ?<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="91.333984375" x="110.93277575043999" y="-4.821743725150753">
+Reproducir 1 ?<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="20.223254768338222" distanceToCenter="true" position="left" ratio="-9.098507604370033" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="30.775504426399976" distanceToCenter="true" position="left" ratio="6.145443105819405" segment="-2"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:Arc height="19.93126678466797" ratio="0.28078562021255493" type="fixedRatio"/>
+          <y:Arc height="26.8590145111084" ratio="0.28078562021255493" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -616,19 +634,19 @@ reproducir 1 ?<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="456.6694641113281" y="-17.144371032714844"/>
+            <y:Point x="463.4195251464844" y="-81.98399353027344"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="87.900390625" x="50.69535881597653" y="-23.80550978656881">...
-reproducir n ?<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="91.3046875" x="117.95539725995803" y="38.047873095481265">...
+Reproducir n ?<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="19.55310438967812" distanceToCenter="true" position="left" ratio="0.7834869910411997" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="32.09193204810032" distanceToCenter="true" position="left" ratio="0.28643735625239114" segment="-1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:Arc height="-25.511184692382812" ratio="-0.35939380526542664" type="fixedRatio"/>
+          <y:Arc height="-34.37841033935547" ratio="-0.35939380526542664" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -636,7 +654,7 @@ reproducir n ?<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="598.6373291015625" y="-42.655555725097656"/>
+            <y:Point x="653.8963012695312" y="-43.23799133300781"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -648,7 +666,7 @@ reproducir n ?<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.35311321576347">
-            <y:Point x="750.6721801757812" y="77.74678039550781"/>
+            <y:Point x="979.5301513671875" y="74.7763671875"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -660,7 +678,7 @@ reproducir n ?<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="755.7604370117188" y="87.92333984375"/>
+            <y:Point x="984.618408203125" y="84.95291900634766"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -672,7 +690,7 @@ reproducir n ?<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="755.7604370117188" y="87.92333984375"/>
+            <y:Point x="984.618408203125" y="84.95291900634766"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -703,18 +721,18 @@ reproducir n ?<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="677.38623046875" y="22.40843963623047"/>
+            <y:Point x="819.4412841796875" y="20.382905960083008"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="none"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="104.013671875" x="-24.657261004870975" y="-54.63592718117613">Enviar paquete !<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="104.013671875" x="-66.91902138817363" y="-49.69876031766596">Enviar paquete !<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="52.47547458239758" distanceToCenter="true" position="right" ratio="0.031066321857995433" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="32.49071969990665" distanceToCenter="true" position="right" ratio="0.15482105788917455" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:Arc height="-0.29315122961997986" ratio="-0.005739620886743069" type="fixedRatio"/>
+          <y:Arc height="-0.5089566707611084" ratio="-0.005739620886743069" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -722,11 +740,11 @@ reproducir n ?<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.35311321576347">
-            <y:Point x="1049.951171875" y="-52.832115173339844"/>
+            <y:Point x="1250.1414794921875" y="-78.31452941894531"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:Arc height="5.088278770446777" ratio="1.0" type="fixedRatio"/>
+          <y:Arc height="5.088277816772461" ratio="1.0" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -734,7 +752,7 @@ reproducir n ?<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1055.0394287109375" y="-42.655555725097656"/>
+            <y:Point x="1255.229736328125" y="-68.13797760009766"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -746,18 +764,18 @@ reproducir n ?<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="826.83837890625" y="-55.280128479003906"/>
+            <y:Point x="953.8742065429688" y="-72.32151794433594"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="149.08984375" x="82.55201620993068" y="-62.76630308331313">Pausar reproducción 1? <y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="149.08984375" x="154.04555392915552" y="-75.98693440267579">Pausar reproducción 1? <y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="47.609138702730796" distanceToCenter="true" position="left" ratio="4.767910656511361" segment="-2"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="149.060546875" x="81.29696453827148" y="-35.247338881890116">...
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="149.060546875" x="154.21907970637574" y="-48.44498158741891">...
 Pausar reproducción n? <y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
@@ -765,7 +783,7 @@ Pausar reproducción n? <y:LabelModel>
               <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="13.228613333814508" distanceToCenter="true" position="left" ratio="1.5942645242278195" segment="-2"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:Arc height="12.624573707580566" ratio="0.11064431071281433" type="fixedRatio"/>
+          <y:Arc height="16.647785186767578" ratio="0.11064431071281433" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -773,18 +791,18 @@ Pausar reproducción n? <y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="826.83837890625" y="-22.515466690063477"/>
+            <y:Point x="955.6617431640625" y="-29.152374267578125"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="114.42578125" x="-170.38810219935453" y="16.150983504464335">Quitar pausa 1..n?<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="103.005859375" x="-306.13956270369215" y="9.6786433513453">Quitar pausa 1 ?<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="3.8915788393902684" distanceToCenter="false" position="left" ratio="0.4092713196719594" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="11.609993888385398" distanceToCenter="true" position="right" ratio="0.9745389192802241" segment="0"/>
             </y:ModelParameter>
           </y:EdgeLabel>
-          <y:Arc height="20.14008903503418" ratio="0.17651179432868958" type="fixedRatio"/>
+          <y:Arc height="26.558349609375" ratio="0.17651179432868958" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -792,11 +810,11 @@ Pausar reproducción n? <y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="37.64651189979088" ty="-21.337562501362797">
-            <y:Point x="593.5066405010439" y="-94.1602041923104"/>
+            <y:Point x="648.7655992016239" y="-94.74263934970917"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="104.51171875" x="-62.37377109257534" y="-62.18043411182006">...
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="104.51171875" x="-62.373784559964065" y="-62.180448920097746">...
 Continuar
 reproducción n ?<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
@@ -813,11 +831,11 @@ reproducción n ?<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="13.625741628392689" sy="5.4384960668058255" tx="-53.64073713569917" ty="2.2161497787056277">
-            <y:Point x="598.6373294363257" y="-140.6143970941894"/>
+            <y:Point x="653.8962881369057" y="-141.19683225158815"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="104.541015625" x="-96.29008499540464" y="-104.19669628396935">Continuar
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="104.541015625" x="-96.29009846279337" y="-104.1967187216415">Continuar
 reproducción 1 ?<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
@@ -881,7 +899,7 @@ reproducción 1 ?<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="132.841796875" x="-39.472971590186376" y="12.779715492939658">buscar contenido (i) !<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="124.83203125" x="-35.468088777686376" y="12.779715492939658">Buscar contenido (i)<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -900,7 +918,7 @@ reproducción 1 ?<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.052734375" x="-340.9705224889161" y="101.10461451533467">Cerrar (i) !
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="58.427734375" x="-336.6580224889161" y="101.10461451533467">Cerrar (i)
 {cant--}<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
@@ -912,27 +930,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e30" source="n7" target="n6">
-      <data key="d10">
-        <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="976.5836181640625" y="516.430908203125"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.052734375" x="-466.2883456569166" y="193.1124980594684">Cerrar (i) !
-{cant--}<y:LabelModel>
-              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="3.6797817529820307" distanceToCenter="true" position="left" ratio="-33.02175365852652" segment="-1"/>
-            </y:ModelParameter>
-          </y:EdgeLabel>
-          <y:Arc height="212.86778259277344" ratio="0.8767877817153931" type="fixedRatio"/>
-        </y:ArcEdge>
-      </data>
-    </edge>
-    <edge id="e31" source="n6" target="n2">
+    <edge id="e30" source="n6" target="n2">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -951,7 +949,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e32" source="n13" target="n13">
+    <edge id="e31" source="n13" target="n13">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.35311321576347">
@@ -960,6 +958,18 @@ reproducción 1 ?<y:LabelModel>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:Arc height="5.0882720947265625" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e32" source="n13" target="n13">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="298.3487854003906" y="615.2869873046875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -975,19 +985,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e34" source="n13" target="n13">
-      <data key="d10">
-        <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="298.3487854003906" y="615.2869873046875"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
-        </y:ArcEdge>
-      </data>
-    </edge>
-    <edge id="e35" source="n14" target="n14">
+    <edge id="e34" source="n14" target="n14">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.35311321576347">
@@ -996,6 +994,18 @@ reproducción 1 ?<y:LabelModel>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:Arc height="5.0882720947265625" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e35" source="n14" target="n14">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="547.8633422851562" y="615.2869873046875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -1011,19 +1021,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e37" source="n14" target="n14">
-      <data key="d10">
-        <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="547.8633422851562" y="615.2869873046875"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
-        </y:ArcEdge>
-      </data>
-    </edge>
-    <edge id="e38" source="n13" target="n14">
+    <edge id="e37" source="n13" target="n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1047,7 +1045,7 @@ reproducción 1 ?<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n15" target="n15">
+    <edge id="e38" source="n15" target="n15">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.35311321576347">
@@ -1056,6 +1054,18 @@ reproducción 1 ?<y:LabelModel>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:Arc height="5.0882720947265625" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e39" source="n15" target="n15">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="827.2888793945312" y="615.2869873046875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -1071,19 +1081,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e41" source="n15" target="n15">
-      <data key="d10">
-        <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="827.2888793945312" y="615.2869873046875"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
-        </y:ArcEdge>
-      </data>
-    </edge>
-    <edge id="e42" source="n16" target="n13">
+    <edge id="e41" source="n16" target="n13">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="68.60041521586999" sy="7.651277820472046" tx="0.0" ty="0.0"/>
@@ -1101,7 +1099,7 @@ reproducción 1 ?<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e43" source="n17" target="n17">
+    <edge id="e42" source="n17" target="n17">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.35311321576347">
@@ -1110,6 +1108,18 @@ reproducción 1 ?<y:LabelModel>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:Arc height="5.088279724121094" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e43" source="n17" target="n17">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="1172.07763671875" y="436.1329040527344"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -1125,19 +1135,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e45" source="n17" target="n17">
-      <data key="d10">
-        <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1172.07763671875" y="436.1329040527344"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
-        </y:ArcEdge>
-      </data>
-    </edge>
-    <edge id="e46" source="n4" target="n17">
+    <edge id="e45" source="n4" target="n17">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1156,7 +1154,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e47" source="n14" target="n14">
+    <edge id="e46" source="n14" target="n14">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1168,7 +1166,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e48" source="n15" target="n14">
+    <edge id="e47" source="n15" target="n14">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1187,7 +1185,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e49" source="n18" target="n18">
+    <edge id="e48" source="n18" target="n18">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.35311321576347">
@@ -1196,6 +1194,18 @@ reproducción 1 ?<y:LabelModel>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:Arc height="5.0882720947265625" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e49" source="n18" target="n18">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="547.8633422851562" y="754.2994995117188"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -1223,19 +1233,7 @@ reproducción 1 ?<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e52" source="n18" target="n18">
-      <data key="d10">
-        <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="547.8633422851562" y="754.2994995117188"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
-        </y:ArcEdge>
-      </data>
-    </edge>
-    <edge id="e53" source="n14" target="n18">
+    <edge id="e52" source="n14" target="n18">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1262,7 +1260,7 @@ reproduccion<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e54" source="n19" target="n19">
+    <edge id="e53" source="n19" target="n19">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.35311321576347">
@@ -1271,6 +1269,18 @@ reproduccion<y:LabelModel>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:Arc height="5.0882720947265625" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e54" source="n19" target="n19">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="827.2888793945312" y="754.2994995117188"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -1286,19 +1296,7 @@ reproduccion<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e56" source="n19" target="n19">
-      <data key="d10">
-        <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="827.2888793945312" y="754.2994995117188"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
-        </y:ArcEdge>
-      </data>
-    </edge>
-    <edge id="e57" source="n18" target="n19">
+    <edge id="e56" source="n18" target="n19">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1326,7 +1324,7 @@ reproduccion<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e58" source="n19" target="n18">
+    <edge id="e57" source="n19" target="n18">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1346,7 +1344,7 @@ reproduccion<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e59" source="n19" target="n13">
+    <edge id="e58" source="n19" target="n13">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1366,11 +1364,11 @@ reproduccion<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e60" source="n20" target="n20">
+    <edge id="e59" source="n20" target="n20">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-20.35311321576347">
-            <y:Point x="409.9690856933594" y="77.74678039550781"/>
+            <y:Point x="763.4789428710938" y="74.7763671875"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1378,11 +1376,23 @@ reproduccion<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
+    <edge id="e60" source="n20" target="n20">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="768.5671997070312" y="84.95291900634766"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
     <edge id="e61" source="n20" target="n20">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="415.057373046875" y="87.92333984375"/>
+            <y:Point x="768.5671997070312" y="84.95291900634766"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1390,19 +1400,7 @@ reproduccion<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e62" source="n20" target="n20">
-      <data key="d10">
-        <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="415.057373046875" y="87.92333984375"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
-        </y:ArcEdge>
-      </data>
-    </edge>
-    <edge id="e63" source="n17" target="n4">
+    <edge id="e62" source="n17" target="n4">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1410,7 +1408,7 @@ reproduccion<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="147.912109375" x="-157.07886887137295" y="-11.168875433851383">pasar a reproduccion (i)<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="147.53125" x="-156.88843918387295" y="-11.168875433851326">Pasar a reproduccion (i)<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1421,13 +1419,13 @@ reproduccion<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e64" source="n11" target="n20">
+    <edge id="e63" source="n11" target="n20">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="127.046875" x="-167.20709198393524" y="8.189305802773788">Contenido enviado ?<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="127.046875" x="-128.05196945365196" y="8.18930446283143">Contenido enviado ?<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1438,26 +1436,25 @@ reproduccion<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e65" source="n20" target="n10">
-      <data key="d9"/>
+    <edge id="e64" source="n20" target="n10">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="86.16015625" x="-55.443699341066576" y="-34.78103562143755">Salvar estado<y:LabelModel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="45.5078125" x="-85.04665395433699" y="-46.73631144785668">Salvar 
+estado<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="28.187551603036816" distanceToCenter="true" position="left" ratio="-4.095683820145004" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="25.914792489754863" distanceToCenter="true" position="left" ratio="0.37221943301643196" segment="-1"/>
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e66" source="n14" target="n15">
-      <data key="d9"/>
+    <edge id="e65" source="n14" target="n15">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1477,21 +1474,19 @@ reproduccion<y:LabelModel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e67" source="n10" target="n12">
-      <data key="d9"/>
+    <edge id="e66" source="n10" target="n12">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="826.83837890625" y="-87.42280578613281"/>
+            <y:Point x="952.12060546875" y="-114.67115783691406"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:Arc height="44.76724624633789" ratio="0.3923491835594177" type="fixedRatio"/>
+          <y:Arc height="59.033714294433594" ratio="0.3923491835594177" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e68" source="n14" target="n15">
-      <data key="d9"/>
+    <edge id="e67" source="n14" target="n15">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1512,8 +1507,7 @@ Enviar parte exitosa n !
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e69" source="n18" target="n19">
-      <data key="d9"/>
+    <edge id="e68" source="n18" target="n19">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1531,6 +1525,132 @@ Pasar a reproduccion n
             </y:ModelParameter>
           </y:EdgeLabel>
           <y:Arc height="-2.0806717657251284E-5" ratio="-2.978499082928465E-7" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e69" source="n10" target="n22">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="428.2030944824219" y="154.91015625"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="141.28515625" x="-274.4313482076951" y="170.21766201351542">Terminar reproducción
+[cant == 0]<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="19.65863510392226" distanceToCenter="true" position="left" ratio="-10.20189455543528" segment="-1"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="162.02182006835938" ratio="1.2814052104949951" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e70" source="n12" target="n10">
+      <data key="d9"/>
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="957.077880859375" y="5.046466827392578"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="99.162109375" x="-316.5912176080411" y="28.24006229972604">...
+Quitar pausa n?<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="13.375793946268516" distanceToCenter="true" position="right" ratio="0.032650616573855755" segment="-1"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="60.7864990234375" ratio="0.4039984941482544" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e71" source="n22" target="n10">
+      <data key="d9"/>
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-73.94862209083374" ty="4.444214119649615">
+            <y:Point x="356.47479248046875" y="-65.2332763671875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="91.333984375" x="81.88913568116624" y="-106.17899674146489">
+Reproducir 1 ?<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="33.21902498060776" distanceToCenter="true" position="left" ratio="0.7859874276322486" segment="0"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="63.04869079589844" ratio="0.583733856678009" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e72" source="n22" target="n10">
+      <data key="d9"/>
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="403.2010803222656" y="-9.750197410583496"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="91.3046875" x="123.5376537955687" y="-70.53556726686057">...
+Reproducir n ?<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="25.87576287925215" distanceToCenter="true" position="left" ratio="0.8269281823520872" segment="0"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="4.525861740112305" ratio="0.03579433262348175" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e73" source="n22" target="n10">
+      <data key="d9"/>
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="412.301513671875" y="50.1842041015625"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="104.541015625" x="111.68660856312192" y="-27.692546057863368">Continuar
+reproducción 1 ?<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="14.647476881601108" distanceToCenter="true" position="left" ratio="0.6878920342127487" segment="0"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="-56.09550857543945" ratio="-0.44365060329437256" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e74" source="n22" target="n10">
+      <data key="d9"/>
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="421.84405517578125" y="113.03030395507812"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="104.51171875" x="157.78641370406694" y="6.187378822412143">...
+Continuar
+reproducción n ?<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="21.559241355403742" distanceToCenter="true" position="left" ratio="0.8042550233108783" segment="0"/>
+            </y:ModelParameter>
+          </y:EdgeLabel>
+          <y:Arc height="-119.66194915771484" ratio="-0.9463876485824585" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
